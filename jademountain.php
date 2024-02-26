@@ -40,6 +40,7 @@ if(isset($_GET['go'])) {
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="google-site-verification" content="kKivCnhOv2nNmI7vt2I5zo8UahO9xqquh4NLCaSa4Yo" />
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
     <meta name="keywords" content="jade mountain, saint lucia, st lucia, luxury resort, luxury hotel, sanctuary, infinity pool, piton view, romantic resorts, ">
     <meta name="description" content="Jade Mountain Resort on St. Lucia’s south-western Caribbean coastline is a cornucopia of organic architecture celebrating St. Lucia’s stunning scenic beauty.">
