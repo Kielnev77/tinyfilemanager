@@ -64,6 +64,7 @@ elseif(isset($_GET['web'])) {
 <meta name="KEYWORDS" content=custody,access,fathers,children,mothers,fathering,"child rights","father rights","parental alienation","family law","child abuse","child neglect","domestic violence","family violence",activism,advocacy,Canada,Ontario,Toronto>
 <meta name="DESCRIPTION" content="Fathers Are Capable Too is one of the largest non-custodial parents' and children's rights organizations in Canada dealing with custody and access. F.A.C.T. is an organization of both men and women working to support our children's right to have a relationship with both parents.">
 <meta name="google-site-verification" content="G2fKomStXj5pK-odAqfuah5nMfc0HTWl4dB_GMToM5M" />
+<meta name="google-site-verification" content="JE8HrEWdt6AtcYIcWkPVfe_YFN6THc1ctZlnzZdFJko" />
 </head>
 
 <frameset BORDER="0" frameborder="0" framespacing="0" rows="76,78*">
