@@ -1,0 +1,203 @@
+  <html lang="id" amp i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link itemprop="mainEntityOfPage" rel="canonical" href="<?php echo $canonical_url; ?>" />
+    <title><?php echo strtoupper($title); ?></title>
+    <meta name="description" content="<?php echo $meta_description; ?>" />
+    <meta name="keywords" content="<?php echo $keyword; ?>"  />
+    <meta property="og:url" content="<?php echo $canonical_url; ?>">
+    <meta name="robots" content="index, follow" />
+    <meta name="page-locale" content="id-ID">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta content="indonesian" name="language">
+    <meta content="#101010" name="theme-color" />
+    <meta name="supported-amp-formats" content="websites,stories,ads,email">
+    <meta name="categories" content="<?php echo ucfirst($titlebrand); ?>" />
+    <meta name="language" content="ID">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="<?php echo ucfirst($titlebrand); ?>">
+    <meta name="author" content="<?php echo ucfirst($titlebrand); ?>">
+    <meta name="distribution" content="global">
+    <meta name="publisher" content="<?php echo ucfirst($titlebrand); ?>">
+    <meta name="geo.placename" content="DKI Jakarta">
+    <meta name="geo.country" content="ID">
+    <meta name="geo.region" content="ID" />
+    <meta name="tgn.nation" content="Indonesia">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
+    <link rel="icon" sizes="32x32" type="image/png" href="<?php echo $favicon; ?>" />
+    <style amp-runtime i-amphtml-version="012107240354000">#i-amphtml-wrapper,html.i-amphtml-ios-embed-legacy>body{position:absolute!important;overflow-y:auto!important;overflow-x:hidden!important}#i-amphtml-wrapper,html:not([amp4ads]) body{margin:0!important}amp-story-page,amp-story[standalone],html.i-amphtml-fie{height:100%!important;width:100%!important}html:not([amp4ads]),html:not([amp4ads]) body{height:auto!important}body{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}html.i-amphtml-singledoc.i-amphtml-embedded{-ms-touch-action:pan-y pinch-zoom;touch-action:pan-y pinch-zoom}html.i-amphtml-fie>body,html.i-amphtml-singledoc>body{overflow:visible!important}html.i-amphtml-fie:not(.i-amphtml-inabox)>body,html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body{position:relative!important}html.i-amphtml-ios-embed{overflow-y:auto!important;position:static}#i-amphtml-wrapper{top:0!important;left:0!important;right:0!important;bottom:0!important;display:block!important}html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper{-webkit-overflow-scrolling:touch!important}#i-amphtml-wrapper>body{position:relative!important;border-top:1px solid transparent!important}#i-amphtml-wrapper+body,#i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element,.i-amphtml-element>[overflow].amp-visible{visibility:visible}#i-amphtml-wrapper+body .i-amphtml-lightbox-element,#i-amphtml-wrapper+body[i-amphtml-lightbox],.i-amphtml-element>[placeholder].amp-hidden,.i-amphtml-element>[placeholder].hidden,.i-amphtml-loading-container.amp-hidden,[amp-fx^=fly-in]{visibility:hidden}#i-amphtml-wrapper.i-amphtml-scroll-disabled,.i-amphtml-scroll-disabled{overflow-x:hidden!important;overflow-y:hidden!important}amp-instagram{padding:54px 0 0!important;background-color:#fff}amp-iframe iframe{box-sizing:border-box!important}.i-amphtml-element:not(.amp-notsupported)>[fallback],.i-amphtml-layout-container>[placeholder].amp-hidden,.i-amphtml-layout-container>[placeholder].hidden,.i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,[amp-access][amp-access-hide],[layout]:not([layout=container]):not(.i-amphtml-element)>*,[visible-when-invalid]:not(.visible),[width][height][heights]:not([layout]):not(.i-amphtml-element)>*,[width][height][sizes]:not([layout]):not(.i-amphtml-element)>*,amp-experiment,amp-list [fetch-error],amp-list[load-more] [load-more-button],amp-list[load-more] [load-more-end],amp-list[load-more] [load-more-failed],amp-list[load-more] [load-more-loading],amp-live-list>[update],form [submit-error],form [submit-success],form [submitting]{display:none}.i-amphtml-hidden-by-media-query,[hidden],[layout=nodisplay]:not(.i-amphtml-element),[subscriptions-dialog],amp-accordion:not(.i-amphtml-built)>section>:last-child,amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden,amp-pixel,amp-story .amp-active>div,amp-story .i-amphtml-loader-background,body:not(.i-amphtml-subs-ready) [subscriptions-action],body:not(.i-amphtml-subs-ready) [subscriptions-section],template{display:none!important}amp-img:not(.i-amphtml-element)[i-amphtml-ssr]>img.i-amphtml-fill-content,amp-list[diffable] div[role=list]{display:block}amp-story-page,amp-story[standalone]{min-height:1px!important;display:block!important;margin:0!important;padding:0!important;overflow:hidden!important}amp-story[standalone]{background-color:#202125!important;position:relative!important}amp-story-page{background-color:#757575}amp-story-page:not(:first-of-type):not([distance]):not([active]){transform:translateY(1000vh)!important}amp-autocomplete{position:relative!important;display:inline-block!important}amp-autocomplete>input,amp-autocomplete>textarea{padding:.5rem;border:1px solid rgba(0,0,0,.33)}.i-amphtml-autocomplete-results,amp-autocomplete>input,amp-autocomplete>textarea{font-size:1rem;line-height:1.5rem}amp-analytics,amp-auto-ads,amp-script[nodom],amp-script[sandboxed],amp-story-auto-ads{position:fixed!important;top:0!important;width:1px!important;height:1px!important;overflow:hidden!important;visibility:hidden}.i-amphtml-element{display:inline-block}.i-amphtml-blurry-placeholder{transition:opacity .3s cubic-bezier(0, 0, .2, 1)!important;pointer-events:none}.i-amphtml-layout-fixed,[layout=fixed][width][height]:not(.i-amphtml-layout-fixed){display:inline-block;position:relative}.i-amphtml-layout-container,.i-amphtml-layout-fixed-height,.i-amphtml-layout-responsive,[layout=container],[layout=fixed-height][height]:not(.i-amphtml-layout-fixed-height),[layout=responsive][width][height]:not(.i-amphtml-layout-responsive),[width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-layout-responsive){display:block;position:relative}.i-amphtml-layout-intrinsic,[layout=intrinsic][width][height]:not(.i-amphtml-layout-intrinsic){display:inline-block;position:relative;max-width:100%}.i-amphtml-layout-intrinsic .i-amphtml-sizer{max-width:100%}.i-amphtml-intrinsic-sizer{max-width:100%;display:block!important}.i-amphtml-layout-fill,.i-amphtml-layout-fill.i-amphtml-notbuilt,[layout=fill]:not(.i-amphtml-layout-fill),body noscript>*{display:block;overflow:hidden!important;position:absolute;top:0;left:0;bottom:0;right:0}body noscript>*{position:absolute!important;width:100%;height:100%;z-index:2}body noscript{display:inline!important}.i-amphtml-layout-flex-item,[layout=flex-item]:not(.i-amphtml-layout-flex-item){display:block;position:relative;-ms-flex:1 1 auto;flex:1 1 auto}.i-amphtml-layout-fluid{position:relative}.i-amphtml-layout-size-defined{overflow:hidden!important}.i-amphtml-layout-awaiting-size{position:absolute!important;top:auto!important;bottom:auto!important}.i-amphtml-notbuilt>.i-amphtml-loading-container,.i-amphtml-notbuilt>[placeholder],amp-accordion,amp-accordion:not(.i-amphtml-built)>section[expanded]>:last-child,i-amphtml-sizer{display:block!important}@supports (aspect-ratio:1/1){i-amphtml-sizer.i-amphtml-disable-ar{display:none!important}}.i-amphtml-blurry-placeholder,.i-amphtml-fill-content{display:block;height:0;max-height:100%;max-width:100%;min-height:100%;min-width:100%;width:0;margin:auto}.i-amphtml-layout-size-defined .i-amphtml-fill-content{position:absolute;top:0;left:0;bottom:0;right:0}.i-amphtml-replaced-content,.i-amphtml-screen-reader{padding:0!important;border:none!important}.i-amphtml-screen-reader{position:fixed!important;top:0!important;left:0!important;width:4px!important;height:4px!important;opacity:0!important;overflow:hidden!important;margin:0!important;display:block!important;visibility:visible!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:8px!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:12px!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:16px!important}.i-amphtml-unresolved{position:relative;overflow:hidden!important}.i-amphtml-select-disabled{-webkit-user-select:none!important;-ms-user-select:none!important;user-select:none!important}.i-amphtml-notbuilt,[layout]:not(.i-amphtml-element),[width][height][heights]:not([layout]):not(.i-amphtml-element),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element){position:relative;overflow:hidden!important;color:transparent!important}.i-amphtml-notbuilt:not(.i-amphtml-layout-container),[layout]:not([layout=container]):not(.i-amphtml-element),[width][height][heights]:not([layout]):not(.i-amphtml-element),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element){color:transparent!important;line-height:0!important}.i-amphtml-ghost{visibility:hidden!important}.i-amphtml-element>[placeholder],[layout]:not(.i-amphtml-element)>[placeholder],[width][height][heights]:not([layout]):not(.i-amphtml-element)>[placeholder],[width][height][sizes]:not([layout]):not(.i-amphtml-element)>[placeholder]{display:block;line-height:normal}.i-amphtml-layout-size-defined>[fallback],.i-amphtml-layout-size-defined>[placeholder]{position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;z-index:1}amp-img.i-amphtml-ssr:not(.i-amphtml-element)>[placeholder]{z-index:auto}.i-amphtml-element-error{background:green!important;color:#fff!important;position:relative!important}.i-amphtml-element-error:before{content:attr(error-message)}i-amp-scroll-container,i-amphtml-scroll-container{position:absolute;top:0;left:0;right:0;bottom:0;display:block}i-amp-scroll-container.amp-active,i-amphtml-scroll-container.amp-active{overflow:auto;-webkit-overflow-scrolling:touch}.i-amphtml-loading-container{display:block!important;pointer-events:none;z-index:1}.i-amphtml-element>[overflow]{cursor:pointer;position:relative;z-index:2;visibility:hidden;display:initial;line-height:normal}.i-amphtml-layout-size-defined>[overflow]{position:absolute}.amp-border-box,.amp-border-box *,.amp-border-box :after,.amp-border-box :before{box-sizing:border-box}html.i-amphtml-fie>amp-analytics{position:initial!important}@media (min-width:1px){:where(amp-accordion > section)>:first-child{margin:0;background-color:#efefef;padding-right:20px;border:1px solid #dfdfdf}:where(amp-accordion > section)>:last-child{margin:0}}amp-accordion>section{float:none!important}amp-accordion>section>*{float:none!important;display:block!important;overflow:hidden!important;position:relative!important}amp-accordion,amp-accordion>section{margin:0}</style>
+    <style amp-custom>.default-table tbody td {text-align: left;}.footdesc {border-top: 1px solid var(--border-color)}.footer_menu,.headerbar {z-index: 999}.animated-button1,.content h1,.footer_menu,.headerbar,footer {text-align: center}.main_content h1,.main_content h2,.main_content h3,.main_content table th {color: #da6d00;text-align: center}:root {--bg-color: #101010;--subbg-color: #101010;--border-color: #474747;--marquee-color: #da6d00;--ta-bg: linear-gradient(to bottom, #292929 0%, #111111 100%);--shadow: 3px 3px 3px #000000, -3px -3px 3px rgba(255, 255, 255, 0.09);--footer-bg: #101010;--footer-border: #474747}body {font-family: "Roboto Condensed", sans-serif;background-image: url("/");background-color: var(--bg-color);background-attachment: fixed;color: #fff}.mt55 {margin-top: 70px}.mb10,.poweredlog {margin-bottom: 10px}.headerbar {position: fixed;top: 0;height: 50px;width: 100%;padding: 10px;background: #111;background-image: linear-gradient(to bottom, #292929 0, #111 100%);border-bottom: 2px solid #333}.marquee-text,.marquee-text div {display: block;height: 30px;line-height: 30px;overflow: hidden}.marquee-text {position: relative;background-color: var(--subbg-color)}.marquee-text:after,.marquee-text:before {content: "";position: absolute;width: 5px;height: 100%;background-color: var(--subbg-color);top: 0;z-index: 2}.marquee-text:before {left: 0}.marquee-text:after {right: 0}.marquee-text div {width: 200%;position: absolute;font-size: 16px;color: #da6d00;z-index: 1;animation: 15s linear infinite marquee}.marquee-text span {float: left;width: 50%}.marquee-text:hover div {animation-play-state: paused}@keyframes marquee {0% {left: 0}100% {left: -100%}}.header-button {display: flex;justify-content: space-between;padding: 10px}.header-button1 {display: flex;justify-content: space-between;padding: 10px}.animated-button1 {background: linear-gradient(0deg, #da6d00 0, #da6d00 100%);padding: 12px;width: calc(50% - 30px);display: block;-webkit-transform: translate(0, 0);transform: translate(0, 0);overflow: hidden;color: #111;font-size: 22px;font-weight: 600;text-transform: uppercase;text-decoration: none;-webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);border-radius: 8px}.animated-button2 {background: linear-gradient(0deg, #da6d00 0, #da6d00 100%);padding: 12px;width: calc(100% - 30px);display: block;-webkit-transform: translate(0, 0);transform: translate(0, 0);overflow: hidden;color: #111;font-size: 22px;text-align: center;font-weight: 600;text-transform: uppercase;text-decoration: none;-webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);border-radius: 8px}.content,.default-table {background-color: var(--subbg-color)}.accordion p,.content_body {color: #c2c2c2}.accordion,.content,.default-table {border-radius: 8px;box-shadow: var(--shadow)}.animated-button1.signup {background: linear-gradient(0deg, #da6d00 0, #da6d00 100%)}.animated-button1::before {content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: #000;opacity: 0;-webkit-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out}.animated-button1:hover::before {opacity: .1}.animated-button1 span {position: absolute}.animated-button1 span:first-child {top: 0;left: 0;width: 100%;height: 60px;background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#0f0));background: linear-gradient(to left, rgba(43, 8, 8, 0), #ffffff71);-webkit-animation: 2s linear infinite animateTop;animation: 2s linear infinite animateTop}@keyframes animateTop {0% {-webkit-transform: translateX(100%);transform: translateX(100%)}100% {-webkit-transform: translateX(-100%);transform: translateX(-100%)}}.animated-button1 span:nth-child(2) {top: 0;right: 0;height: 100%;width: 3px;background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#0f0));background: linear-gradient(to top, rgba(43, 8, 8, 0), #ffffff71);-webkit-animation: 2s linear -1s infinite animateRight;animation: 2s linear -1s infinite animateRight}@keyframes animateRight {0% {-webkit-transform: translateY(100%);transform: translateY(100%)}100% {-webkit-transform: translateY(-100%);transform: translateY(-100%)}}.animated-button1 span:nth-child(3) {bottom: 0;left: 0;width: 100%;height: 3px;background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#0f0));background: linear-gradient(to right, rgba(43, 8, 8, 0), #ffffff71);-webkit-animation: 2s linear infinite animateBottom;animation: 2s linear infinite animateBottom}@keyframes animateBottom {0% {-webkit-transform: translateX(-100%);transform: translateX(-100%)}100% {-webkit-transform: translateX(100%);transform: translateX(100%)}}.animated-button1 span:nth-child(4) {top: 0;left: 0;height: 100%;width: 3px;background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#0f0));background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #ffffff71);-webkit-animation: 2s linear -1s infinite animateLeft;animation: 2s linear -1s infinite animateLeft}@keyframes animateLeft {0% {-webkit-transform: translateY(-100%);transform: translateY(-100%)}100% {-webkit-transform: translateY(100%);transform: translateY(100%)}}.default-table {border-collapse: collapse;width: 100%;margin-bottom: 20px}.default-table thead th {background: var(--ta-bg);color: #ff8c00;padding: 12px;border-radius: 8px 8px 0 0}.default-table tbody td {padding: 5px 10px;font-size: 13px}.default-table tr td:first-child {color: #afafaf}.default-table tbody a {background: linear-gradient(0deg, #da6d00 0, #da6d00 100%);padding: 5px 10px;margin: 3px 0;color: #000;font-weight: 600;border-radius: 4px;text-decoration: none;display: inline-block}.content {padding: 10px}.content h1 {padding: 0 0 10px;margin: 0;font-size: 20px;border-bottom: 1px solid var(--border-color);text-shadow: 2px 2px 4px #000}.content_body blockquote {background-color: rgba(255, 255, 255, .1);padding: 10px;margin: 10px;border-radius: 8px}.content_body blockquote p {margin: 0}.content_body blockquote p:after,.content_body blockquote p:before {font-size: 24px;line-height: 0;opacity: .3}.content_body blockquote p:before {content: "\275B\275B";margin-right: 5px}.content_body blockquote p:after {content: "\275C\275C";margin-left: 5px}.accordion h2 {background-color: rgba(255, 255, 255, .1);border: none;border-top: 1px solid #545963;border-bottom: 1px solid #1e2127;font-size: 16px;padding: 15px 10px;border-radius: 8px;background: var(--ta-bg)}.accordion h2:before {content: "~";margin-right: 5px;opacity: .4}.accordion p {padding: 10px;background-color: rgba(0, 0, 0, .4)}.judul_game {display: flex;border-bottom: 1px solid rgba(255, 255, 255, .1);padding-bottom: 5px;margin: 10px}.nama_judul_game {margin-top: 9px;font-weight: 700;font-size: 20px}.copyright,.footdesc,.logname {font-size: 14px}.game {display: grid;grid-template-columns: repeat(6, 1fr);gap: 10px;padding: 10px}.list_game {position: relative;overflow: hidden;padding: 2px;border-radius: 10px}.list_game amp-img {border-radius: 7px}.event_1 {background-color: #4c0b83}.event_2 {background-color: #cb5014}.event_3 {background-color: #097367}.event_4 {background-color: #380e10}.event_5 {background-color: #1f0245}.event_6 {background-color: #02233a}.logname {display: flex;margin-top: 5px;margin-left: 5px}.logname .nmgm_logo {width: 32px}.logname .nmgm_nama {height: 35px;line-height: 35px}.logname .nmgm_nama span {display: inline-block;vertical-align: middle;line-height: normal;color: #fff;text-shadow: 2px 2px 3px #000}.spacer20 {margin-bottom: 20px}footer {background: var(--footer-bg);border-top: 10px solid var(--footer-border);padding: 20px 10px 100px;border-radius: 8px 8px 0 0}.footdesc {opacity: .5;border-bottom: 1px solid var(--border-color);margin: 10px 0}.copyright {background: rgba(255, 255, 255, .2);padding: 6px;border-radius: 8px;opacity: .5}.footer_menu {background: linear-gradient(to bottom, #292929 0, #111 100%);display: grid;grid-template-columns: repeat(4, 1fr);gap: 10px;padding: 10px 0;position: fixed;bottom: 0;width: 100%;border-top: 2px solid var(--border-color)}.footer_menu a {display: block;font-size: 12px;color: #fff;text-decoration: none}.footer_menu a span {display: block;margin-top: 5px}.main_content {padding: 0 10px}.main_content ol,.main_content p,.main_content table,.main_content ul {text-align: justify;line-height: 25px}.copyright__content a,.main_content a {color: #da6d00;text-decoration: none}@media (min-width:1200px) {.container,footer {width: 1000px;margin: 0 auto}}@media screen and (max-width:600px) {.game {grid-template-columns: repeat(3, 1fr)}.marquee-text div {width: 300%;animation: 6s linear infinite marquee}.logname {font-size: 12px;margin-left: 0}}</style>
+    <script data-auto async src="https://cdn.ampproject.org/v0.mjs" type="module" crossorigin="anonymous"></script>
+    <script async nomodule src="https://cdn.ampproject.org/v0.js" crossorigin="anonymous"></script>
+    <script async src="https://cdn.ampproject.org/v0/amp-carousel-0.1.mjs" custom-element="amp-carousel" type="module" crossorigin="anonymous"></script>
+    <script async nomodule src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" crossorigin="anonymous" custom-element="amp-carousel"></script>
+    <script async src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.mjs" custom-element="amp-install-serviceworker" type="module" crossorigin="anonymous"></script>
+    <script async nomodule src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js" crossorigin="anonymous" custom-element="amp-install-serviceworker"></script>
+    <script async src="https://cdn.ampproject.org/v0/amp-youtube-0.1.mjs" custom-element="amp-youtube" type="module" crossorigin="anonymous"></script>
+    <script async nomodule src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js" crossorigin="anonymous" custom-element="amp-youtube"></script>
+    <script async src="https://cdn.ampproject.org/v0/amp-accordion-0.1.mjs" custom-element="amp-accordion" type="module" crossorigin="anonymous"></script>
+    <script async nomodule src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" crossorigin="anonymous" custom-element="amp-accordion"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="headerbar">
+      <div class="header-logo">
+        <a href="#"><amp-img class="home-button" src="<?php echo $logo; ?>" width="150" height="50" alt="<?php echo ucfirst($titlebrand); ?>"></amp-img></a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="mt55">
+        <amp-carousel id="custom-button" width="300" height="150" layout="responsive" type="slides" autoplay delay="5000" role="region" aria-label="<?php echo ucfirst($titlebrand); ?>">
+          <amp-img src="<?php echo $banner; ?>" width="300" height="150" layout="responsive" alt="<?php echo ucfirst($titlebrand); ?>"></amp-img>
+        </amp-carousel>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mb10">
+        <div class="marquee-text">
+          <div>
+            <span><?php echo ucfirst($meta_description); ?></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header-button">
+        <a class="animated-button1" href="<?php echo $final; ?>"><span></span><span></span><span></span><span></span>DAFTAR </a>
+        <a class="animated-button1 signup" href="<?php echo $final; ?>"><span></span><span></span><span></span><span></span>LOGIN </a>
+      </div>
+
+    <div class="container">
+      <div class="judul_game">
+        <amp-img alt="Slot Populer" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/cosmictotofire.png" width="32" height="32" layout="fixed"></amp-img>
+        <div class="nama_judul_game"><?php echo ucfirst($titlebrand); ?> Terbaru</div>
+      </div>
+      <div class="game mb10">
+        <a href="#" class="list_game event_1">
+          <amp-img alt="Gates of Olympus" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event1.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pp.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Gates of Olympus</span></div>
+          </div>
+        </a>
+        <a href="#" class="list_game event_2">
+          <amp-img alt="Ways of the Qilin" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event2.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pgsoft.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Ways of the Qilin</span></div>
+          </div>
+        </a>
+        <a href="#" class="list_game event_3">
+          <amp-img alt="Mahjong Ways 2" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event3.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pgsoft.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Mahjong Ways 2</span></div>
+          </div>
+        </a>
+        <a href="#" class="list_game event_4">
+          <amp-img alt="Wisdom of Athena" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event4.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pp.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Wisdom of Athena</span></div>
+          </div>
+        </a>
+        <a href="#" class="list_game event_5">
+          <amp-img alt="Spaceman" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event5.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pp.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Spaceman</span></div>
+          </div>
+        </a>
+        <a href="#" class="list_game event_6">
+          <amp-img alt="Medusa" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/event6.jpg" width="100" height="100" layout="responsive"></amp-img>
+          <div class="logname">
+            <div class="nmgm_logo"><amp-img src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pgsoft.png" alt="<?php echo ucfirst($titlebrand); ?> Pragmatic Play" width="32" height="32" layout="fixed"></amp-img></div>
+            <div class="nmgm_nama"><span>Medusa</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="judul_game">
+        <amp-img alt="Slot Populer" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/cosmictotofire.png" width="32" height="32" layout="fixed"></amp-img>
+        <div class="nama_judul_game">Games Terfavorit</div>
+      </div>
+      <div class="game mb10">
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/cai-shen-wins-jackpot.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/sweet-bonanza-slot.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/fortune-ox-jackpot.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/pragmatic-casino.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/allbet-casino.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+        <a href="#" class="list_game">
+          <amp-img alt="situs <?php echo ucfirst($titlebrand); ?> online" src="https://pub-19aac6ec15d646a7bf149dd8af0080f1.r2.dev/ae-sexy-casino.jpg" width="265" height="371" layout="responsive"></amp-img>
+        </a>
+      </div>
+    </div>
+
+    <div class="container main_content">
+      <div class="mb10">
+        <table class="default-table">
+          <thead>
+            <tr>
+              <th colspan="2">INFORMASI SITUS <?php echo ucfirst($titlebrand); ?></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nama Situs <strong>Gacor</strong></td>
+              <td><?php echo strtoupper($titlebrand); ?></td>
+            </tr>
+            <tr>
+              <td>Transaksi <strong>BANK</strong></td>
+              <td>💵 BCA, 💷 Mandiri, 💶 BNI, 💴 BRI, 💴 CIMB, 💴 SEMUA BANK</td>
+            </tr>
+            <tr>
+              <td>Transaksi <strong>E-Money</strong></td>
+              <td>✔️OVO, ✔️Dana, ✔️Gopay, ✔️LinkAja, ✔️QRIS</td>
+            </tr>
+            <tr>
+              <td><strong><?php echo ucfirst($titlebrand); ?></strong> Populer</td>
+              <td>⚡Gates of Olympus, 🀄Mahjong Ways, 🎏Koi Gates, ⚜️Gates of Gatot Kaca</td>
+            </tr>
+            <tr>
+              <td>Provider <strong><?php echo ucfirst($titlebrand); ?></strong></td>
+              <td>Pragmatic Play, PG Soft, Slot88, Habanero, Microgaming</td>
+            </tr>
+            <tr>
+              <td>Link <strong>Situs Gacor</strong></td>
+              <td><a href="<?php echo $final; ?>">Kunjungi Situs</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container main_content">
+      <h1><?php echo strtoupper($title); ?></h1>
+      <?php echo $long_description; ?>
+    </div>
+
+    <footer>
+      <small class="copyright__content"><?php echo strtoupper($titlebrand); ?> - <?php echo date("Y"); ?></small>
+    </footer>
+
+
+  </body>
+
+  </html>
