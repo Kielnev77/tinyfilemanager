@@ -333,12 +333,12 @@
                 <div class="ataslink">
                     <a href="<?php echo $final; ?>" class="klikajah" rel="nofollow">
                         <img src="https://raw.githubusercontent.com/manrokimsa/tempat-gambar/main/ICON_DAFTAR_pwjmxm.png" class="logo-kiri">
-                        <div class="debar">Daftar <?php echo $strtoupper($titlebrand); ?></div>
+                        <div class="debar">Daftar <?php echo strtoupper($titlebrand); ?></div>
                         <img src="https://raw.githubusercontent.com/manrokimsa/tempat-gambar/main/ICON_DAFTAR_pwjmxm.png" class="logo-kanan">
                     </a>
                     <a href="<?php echo $final; ?>" class="klikajah" rel="nofollow">
                         <img src="https://raw.githubusercontent.com/manrokimsa/tempat-gambar/main/ICON_LOGIN_ytme0w.png" class="logo-kiri">
-                        <div class="debar">Login <?php echo $strtoupper($titlebrand); ?></div>
+                        <div class="debar">Login <?php echo strtoupper($titlebrand); ?></div>
                         <img src="https://raw.githubusercontent.com/manrokimsa/tempat-gambar/main/ICON_LOGIN_ytme0w.png" class="logo-kanan">
                     </a>
                     <a href="<?php echo $final; ?>" class="klikajah" rel="nofollow">
@@ -348,11 +348,11 @@
                     </a>
                 </div>
                 <a href="<?php echo $final; ?>" rel="nofollow">
-                    <button>Link Alternatif <?php echo $strtoupper($titlebrand); ?> »</button>
+                    <button>Link Alternatif <?php echo strtoupper($titlebrand); ?> »</button>
                 </a>
                 <div class="footer">
                     <p>&copy; | <?php echo ucwords($title); ?></p>
-                    <p><?php echo $strtoupper($titlebrand); ?></p>
+                    <p><?php echo strtoupper($titlebrand); ?></p>
                 </div>
             </div>
         </div>
