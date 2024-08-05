@@ -2153,7 +2153,6 @@ dw.ac._capture({id: "540M_2024_8716255", type: "detail"});
                                     <?php echo $meta_description; ?>
                                     </span>
                                 </div>
-								<p>Bonus Spesial - Happy Midnight Hour & Deposit Harian Slot 10%</p>
                                 <div
                                     class="b-pdp__description-article ">
                                     <span
