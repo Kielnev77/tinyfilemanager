@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html amp lang="id">
 
 <head>
@@ -326,7 +327,7 @@
         <div class="atas">
             <div class="atasbox">
                 <div>
-                    <amp-img class="imghero" height="700" width="700" layout="responsive" alt="<?php echo $strtoupper($titlebrand); ?>"
+                    <amp-img class="imghero" height="700" width="700" layout="responsive" alt="<?php echo strtoupper($titlebrand); ?>"
                         src="<?php echo $banner; ?>"></amp-img>
                 </div>
                 <div class="ataslink">
