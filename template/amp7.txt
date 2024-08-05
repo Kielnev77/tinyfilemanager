@@ -63,7 +63,8 @@
 	<a href="<?php echo $final; ?>" class="register-button">Daftar</a>
 	<a href="<?php echo $final; ?>" class="login-button">Masuk</a>
 </div>
-
+<!-- ALL FOOTER -->
+<footer class="footer-container container">
 <br/>
 <!-- TABLE -->
 <table class="p-1 table-information border-secondary">
@@ -118,7 +119,7 @@
 			</p>
 		</div>
 	</div>
-
+</footer>
 	<!-- FIXED FOOTER -->
 	<div class="fixed-footer">
 		<a class="active" href="<?php echo $final; ?>"><amp-img layout="intrinsic" height="30" width="30" src="https://raw.githubusercontent.com/manrokimsa/tempat-gambar/5e76ca97bc0c66983d7d1f4b7cd38a496cf052d3/icon-whatsapp.svg" alt="Home"></amp-img>Whatsapp</a>
