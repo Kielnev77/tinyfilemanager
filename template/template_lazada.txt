@@ -16,7 +16,16 @@
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
   <link rel="canonical" href="<?php echo $canonical_url; ?>" />
-  <link rel="amphtml" href="<?php echo $amp_url; ?>" />
+  <link rel="amphtml" href="<?php echo $amp_url; ?>" /> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SK4ZZ80WSV');
+</script>
   <!-- start preload -->
   <link rel="preload" href="<?php echo $banner; ?>" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
