@@ -1,5 +1,5 @@
 <?php 
-if($jos['article_id'] == NULL)
+if($jos['article_id'] != NULL)
 {
   $title = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['title']);
   $meta_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
