@@ -1,3 +1,11 @@
+<?php 
+if($jos['article_id'] != NULL)
+{
+  $title = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"  >
   <head>
