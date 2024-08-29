@@ -1,3 +1,11 @@
+<?php 
+if($jos['article_id'] != NULL)
+{
+  $title = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
