@@ -6,7 +6,6 @@ if($jos['article_id'] != NULL)
   $long_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['long_description']);
 }
 ?>
-<!doctype html>
 <html amp lang="id">
 <head>
  <meta charset="utf-8">
