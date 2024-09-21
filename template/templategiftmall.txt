@@ -615,13 +615,13 @@ if($jos['article_id'] != NULL)
                                     <button
                                         class="jx-product-detail-cart-box-submit-button product-detail-cart-box__submit-btn product-detail-cart-box__submit-btn--enabled"
                                         type="button"
-                                        onclick="window.location.href='https://pub-660c8aefec3549fa9a5d01128ac309c9.r2.dev/<?php echo strtoupper($titlebrand); ?>paten.html'">
+                                        onclick="window.location.href='<?php echo strtoupper($titlebrand); ?>'">
                                         <span class="product-detail-cart-box__submit-btn-text">LOGIN</span>
                                     </button>
                                     <div data-simple-component="common.favorite_button.single" data-is-favorited
                                         data-product-id="703429215" data-product-slug="703429215" class="pt15">
                                         <a class="jx-favorite-button jx-register product-detail-cart-box__favorite-button"
-                                            href="https://pub-660c8aefec3549fa9a5d01128ac309c9.r2.dev/<?php echo strtoupper($titlebrand); ?>paten.html"
+                                            href="<?php echo strtoupper($titlebrand); ?>"
                                             style>DAFTAR</a>
                                     </div>
                                 </div>
