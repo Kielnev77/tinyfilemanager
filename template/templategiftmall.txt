@@ -62,7 +62,7 @@ if($jos['article_id'] != NULL)
     <meta name="geo.country" content="ID">
     <meta name="geo.region" content="ID" />
     <meta name="tgn.nation" content="Indonesia">
-    <link href='<?php echo $favicon; ?>p' rel='icon' sizes='32x32' type='image/png' />
+    <link href='<?php echo $favicon; ?>' rel='icon' sizes='32x32' type='image/png' />
 
     <!-- start preload -->
     <link rel="preload" href="<?php echo $logo; ?>" as="image" />
