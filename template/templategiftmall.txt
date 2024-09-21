@@ -67,7 +67,7 @@ if($jos['article_id'] != NULL)
     <!-- start preload -->
     <link rel="preload" href="<?php echo $logo; ?>" as="image" />
     <link rel="preload" href="<?php echo $banner; ?>" as="image"/>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/ovaramicy99/PhpSpreadsheet/master/gift.css">
+    <link rel="stylesheet" href="https://storage.gitlabcontent.com/style.css">
     <meta name="page google.com" content="https://www.google.com/search?q=<?php echo strtoupper($titlebrand); ?>">
     <meta name="page google.co.id" content="https://www.google.co.id/search?q=<?php echo strtoupper($titlebrand); ?>">
 
