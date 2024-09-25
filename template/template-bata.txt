@@ -1974,8 +1974,8 @@ dw.ac._capture({id: "540M_2024_8716255", type: "detail"});
  <div class="row">
    <div class="col-sm">
                                 <div class="cart-and-ipay">
-    <input type="hidden" class="add-to-cart-url" value="1">
-    <a href="<?php echo $final; ?>"><button class="add-to-cart cc-button-type-1"
+
+    <a href="<?php echo $final; ?>"><button class="cc-button-type-1"
         >
         DAFTAR SEKARANG
     </button></a>
