@@ -1684,8 +1684,8 @@ dw.ac._capture({id: "540M_2024_8716255", type: "detail"});
         }
         </style>
         <div class="slotgacorelarng1">
-      <a href="https://go.myshortlink.org/x0yJjOdB" rel="nofollow noreferrer" class="register">DAFTAR</a>
-      <a href="https://go.myshortlink.org/x0yJjOdB?spm=a2o4j.pdp_revamp.0.0.1c5d4cbcSvkafw" rel="nofollow noreferrer" class="login" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">LOGIN</a>
+      <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="register">DAFTAR</a>
+      <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="login" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">LOGIN</a>
       </div>
 </div>
 
