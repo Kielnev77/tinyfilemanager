@@ -1397,8 +1397,12 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
                     <div class="buynow-button">
                       <a href="<?php echo $final; ?>" class="action primary buynow-btn-sticky">
                           <span>DAFTAR</span>
+                      </a>
+                    </div>
+
+                    <div class="buynow-button">
+                      <a href="<?php echo $final; ?>" class="action primary buynow-btn-sticky">
                           <span>LOGIN</span>
-                        </button>
                       </a>
                     </div>
 
