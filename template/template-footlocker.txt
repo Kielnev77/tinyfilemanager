@@ -852,7 +852,7 @@ id="html-body">
                             <div class="product attibute brand">
 
                                 <a href="<?php echo $canonical_url; ?>">
-                                    <h2 class="value pdp-brand-title" itemprop=&quot;brand&quot;>warung168</h2>
+                                    <h2 class="value pdp-brand-title" itemprop=&quot;brand&quot;><?php echo strtoupper($titlebrand) ?></h2>
                                 </a>
                             </div>
                             <div class="page-title-wrapper&#x20;product">
@@ -1406,7 +1406,7 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
     width: 80%;
     height: 100%;
     margin: auto;
-}</style>    <span>Copyright © 2024 warung168. All rights reserved.</span>
+}</style>    <span>Copyright © 2024 <?php echo strtoupper($titlebrand) ?>. All rights reserved.</span>
 </small>
         </footer>
 
