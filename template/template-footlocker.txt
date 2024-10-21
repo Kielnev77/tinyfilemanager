@@ -976,51 +976,18 @@ id="html-body">
 
                 </div>
             </div>
-            <div class="tabs-1 product info detailed ">
-                <div class="product data items">
-                    <div class="data item title" aria-labeledby="tab-label-description-title" data-role="collapsible" id="tab-label-description">
-                        <a class="data switch" tabindex="-1" data-toggle="switch" href="#description" id="tab-label-description-title">
-                                Details                                                            </a>
-                    </div>
+            <div class="product info detailed ">
+              <div class="data item content" id="description" data-role="content">
 
-                    <div class="data item content" id="description" data-role="content">
+                  <div class="pdp-description-section">
+                      <h2 class="desc-title"><?php echo ucwords($title); ?></h2>
 
-                        <div class="pdp-description-section">
-                            <h2 class="desc-title"><?php echo ucwords($title); ?></h2>
-
-                            <div class="pdp-desc">
-                              <?php echo $long_description; ?>
-
-
-                   <div id="custom-style-container">
-              <div class="grid-container">
-                <div class="MuiPaper-root MuiCard-root">
-                  <button class="MuiButtonBase-root" tabindex="0" type="button">
-                    <div class="MuiCardContent-root">
-                      <!-- Video Title -->
-                      <div class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom">
-                       <?php echo ucwords($title); ?>
-                      </div>
-
-
-                      <!-- Description -->
-                      <div class="description">
-                        <p class="MuiTypography-root MuiTypography-body1">
-                          <?php echo $meta_description; ?>
-                        </p>
-                      </div>
-
-
-                    </div>
-                    <span class="MuiTouchRipple-root"></span>
-                  </button>
+                      <div class="pdp-desc">
+                        <?php echo $long_description; ?>
+                  </div>
                 </div>
-              </div>
+              </div>    
             </div>
-    <br>
-
-                            </div>
-                        </div>
 
                     </div>
                     <div class="data item title" aria-labeledby="tab-label-bv_reviews-title" data-role="collapsible" id="tab-label-bv_reviews">
