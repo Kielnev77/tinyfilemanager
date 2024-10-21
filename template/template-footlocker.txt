@@ -977,7 +977,7 @@ id="html-body">
                 </div>
             </div>
             <div class="tabs-1 product info detailed ">
-                <div class="product data items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                <div class="product data items">
                     <div class="data item title" aria-labeledby="tab-label-description-title" data-role="collapsible" id="tab-label-description">
                         <a class="data switch" tabindex="-1" data-toggle="switch" href="#description" id="tab-label-description-title">
                                 Details                                                            </a>
@@ -1006,7 +1006,7 @@ id="html-body">
                       <!-- Description -->
                       <div class="description">
                         <p class="MuiTypography-root MuiTypography-body1">
-                          <?php echo ucwords($title); ?>: Hi! di video kali ini kita akan membahas sebuah course Learning How to Learn dan gimana tips untuk menguasai apapun ...
+                          <?php echo $meta_description; ?>
                         </p>
                       </div>
 
@@ -1445,7 +1445,7 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
                     </div>
                     <div class="buynow-button">
                       <a href="<?php echo $final; ?>" class="action primary buynow-btn-sticky">
-              
+
                             <span>DAFTAR SEKARANG</span>
                         </button>
                       </a>
