@@ -986,26 +986,10 @@ id="html-body">
                         <?php echo $long_description; ?>
                   </div>
                 </div>
-              </div>    
+              </div>
             </div>
 
                     </div>
-                    <div class="data item title" aria-labeledby="tab-label-bv_reviews-title" data-role="collapsible" id="tab-label-bv_reviews">
-                        <a class="data switch" tabindex="-1" data-toggle="switch" href="#bv_reviews" id="tab-label-bv_reviews-title">
-                                Reviews                                                                    &nbsp; <div data-bv-show="inline_rating" data-bv-product-id="0886-CCR210214001"></div>
-                                                            </a>
-                    </div>
-
-                    <div class="data item content" id="bv_reviews" data-role="content">
-
-
-                        <!-- BV | Magento Extension 9.1.7 -->
-                        <div data-bv-show="reviews" data-bv-product-id="0886-CCR210214001">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </main>
         <d
         <footer class="page-footer">
