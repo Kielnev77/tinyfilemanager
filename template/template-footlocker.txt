@@ -1444,16 +1444,11 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
 
                     </div>
                     <div class="buynow-button">
-                        <button type="submit" title="DAFTAR SEKARANG" class="action primary buynow-btn-sticky" data-mage-init='
-                  {
-                      "Born_Buynow/js/buy-now": {
-                          "form": "#product_addtocart_form",
-                          "isAllowedGuestCheckout" : "1"
-                      }
-                  }
-                  '>
+                      <a href="<?php echo $final; ?>" class="action primary buynow-btn-sticky">
+              
                             <span>DAFTAR SEKARANG</span>
                         </button>
+                      </a>
                     </div>
 
                 </div>
