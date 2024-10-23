@@ -1429,22 +1429,10 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
         };
     </script>
     <!-- <script src="https://north.newsletter1.eden-park.com/js/pop.js"></script> -->
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs/require.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-min-resolver.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle0.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle1.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle2.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle3.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle4.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle5.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle6.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle7.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle8.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle9.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/static.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/mixins.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-config.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/PayMongo_Payments/js/paymongo.min.js"></script>
+    <script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/PayMongo_Payments/js/paymongo.js"></script>
     <script>
         !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
