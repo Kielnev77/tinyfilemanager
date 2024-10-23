@@ -22,19 +22,16 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-    <link rel="stylesheet" type="text/css" media="all" href="https://raw.githubusercontent.com/ggeercy/footlocker/refs/heads/main/1f6835b88115e477c41f7b798be2978b.min.css" />
-    <!-- <link rel="stylesheet" type="text/css"href="https://north.newsletter1.eden-park.com/css/pop.css" /> -->
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="https://raw.githubusercontent.com/ggeercy/footlocker/refs/heads/main/styles-l.min.css" />
-
-
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/opensans-300.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/opensans-400.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/opensans-600.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/opensans-700.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/Luma-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/Simple-Line-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/lined-icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://github.com/ggeercy/footlocker/raw/refs/heads/main/font-icons.woff2" />
+    <link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1729528760/_cache/merged/fb92da9be75b3f6f1c45f0950bb3fb4b.min.css" />
+    <link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1729528760/_cache/merged/81f3ccb62f7e27e6a4106e79113cc515.min.css" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
     <link rel="canonical" href="<?php echo $canonical_url; ?>" />
     <link rel="amphtml" href="<?php echo $amp_url; ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
@@ -1432,10 +1429,10 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
         };
     </script>
     <!-- <script src="https://north.newsletter1.eden-park.com/js/pop.js"></script> -->
-    <script  type="text/javascript"  src="https://raw.githubusercontent.com/gambar66/gambar/refs/heads/main/require.js"></script>
-<script  type="text/javascript"  src="https://raw.githubusercontent.com/gambar66/gambar/refs/heads/main/mixins.js"></script>
-<script  type="text/javascript"  src="https://raw.githubusercontent.com/gambar66/gambar/refs/heads/main/requirejs-config.js"></script>
-<script  type="text/javascript"  src="https://raw.githubusercontent.com/gambar66/gambar/refs/heads/main/paymongo.js"></script>
+    <script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/PayMongo_Payments/js/paymongo.js"></script>
     <script>
         !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
