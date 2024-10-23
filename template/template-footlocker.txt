@@ -22,17 +22,16 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.footlocker.id/static/version1725472932/_cache/merged/0fc4d5e049c848b5a7763a5bbe07a2cc.min.css" />
-    <!-- <link rel="stylesheet" type="text/css"href="https://north.newsletter1.eden-park.com/css/pop.css" /> -->
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
+    <link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1729528760/_cache/merged/fb92da9be75b3f6f1c45f0950bb3fb4b.min.css" />
+    <link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1729528760/_cache/merged/81f3ccb62f7e27e6a4106e79113cc515.min.css" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
     <link rel="canonical" href="<?php echo $canonical_url; ?>" />
     <link rel="amphtml" href="<?php echo $amp_url; ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
@@ -216,7 +215,7 @@ if($jos['article_id'] != NULL)
 <!-- <div id="mobile-fullscreen-gif" class="hidden">
     <div class="close-btn">X</div>
     <a href="https://mffmaxwin46.shop/register"><img src="https://north.newsletter1.eden-park.com/img/daftar-banner.gif" alt="Fullscreen GIF"></a></div> -->
-<body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/images/loader-2.gif"}}' class="atome-disabled theme-pearl page-product-configurable product-page-v1 product_page_v1 store-view-idn catalog-product-view page-layout-1column"
+<body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/images/loader-2.gif"}}' class="atome-disabled theme-pearl page-product-configurable product-page-v1 product_page_v1 store-view-idn catalog-product-view page-layout-1column"
 id="html-body">
 
 
@@ -1426,26 +1425,26 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
         var LOCALE = 'id\u002DID';
         var BASE_URL = 'https\u003A\u002F\u002Fwww.footlocker.id\u002F';
         var require = {
-            'baseUrl': 'https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1725472932\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID'
+            'baseUrl': 'https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1729528760\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID'
         };
     </script>
     <!-- <script src="https://north.newsletter1.eden-park.com/js/pop.js"></script> -->
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/requirejs/require.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/requirejs-min-resolver.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle0.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle1.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle2.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle3.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle4.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle5.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle6.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle7.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle8.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/js/bundle/bundle9.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/mage/requirejs/static.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/mage/requirejs/mixins.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/requirejs-config.min.js"></script>
-    <script type="text/javascript" src="https://www.footlocker.id/static/version1725472932/frontend/Footlocker/default/id_ID/PayMongo_Payments/js/paymongo.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs/require.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-min-resolver.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle0.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle1.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle2.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle3.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle4.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle5.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle6.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle7.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle8.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/js/bundle/bundle9.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/static.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/mage/requirejs/mixins.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/requirejs-config.min.js"></script>
+    <script type="text/javascript" src="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/PayMongo_Payments/js/paymongo.min.js"></script>
     <script>
         !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -1692,7 +1691,7 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
     </script>
     <script type="text/x-magento-init">
         { "[data-block='minicart']": { "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"Magento_Checkout\/js\/view\/cart-item-renderer","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}
-        }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1725472932\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID\u002Fimages\u002Floader\u002D1.gif" } }
+        }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1729528760\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID\u002Fimages\u002Floader\u002D1.gif" } }
     </script>
     <script type="text/x-magento-init">
         { "*": { "Magento_Ui/js/core/app": { "components": { "messages": { "component": "Magento_Theme/js/view/messages" } } } } }
@@ -1702,7 +1701,7 @@ body.atome-enabled.catalog-product-view #maincontent .product-info-main .product
     </script>
     <script type="text/x-magento-init">
         { "#authenticationPopup": { "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"WeltPixel_SocialLogin\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}
-        }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1725472932\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID\u002Fimages\u002Floader\u002D1.gif" } }
+        }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.footlocker.id\u002Fstatic\u002Fversion1729528760\u002Ffrontend\u002FFootlocker\u002Fdefault\u002Fid_ID\u002Fimages\u002Floader\u002D1.gif" } }
     </script>
     <script type="text/x-magento-init">
         { "*": { "Magento_Customer/js/section-config": { "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent","kemana_wishlist"],"customer\/account\/loginpost":["*","kemana_wishlist"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha","customer"],"catalog\/product_compare\/add":["compare-products","gtm"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart","ammessages"],"sales\/order\/reorder":["cart","ammessages"],"checkout\/cart\/add":["cart","directory-data","ammessages","gtm","wp_confirmation_popup"],"checkout\/cart\/delete":["cart","ammessages","gtm"],"checkout\/cart\/updatepost":["cart","ammessages"],"checkout\/cart\/updateitemoptions":["cart","ammessages"],"checkout\/cart\/couponpost":["cart","ammessages"],"checkout\/cart\/estimatepost":["cart","ammessages"],"checkout\/cart\/estimateupdatepost":["cart","ammessages"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","ammessages"],"checkout\/sidebar\/removeitem":["cart","ammessages","gtm"],"checkout\/sidebar\/updateitemqty":["cart","ammessages"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase","ammessages","gtm"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha","ammessages","gtm"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data","ammessages"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase","ammessages"],"wishlist\/index\/add":["wishlist","kemana_wishlist","gtm"],"wishlist\/index\/remove":["wishlist","kemana_wishlist"],"wishlist\/index\/updateitemoptions":["wishlist","kemana_wishlist"],"wishlist\/index\/update":["wishlist","kemana_wishlist"],"wishlist\/index\/cart":["wishlist","cart","kemana_wishlist","gtm"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart","gtm"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"checkout\/cart\/removefailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart","ammessages"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"paypal\/express\/placeorder":["cart","checkout-data","ammessages"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data","ammessages"],"paypal\/express\/onauthorization":["cart","checkout-data","ammessages"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"gdpr\/customer\/anonymise":["customer"],"amasty_promo\/cart\/add":["cart","ammessages"],"braintree\/paypal\/placeorder":["ammessages","cart","checkout-data"],"authorizenet\/directpost_payment\/place":["ammessages"],"buynow\/cart\/add":["cart"],"customer\/wishlist\/remove":["wishlist"],"reclaim\/checkout\/reload":["cart"],"braintree\/googlepay\/placeorder":["cart","checkout-data"],"checkout\/cart\/configure":["gtm"],"rest\/*\/v1\/guest-carts\/*\/shipping-information":["gtm"],"rest\/*\/v1\/carts\/*\/shipping-information":["gtm"],"weltpixel_quickview\/index\/updatecart":["cart"],"sociallogin\/account\/login":["*"],"sociallogin\/account\/loginpost":["*"]},
