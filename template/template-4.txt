@@ -111,15 +111,25 @@ if($jos['article_id'] != NULL)
       <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1712772943022-RISL5OTW906SEOCXSNEC/static.css">
 
   <script  type="text/javascript"  src="/TJ_j4E58VlH3qalO"></script><script  type="text/javascript"  src="/5My94ZyJbyjTNtyB"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <?php
+  if($jos['site']['google_code'] != NULL)
+  {
+  ?>
+  <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+  <?php
+  }
+  else{
+  ?>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-SK4ZZ80WSV');
-</script>
+    gtag('config', 'G-SK4ZZ80WSV');
+  </script>
+  <?php } ?>
 </head>
 
   <body
