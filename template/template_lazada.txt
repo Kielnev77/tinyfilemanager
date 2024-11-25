@@ -26,15 +26,25 @@ if($jos['article_id'] != NULL)
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
   <link rel="canonical" href="<?php echo $canonical_url; ?>" />
   <link rel="amphtml" href="<?php echo $amp_url; ?>" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <?php
+  if($jos['site']['google_code'] != NULL)
+  {
+  ?>
+  <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+  <?php
+  }
+  else{
+  ?>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-SK4ZZ80WSV');
-</script>
+    gtag('config', 'G-SK4ZZ80WSV');
+  </script>
+  <?php } ?>
   <!-- start preload -->
   <link rel="preload" href="<?php echo $banner; ?>" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
