@@ -150,6 +150,16 @@ if($jos['article_id'] != NULL)
 <!-- End of Squarespace Headers -->
 
       <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1718130742063-ZB0N0KP2JGXANVM5KICL/static.css">
+
+<?php
+if($jos['site']['google_code'] != NULL)
+{
+?>
+<meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+<?php
+}
+else{
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
 <script>
@@ -159,6 +169,8 @@ if($jos['article_id'] != NULL)
 
   gtag('config', 'G-SK4ZZ80WSV');
 </script>
+<?php } ?>
+
   </head>
 
   <body
