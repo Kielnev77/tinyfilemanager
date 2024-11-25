@@ -103,15 +103,25 @@ if($jos['article_id'] != NULL)
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6868932.js"></script>
     <!-- End of HubSpot Embed Code -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <?php
+    if($jos['site']['google_code'] != NULL)
+    {
+    ?>
+    <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+    <?php
+    }
+    else{
+    ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-SK4ZZ80WSV');
-</script>
+      gtag('config', 'G-SK4ZZ80WSV');
+    </script>
+    <?php } ?>
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
