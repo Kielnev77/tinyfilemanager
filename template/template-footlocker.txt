@@ -22,8 +22,8 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-    <link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1729528760/_cache/merged/fb92da9be75b3f6f1c45f0950bb3fb4b.min.css" />
-    <link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1729528760/_cache/merged/81f3ccb62f7e27e6a4106e79113cc515.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1733158521/_cache/merged/040c694b1359a336d380c6494c32fba2.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1733158521/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
     <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
     <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
     <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1729528760/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
