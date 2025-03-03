@@ -15,7 +15,7 @@ if($jos['article_id'] != NULL)
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $meta_description; ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"content="<?php echo $keyword; ?>" />
+    <meta name="keywords" content="<?php echo $keyword; ?>" />
     <meta name="page google.co.id" content="https://www.google.co.id/search?q=<?php echo $titlebrand; ?>">
     <meta name="page google.com" content="https://www.google.com/search?q=<?php echo $titlebrand; ?>">
     <meta name="robots" content="index, follow" />
@@ -14016,7 +14016,6 @@ if($jos['article_id'] != NULL)
             src='//fls-fe.amazon.com.au/1/batch/1/OP/A39IBJ37TRP1C6:356-1077062-4831846:90G9DFKSFRKCQZ4KHD98$uedata=s:%2Frd%2Fuedata%3Fnoscript%26id%3D90G9DFKSFRKCQZ4KHD98:0'
             alt="" />
     </noscript>
-    </div>
 </body>
 
 </html>
