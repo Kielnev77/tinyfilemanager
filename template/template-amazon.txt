@@ -764,11 +764,11 @@ if($jos['article_id'] != NULL)
                                                         class="ac-ghost-suggestion" id="ac-prediction"></span>
                                                 </span>
                                             </div>
-                                            <label for="twotabsearchtextbox" style="display: none;">Search <?php echo ucwords($titlebrand) ?></label>
+                                            <label for="twotabsearchtextbox" style="display: none;">Search <?php echo ucwords($titlebrand); ?></label>
                                             <input type="text" id="twotabsearchtextbox" value="" name="field-keywords"
-                                                autocomplete="off" placeholder="Search <?php echo ucwords($titlebrand) ?>"
+                                                autocomplete="off" placeholder="Search <?php echo ucwords($titlebrand); ?>"
                                                 class="nav-input nav-progressive-attribute" dir="auto" tabindex="0"
-                                                aria-label="Search <?php echo ucwords($titlebrand) ?>" role="searchbox"
+                                                aria-label="Search <?php echo ucwords($titlebrand); ?>" role="searchbox"
                                                 aria-autocomplete="list"
                                                 aria-controls="sac-autocomplete-results-container" aria-expanded="false"
                                                 aria-haspopup="grid" spellcheck="false">
@@ -856,16 +856,16 @@ if($jos['article_id'] != NULL)
                                 <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
                                 <a href="<?php echo $final; ?>" class="nav-a  " tabindex="0"
                                     data-csa-c-type="link" data-csa-c-slot-id="nav_cs_0"
-                                    data-csa-c-content-id="nav_cs_bestsellers">Daftar <?php echo ucwords($titlebrand) ?></a>
+                                    data-csa-c-content-id="nav_cs_bestsellers">Daftar <?php echo ucwords($titlebrand); ?></a>
 
                                 <a href="<?php echo $final; ?>" class="nav-a  "
                                     data-ux-jq-mouseenter="true" id="nav-link-amazonprime" tabindex="0"
                                     data-csa-c-type="link" data-csa-c-slot-id="nav-link-amazonprime"
-                                    data-csa-c-content-id="nav_cs_primelink_nonmember"><span>Login <?php echo ucwords($titlebrand) ?></span><span
+                                    data-csa-c-content-id="nav_cs_primelink_nonmember"><span>Login <?php echo ucwords($titlebrand); ?></span><span
                                         class="nav-icon nav-arrow"></span></a>
 
                                 <a href="<?php echo $final; ?>" class="nav-a  " tabindex="0" data-csa-c-type="link"
-                                    data-csa-c-slot-id="nav_cs_2" data-csa-c-content-id="nav_cs_gb">Link <?php echo ucwords($titlebrand) ?></a>
+                                    data-csa-c-slot-id="nav_cs_2" data-csa-c-content-id="nav_cs_gb">Link <?php echo ucwords($titlebrand); ?></a>
 
 
                                 <script
@@ -879,7 +879,7 @@ if($jos['article_id'] != NULL)
                             <div id="navSwmHoliday"
                                 style="height: 39px; width: 400px; overflow: hidden; position: relative; ">
                                 <a aria-label="Christmas gift store"
-                                    href="<?php echo $finall; ?>"
+                                    href="<?php echo $final; ?>"
                                     class="nav-imageHref" target="_blank">
                                     <img alt="Christmas gift store"
                                         src="https://m.media-amazon.com/images/G/35/Gateway/SWM/BAUSWMs/TodaysDeals_swm_400x39._CB564878150_.jpg">
@@ -902,27 +902,27 @@ if($jos['article_id'] != NULL)
                         <a href="<?php echo $final; ?>"
                             class="nav-a nav-b" aria-label="Amazon devices">
                             <span class="nav-a-content">
-                                Daftar <?php echo ucwords($titlebrand) ?>
+                                Daftar <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
                         <a href="<?php echo $final; ?>"
                             class="nav-a" aria-label="Echo & Alexa">
                             <span class="nav-a-content">
-                                Login <?php echo ucwords($titlebrand) ?>
+                                Login <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
                         <a href="<?php echo $final; ?>"
                             class="nav-a" aria-label="Kindle E-Reader">
                             <span class="nav-a-content">
-                                Link <?php echo ucwords($titlebrand) ?>
+                                Link <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
                         <a href="<?php echo $final; ?>" class="nav-a" aria-label="Fire TV">
                             <span class="nav-a-content">
-                                Alternatif <?php echo ucwords($titlebrand) ?>
+                                Alternatif <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
@@ -2332,7 +2332,7 @@ if($jos['article_id'] != NULL)
                                     <span class="subnav-home">
                                         <a class="a-link-normal fs-links" href="<?php echo final; ?>">
                                             <span id="mars-fs-name" class="a-size-base-plus a-color-base a-text-bold">
-                                                Daftar <?php echo ucwords($titlebrand) ?>
+                                                Daftar <?php echo ucwords($titlebrand); ?>
                                             </span>
                                         </a>
                                     </span>
@@ -2343,7 +2343,7 @@ if($jos['article_id'] != NULL)
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
                                                 href="<?php echo final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    Login <?php echo ucwords($titlebrand) ?>
+                                                    Login <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
@@ -2356,7 +2356,7 @@ if($jos['article_id'] != NULL)
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
                                                 href="<?php echo final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    Link <?php echo ucwords($titlebrand) ?>
+                                                    Link <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
@@ -2369,7 +2369,7 @@ if($jos['article_id'] != NULL)
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
                                                 href="<?php echo final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    Alternatif <?php echo ucwords($titlebrand) ?>
+                                                    Alternatif <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
@@ -3989,7 +3989,7 @@ if($jos['article_id'] != NULL)
 
 
                             <a id="marsByline" class="a-link-normal"
-                                href="<?php echo $final; ?>">Visit Official <?php echo ucwords($titlebrand) ?> </a>
+                                href="<?php echo $final; ?>">Visit Official <?php echo ucwords($titlebrand); ?> </a>
 
 
                             <script>
@@ -12367,7 +12367,7 @@ if($jos['article_id'] != NULL)
                                                                                                 <div data-hook="review-collapsed"
                                                                                                     data-expanded="false"
                                                                                                     class="a-expander-content reviewText review-text-content a-expander-partial-collapse-content">
-                                                                                                    <span><?php echo ucwords($titlebrand) ?> ini keren banget! rekomendasi banget main di sini udah bisa kebeli motor loh</br></span>
+                                                                                                    <span><?php echo ucwords($titlebrand); ?> ini keren banget! rekomendasi banget main di sini udah bisa kebeli motor loh</br></span>
                                                                                                 </div>
                                                                                                 <div
                                                                                                     class="a-expander-header a-expander-partial-collapse-header">
@@ -12635,7 +12635,7 @@ if($jos['article_id'] != NULL)
                                                                                                 <div data-hook="review-collapsed"
                                                                                                     data-expanded="false"
                                                                                                     class="a-expander-content reviewText review-text-content a-expander-partial-collapse-content">
-                                                                                                    <span>Main di <?php echo ucwords($titlebrand) ?> gausah mikir takut gabisa wd bang!</br></span>
+                                                                                                    <span>Main di <?php echo ucwords($titlebrand); ?> gausah mikir takut gabisa wd bang!</br></span>
 
                                                                                                 </div>
                                                                                                 <div
