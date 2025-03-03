@@ -1,37 +1,40 @@
+<?php
+if($jos['article_id'] != NULL)
+{
+  $title = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace('brand123',ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
 <!doctype html>
 <html lang="id-ID" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->
 
 <head>
     <meta charset="utf-8" />
-    <meta name="title"content="WUKONG138: 98 Produk Slot Maxwin Paling Gacor Terbaru Mudah Menang : Slot Maxwin: Amazon Devices &amp; Accessories" />
-    <title>WUKONG138: 98 Produk Slot Maxwin Paling Gacor Terbaru Mudah Menang</title>
-    <meta name="description"content="WUKONG138 menghadirkan koleksi 98 produk slot Maxwin dan slot gacor terbaru yang menawarkan peluang kemenangan besar. Dengan berbagai pilihan permainan slot seru dan hadiah maksimal, Anda dapat meraih kemenangan dengan mudah." />
+    <meta name="title" content="<?php echo $title; ?>" />
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $meta_description; ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="page google.com" content="https://www.google.com/search?q=Wukong138">
-    <meta name="keywords"content="wukong138, wukong 138, slot maxwin, slot maxwin terbaru, slot mudah menang , slot mudah maxwin, slot gacor, slot gacor mudah menang" />
-    <meta name="google-site-verification" content="iMywxW1nzFpWQHE0iOfSXu1i_Pv9--CobRxxpBOHaNQ" />
-    <meta name="page google.co.id" content="https://www.google.co.id/search?q=Wukong138">
-    <meta name="page google.com" content="https://www.google.co.id/search?q=Slot+maxwin">
-    <meta name="page google.co.id" content="https://www.google.co.id/search?q=Slot+gacor">
-    <meta name="page google.com" content="https://www.google.co.id/search?q=Slot+98">
-    <meta name="page google.co.id" content="https://www.google.co.id/search?q=Slot+online">
+    <meta name="keywords"content="<?php echo $keyword; ?>" />
+    <meta name="page google.co.id" content="https://www.google.co.id/search?q=<?php echo $titlebrand; ?>">
+    <meta name="page google.com" content="https://www.google.com/search?q=<?php echo $titlebrand; ?>">
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow"/>
     <meta name="Googlebot-Image" content="follow, all"/>
     <meta name="Slurp" content="follow, all"/>
     <meta name="bingbot" content="follow, all"/>
     <meta name="language" content="ID">
-    <meta name="copyright" content="Slot Maxwin">
-    <meta name="author" content="Slot Maxwin">
+    <meta name="copyright" content="<?php echo strtoupper($titlebrand) ?>">
+    <meta name="author" content="<?php echo strtoupper($titlebrand) ?>">
     <meta name="distribution" content="global">
-    <meta name="publisher" content="Slot Maxwin">
+    <meta name="publisher" content="<?php echo strtoupper($titlebrand) ?>">
     <meta name="geo.placename" content="DKI Jakarta">
     <meta name="geo.country" content="ID">
     <meta name="geo.region" content="ID" />
     <meta name="tgn.nation" content="Indonesia">
-    <link rel="canonical" href="https://webrootcomsafeee.com/" />
-    <link rel="amphtml" href="https://webrootcomsafeee.com/amp/index.html"/>
-    <link rel="shortcut icon" href="https://uploadku.vip/bannerlp/seokratos/Favicon.png" />
+    <link rel="canonical" href="<?php echo $canonical_url; ?>" />
+    <link rel="amphtml" href="<?php echo $amp_url; ?>"/>
+    <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
     <!-- sp:end-feature:head-start -->
     <!-- sp:feature:csm:head-open-part1 -->
 
@@ -659,20 +662,20 @@
                         <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
                         <div id="nav-logo" style="top:-10px; left:-30px">
                             <a href="" id="nav-logo-sprites"></a>
-                                <img src="asset/logo-Slot Maxwin.png" ></img>
+                                <img src="<?php echo $logo; ?>" ></img>
                             </a>
                         </div>
                         <script
                             type='text/javascript'>window.navmet.push({ key: 'Logo', end: +new Date(), begin: window.navmet.tmp });</script>
 
-                        
+
 
                     </div>
                     <div class='nav-fill'>
                         <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
                         <div id="nav-search">
                             <div id="nav-bar-left"></div>
-                            <form id="nav-search-bar-form" accept-charset="utf-8" action="https://www.google.com/search?q=Slot Maxwin"
+                            <form id="nav-search-bar-form" accept-charset="utf-8" action="<?php echo $canonical_url; ?>"
                                 class="nav-searchbar nav-progressive-attribute" method="GET" name="site-search"
                                 role="search">
 
@@ -761,11 +764,11 @@
                                                         class="ac-ghost-suggestion" id="ac-prediction"></span>
                                                 </span>
                                             </div>
-                                            <label for="twotabsearchtextbox" style="display: none;">Search Slot Maxwin</label>
+                                            <label for="twotabsearchtextbox" style="display: none;">Search <?php echo ucwords($titlebrand); ?></label>
                                             <input type="text" id="twotabsearchtextbox" value="" name="field-keywords"
-                                                autocomplete="off" placeholder="Search Slot Maxwin"
+                                                autocomplete="off" placeholder="Search <?php echo ucwords($titlebrand); ?>"
                                                 class="nav-input nav-progressive-attribute" dir="auto" tabindex="0"
-                                                aria-label="Search Slot Maxwin" role="searchbox"
+                                                aria-label="Search <?php echo ucwords($titlebrand); ?>" role="searchbox"
                                                 aria-autocomplete="list"
                                                 aria-controls="sac-autocomplete-results-container" aria-expanded="false"
                                                 aria-haspopup="grid" spellcheck="false">
@@ -795,10 +798,10 @@
 
 
 
-                            
 
 
-                            <a href="https://mantaplink.com/kratoscums"
+
+                            <a href="<?php echo $final; ?>"
                                 class="nav-a nav-a-2   nav-progressive-attribute" data-nav-ref="nav_ya_signin"
                                 data-nav-role="signin" data-ux-jq-mouseenter="true" id="nav-link-accountList"
                                 tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav-link-accountList"
@@ -810,7 +813,7 @@
                             </a>
 
 
-                            <a href="https://www.google.com/search?q=Slot Maxwin"
+                            <a href="<?php echo $canonical_url; ?>"
                                 class="nav-a nav-a-2   nav-progressive-attribute" id="nav-orders" tabindex="0">
                                 <span class="nav-line-1">Returns</span>
                                 <span class="nav-line-2">& orders<span class="nav-icon nav-arrow"></span></span>
@@ -818,7 +821,7 @@
 
 
 
-                            <a href="https://www.google.com/search?q=Slot Maxwin" aria-label="0 items in shopping basket"
+                            <a href="<?php echo $canonical_url; ?>" aria-label="0 items in shopping basket"
                                 class="nav-a nav-a-2 nav-progressive-attribute" id="nav-cart">
                                 <div id="nav-cart-count-container">
                                     <span id="nav-cart-count" aria-hidden="true"
@@ -843,7 +846,7 @@
                     </div>
                 </div>
                 <div id='nav-main' class='nav-sprite'>
-                    
+
                     <div class='nav-fill'>
 
                         <div id="nav-shop">
@@ -851,20 +854,20 @@
                         <div id='nav-xshop-container'>
                             <div id='nav-xshop' class="nav-progressive-content">
                                 <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
-                                <a href="https://webrootcomsafeee.com/" class="nav-a  " tabindex="0"
+                                <a href="<?php echo $final; ?>" class="nav-a  " tabindex="0"
                                     data-csa-c-type="link" data-csa-c-slot-id="nav_cs_0"
-                                    data-csa-c-content-id="nav_cs_bestsellers">Slot Maxwin</a>
+                                    data-csa-c-content-id="nav_cs_bestsellers">Daftar <?php echo ucwords($titlebrand); ?></a>
 
-                                <a href="https://webrootcomsafeee.com/" class="nav-a  "
+                                <a href="<?php echo $final; ?>" class="nav-a  "
                                     data-ux-jq-mouseenter="true" id="nav-link-amazonprime" tabindex="0"
                                     data-csa-c-type="link" data-csa-c-slot-id="nav-link-amazonprime"
-                                    data-csa-c-content-id="nav_cs_primelink_nonmember"><span>SLOT GACOR</span><span
+                                    data-csa-c-content-id="nav_cs_primelink_nonmember"><span>Login <?php echo ucwords($titlebrand); ?></span><span
                                         class="nav-icon nav-arrow"></span></a>
 
-                                <a href="https://webrootcomsafeee.com/" class="nav-a  " tabindex="0" data-csa-c-type="link"
-                                    data-csa-c-slot-id="nav_cs_2" data-csa-c-content-id="nav_cs_gb">SLOT Online</a>
+                                <a href="<?php echo $final; ?>" class="nav-a  " tabindex="0" data-csa-c-type="link"
+                                    data-csa-c-slot-id="nav_cs_2" data-csa-c-content-id="nav_cs_gb">Link <?php echo ucwords($titlebrand); ?></a>
 
-                            
+
                                 <script
                                     type='text/javascript'>window.navmet.push({ key: 'CrossShop', end: +new Date(), begin: window.navmet.tmp });</script>
                             </div>
@@ -876,7 +879,7 @@
                             <div id="navSwmHoliday"
                                 style="height: 39px; width: 400px; overflow: hidden; position: relative; ">
                                 <a aria-label="Christmas gift store"
-                                    href="https://webrootcomsafeee.com/"
+                                    href="<?php echo $final; ?>"
                                     class="nav-imageHref" target="_blank">
                                     <img alt="Christmas gift store"
                                         src="https://m.media-amazon.com/images/G/35/Gateway/SWM/BAUSWMs/TodaysDeals_swm_400x39._CB564878150_.jpg">
@@ -896,34 +899,34 @@
                     <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
 
                     <div id='nav-subnav' data-category="amazon-home">
-                        <a href="https://webrootcomsafeee.com/"
+                        <a href="<?php echo $final; ?>"
                             class="nav-a nav-b" aria-label="Amazon devices">
                             <span class="nav-a-content">
-                                Slot Maxwin
+                                Daftar <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
-                        <a href="https://webrootcomsafeee.com/"
+                        <a href="<?php echo $final; ?>"
                             class="nav-a" aria-label="Echo & Alexa">
                             <span class="nav-a-content">
-                                Togel Gacor Hari Ini
+                                Login <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
-                        <a href="https://webrootcomsafeee.com/"
+                        <a href="<?php echo $final; ?>"
                             class="nav-a" aria-label="Kindle E-Reader">
                             <span class="nav-a-content">
-                                SLOT Online
+                                Link <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
-                        <a href="https://webrootcomsafeee.com/" class="nav-a" aria-label="Fire TV">
+                        <a href="<?php echo $final; ?>" class="nav-a" aria-label="Fire TV">
                             <span class="nav-a-content">
-                                SLOT GACOR
+                                Alternatif <?php echo ucwords($titlebrand); ?>
 
                             </span>
                         </a>
-                        
+
                         <!-- nav-linktree-subnav - 'amazon-home' -->
                     </div>
 
@@ -955,18 +958,18 @@
         <script type='text/javascript'>
             <!-
             window.$Nav && $Nav.declare('config.fixedBarBeacon',false);
-            window.$Nav && $Nav.when("data").run(function(data) { data({"freshTimeout":{"template":{"name":"flyoutError","data":{"error":{"title":"<style>#nav-flyout-fresh{width:269px;padding:0;}#nav-flyout-fresh .nav-flyout-content{padding:0;}</style><a href='/amazonfresh'><img src='https://images-na.ssl-images-amazon.com/images/G/01/omaha/images/yoda/flyout_72dpi._V270255989_.png' /></a>"}}}},"cartTimeout":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your basket","url":"https://www.google.com/search?q=Slot Maxwin"},"title":"Oops!","paragraph":"There is a problem loading your basket right now"}}}},"primeTimeout":{"template":{"name":"flyoutError","data":{"error":{"title":"<a href='https://www.google.com/search?q=Slot Maxwin'><img src='https://images-na.ssl-images-amazon.com/images/G/15/prime/yourprime/yourprime-client-fallback._V316467452_.png' /></a>"}}}},"ewcTimeout":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your basket","url":"https://www.google.com/search?q=Slot Maxwin"},"title":"Oops!","paragraph":"There is a problem loading your basket right now"}}}},"errorWishlist":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Wish List","url":"https://www.google.com/search?q=Slot Maxwin"},"title":"Oops!","paragraph":"There is a problem retrieving the list right now"}}}},"emptyWishlist":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Wish List","url":"https://www.google.com/search?q=Slot Maxwin"},"title":"Oops!","paragraph":"Your list is empty"}}}},"yourAccountContent":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Account","url":"https://www.google.com/search?q=Slot Maxwin"},"title":"Oops!","paragraph":"There is a problem retrieving the list right now"}}}},"shopAllTimeout":{"template":{"name":"flyoutError","data":{"error":{"paragraph":"There is a problem retrieving the list right now"}}}},"kindleTimeout":{"template":{"name":"flyoutError","data":{"error":{"paragraph":"There is a problem retrieving the list right now"}}}}}); });
+            window.$Nav && $Nav.when("data").run(function(data) { data({"freshTimeout":{"template":{"name":"flyoutError","data":{"error":{"title":"<style>#nav-flyout-fresh{width:269px;padding:0;}#nav-flyout-fresh .nav-flyout-content{padding:0;}</style><a href='/amazonfresh'><img src='https://images-na.ssl-images-amazon.com/images/G/01/omaha/images/yoda/flyout_72dpi._V270255989_.png' /></a>"}}}},"cartTimeout":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your basket","url":"<?php echo $canonical_url; ?>"},"title":"Oops!","paragraph":"There is a problem loading your basket right now"}}}},"primeTimeout":{"template":{"name":"flyoutError","data":{"error":{"title":"<a href='<?php echo $canonical_url; ?>'><img src='https://images-na.ssl-images-amazon.com/images/G/15/prime/yourprime/yourprime-client-fallback._V316467452_.png' /></a>"}}}},"ewcTimeout":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your basket","url":"<?php echo $canonical_url; ?>"},"title":"Oops!","paragraph":"There is a problem loading your basket right now"}}}},"errorWishlist":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Wish List","url":"<?php echo $canonical_url; ?>"},"title":"Oops!","paragraph":"There is a problem retrieving the list right now"}}}},"emptyWishlist":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Wish List","url":"<?php echo $canonical_url; ?>"},"title":"Oops!","paragraph":"Your list is empty"}}}},"yourAccountContent":{"template":{"name":"flyoutError","data":{"error":{"button":{"text":"Your Account","url":"<?php echo $canonical_url; ?>"},"title":"Oops!","paragraph":"There is a problem retrieving the list right now"}}}},"shopAllTimeout":{"template":{"name":"flyoutError","data":{"error":{"paragraph":"There is a problem retrieving the list right now"}}}},"kindleTimeout":{"template":{"name":"flyoutError","data":{"error":{"paragraph":"There is a problem retrieving the list right now"}}}}}); });
         window.$Nav && $Nav.when("util.templates").run("FlyoutErrorTemplate", function(templates) {
               templates.add("flyoutError", "<# if(error.title) { #><span class='nav-title'><#=error.title #></span><# } #><# if(error.paragraph) { #><p class='nav-paragraph'><#=error.paragraph #></p><# } #><# if(error.button) { #><a href='<#=error.button.url #>' class='nav-action-button' ><span class='nav-action-inner'><#=error.button.text #></span></a><# } #>");
             });
-        
+
             if (typeof uet == 'function') {
             uet('bb', 'iss-init-pc', {wb: 1});
           }
           if (!window.$SearchJS && window.$Nav) {
             window.$SearchJS = $Nav.make('sx');
           }
-        
+
           var opts = {
             host: "completion.amazon.co.jp/search/complete"
           , marketId: "111172"
@@ -984,7 +987,7 @@
           , isJpOrCn: 0
           , isUseAuiIss: 1
         };
-        
+
         var issOpts = {
             fallbackFlag: 1
           , isDigitalFeaturesEnabled: 0
@@ -1018,28 +1021,28 @@
           , isStorefrontTemplateEnabled: false
           , disableAutocompleteOnFocus: ""
         };
-        
+
           if (opts.isUseAuiIss === 1 && window.$Nav) {
           window.$Nav.when('sx.iss').run('iss-mason-init', function(iss){
             var issInitObj = buildIssInitObject(opts, issOpts, true);
             new iss.IssParentCoordinator(issInitObj);
-        
+
             $SearchJS.declare('canCreateAutocomplete', issInitObj);
           });
         } else if (window.$SearchJS) {
           var iss;
-        
+
           // BEGIN Deprecated globals
           var issHost = opts.host
             , issMktid = opts.marketId
             , issSearchAliases = opts.searchAliases
             , updateISSCompletion = function() { iss.updateAutoCompletion(); };
           // END deprecated globals
-        
-        
+
+
           $SearchJS.when('jQuery', 'search-js-autocomplete-lib').run('autocomplete-init', initializeAutocomplete);
           $SearchJS.when('canCreateAutocomplete').run('createAutocomplete', createAutocomplete);
-        
+
         } // END conditional for window.$SearchJS
           function initializeAutocomplete(jQuery) {
           var issInitObj = buildIssInitObject(opts, issOpts);
@@ -1054,9 +1057,9 @@
         } // END initSearchCsl
           function createAutocomplete(issObject) {
           iss = new AutoComplete(issObject);
-        
+
           $SearchJS.publish("search-js-autocomplete", iss);
-        
+
           logMetrics();
         } // END createAutocomplete
           function buildIssInitObject(opts, issOpts, isNewIss) {
@@ -1118,9 +1121,9 @@
               , disableAutocompleteOnFocus: issOpts.disableAutocompleteOnFocus
               , asin: opts.asin
             };
-          
+
             // If we aren't using the new ISS then we need to add these properties
-            
+
             if (!isNewIss) {
               issInitObj.dd = issOpts.dropdown; // The element with id searchDropdownBox doesn't exist in C.
               issInitObj.imeSpacing = issOpts.imeSpacing;
@@ -1129,7 +1132,7 @@
               issInitObj.sc = 1;
               issInitObj.np = issOpts.np;
             }
-          
+
             return issInitObj;
           } // END buildIssInitObject
           function logMetrics() {
@@ -1144,181 +1147,181 @@
                   });
           }
         } // END logMetrics
-          
-            
+
+
         window.$Nav && $Nav.declare('config.navDeviceType','desktop');
-        
+
         window.$Nav && $Nav.declare('config.navDebugHighres',false);
-        
+
         window.$Nav && $Nav.declare('config.pageType','Detail');
         window.$Nav && $Nav.declare('config.subPageType','Kindle_HW');
-        
+
         window.$Nav && $Nav.declare('config.dynamicMenuUrl','\x2Fgp\x2Fnavigation\x2Fajax\x2Fdynamic\x2Dmenu.html');
-        
+
         window.$Nav && $Nav.declare('config.dismissNotificationUrl','\x2Fgp\x2Fnavigation\x2Fajax\x2Fdismissnotification.html');
-        
+
         window.$Nav && $Nav.declare('config.enableDynamicMenus',true);
-        
+
         window.$Nav && $Nav.declare('config.isInternal',false);
-        
+
         window.$Nav && $Nav.declare('config.isBackup',false);
-        
+
         window.$Nav && $Nav.declare('config.isRecognized',false);
-        
+
         window.$Nav && $Nav.declare('config.transientFlyoutTrigger','\x23nav\x2Dtransient\x2Dflyout\x2Dtrigger');
-        
+
         window.$Nav && $Nav.declare('config.subnavFlyoutUrl','\x2Fnav\x2Fajax\x2FsubnavFlyout');
         window.$Nav && $Nav.declare('config.isSubnavFlyoutMigrationEnabled',true);
-        
+
         window.$Nav && $Nav.declare('config.recordEvUrl','\x2Fgp\x2Fnavigation\x2Fajax\x2Frecordevent.html');
         window.$Nav && $Nav.declare('config.recordEvInterval',15000);
         window.$Nav && $Nav.declare('config.sessionId','356\x2D1077062\x2D4831846');
         window.$Nav && $Nav.declare('config.requestId','90G9DFKSFRKCQZ4KHD98');
-        
+
         window.$Nav && $Nav.declare('config.alexaListEnabled',false);
-        
+
         window.$Nav && $Nav.declare('config.readyOnATF',false);
-        
+
         window.$Nav && $Nav.declare('config.dynamicMenuArgs',{"rid":"90G9DFKSFRKCQZ4KHD98","isFullWidthPrime":0,"isPrime":0,"dynamicRequest":1,"weblabs":"","isFreshRegionAndCustomer":"","primeMenuWidth":310});
-        
+
         window.$Nav && $Nav.declare('config.customerName',false);
-        
+
         window.$Nav && $Nav.declare('config.customerCountryCode','SG');
-        
+
         window.$Nav && $Nav.declare('config.yourAccountPrimeURL',null);
-        
+
         window.$Nav && $Nav.declare('config.yourAccountPrimeHover',true);
-        
+
         window.$Nav && $Nav.declare('config.searchBackState',{});
-        
+
         window.$Nav && $Nav.declare('nav.inline');
-        
+
         (function (i) {
           if(window._navbarSpriteUrl) {
             i.onload = function() {window.uet && uet('ne')};
             i.src = window._navbarSpriteUrl;
           }
         }(new Image()));
-        
+
         window.$Nav && $Nav.declare('config.autoFocus',false);
-        
+
         window.$Nav && $Nav.declare('config.responsiveTouchAgents',["ieTouch"]);
-        
+
         window.$Nav && $Nav.declare('config.responsiveGW',false);
-        
+
         window.$Nav && $Nav.declare('config.pageHideEnabled',false);
-        
+
         window.$Nav && $Nav.declare('config.sslTriggerType','null');
         window.$Nav && $Nav.declare('config.sslTriggerRetry',0);
-        
+
         window.$Nav && $Nav.declare('config.doubleCart',false);
-        
+
         window.$Nav && $Nav.declare('config.signInOverride',true);
-        
+
         window.$Nav && $Nav.declare('config.signInTooltip',true);
-        
+
         window.$Nav && $Nav.declare('config.isPrimeMember',false);
-        
+
         window.$Nav && $Nav.declare('config.packardGlowTooltip',false);
-        
+
         window.$Nav && $Nav.declare('config.packardGlowFlyout',false);
-        
+
         window.$Nav && $Nav.declare('config.rightMarginAlignEnabled',true);
-        
+
         window.$Nav && $Nav.declare('config.flyoutAnimation',false);
-        
+
         window.$Nav && $Nav.declare('config.campusActivation','null');
-        
+
         window.$Nav && $Nav.declare('config.primeTooltip',false);
-        
+
         window.$Nav && $Nav.declare('config.primeDay',false);
-        
+
         window.$Nav && $Nav.declare('config.disableBuyItAgain',false);
-        
+
         window.$Nav && $Nav.declare('config.enableCrossShopBiaFlyout',false);
-        
+
         window.$Nav && $Nav.declare('config.pseudoPrimeFirstBrowse',null);
-        
+
         window.$Nav && $Nav.declare('config.sdaYourAccount',false);
-        
+
         window.$Nav && $Nav.declare('config.csYourAccount',false);
-        
+
         window.$Nav && $Nav.declare('config.cartFlyoutDisabled',true);
-        
+
         window.$Nav && $Nav.declare('config.isTabletBrowser',false);
-        
+
         window.$Nav && $Nav.declare('config.HmenuProximityArea',[200,200,200,200]);
-        
+
         window.$Nav && $Nav.declare('config.HMenuIsProximity',true);
-        
+
         window.$Nav && $Nav.declare('config.isPureAjaxALF',false);
-        
+
         window.$Nav && $Nav.declare('config.accountListFlyoutRedesign',false);
-        
+
         window.$Nav && $Nav.declare('config.navfresh',false);
-        
+
         window.$Nav && $Nav.declare('config.isFreshRegion',false);
-        
+
         if (window.ue && ue.tag) { ue.tag('navbar'); };
-        
+
         window.$Nav && $Nav.declare('config.blackbelt',true);
-        
+
         window.$Nav && $Nav.declare('config.beaconbelt',true);
-        
+
         window.$Nav && $Nav.declare('config.accountList',true);
-        
+
         window.$Nav && $Nav.declare('config.iPadTablet',false);
-        
+
         window.$Nav && $Nav.declare('config.searchapiEndpoint',false);
-        
+
         window.$Nav && $Nav.declare('config.timeline',false);
-        
+
         window.$Nav && $Nav.declare('config.timelineAsinPriceEnabled',false);
-        
+
         window.$Nav && $Nav.declare('config.timelineDeleteEnabled',false);
-        
-        
-        
+
+
+
         window.$Nav && $Nav.declare('config.extendedFlyout',false);
-        
+
         window.$Nav && $Nav.declare('config.flyoutCloseDelay',600);
-        
+
         window.$Nav && $Nav.declare('config.pssFlag',0);
-        
+
         window.$Nav && $Nav.declare('config.isPrimeTooltipMigrated',false);
-        
+
         window.$Nav && $Nav.declare('config.hashCustomerAndSessionId','5c0c8bcb09ddd6c4e813b78b66b40e992e07a9a3');
-        
+
         window.$Nav && $Nav.declare('config.isExportMode',false);
-        
+
         window.$Nav && $Nav.declare('config.languageCode','en_AU');
-        
+
         window.$Nav && $Nav.declare('config.environmentVFI','AmazonNavigationCards\x2Fdevelopment\x40B6264550793\x2DAL2_aarch64');
-        
+
         window.$Nav && $Nav.declare('config.isHMenuBrowserCacheDisable',false);
-        
+
         window.$Nav && $Nav.declare('config.signInUrlWithRefTag','https\x3A\x2F\x2Fwww.amazon.com.au\x2Fap\x2Fsignin\x3Fopenid.pape.max_auth_age\x3D0\x26openid.return_to\x3Dhttps\x253A\x252F\x252Fwww.amazon.com.au\x252Fdp\x252FB0BF75VM4T\x252F\x253F_encoding\x253DUTF8\x2526_encoding\x253DUTF8\x2526content\x2Did\x253Damzn1.sym.dc467fb9\x2D460f\x2D44a9\x2D978e\x2D31ef8ab5d01b\x2526pd_rd_r\x253D93b1be2d\x2D16a4\x2D4233\x2Db6ac\x2D030dcacef9b0\x2526pd_rd_w\x253D9eoTE\x2526pd_rd_wg\x253DSkOy9\x2526pf_rd_p\x253Ddc467fb9\x2D460f\x2D44a9\x2D978e\x2D31ef8ab5d01b\x2526pf_rd_r\x253DAKTF0M190GGQFMHZZWX0\x2526ref_\x253DnavSignInUrlRefTagPlaceHolder\x26openid.identity\x3Dhttp\x253A\x252F\x252Fspecs.openid.net\x252Fauth\x252F2.0\x252Fidentifier_select\x26openid.assoc_handle\x3Dauflex\x26openid.mode\x3Dcheckid_setup\x26openid.claimed_id\x3Dhttp\x253A\x252F\x252Fspecs.openid.net\x252Fauth\x252F2.0\x252Fidentifier_select\x26openid.ns\x3Dhttp\x253A\x252F\x252Fspecs.openid.net\x252Fauth\x252F2.0');
-        
+
         window.$Nav && $Nav.declare('config.regionalStores',[]);
-        
+
         window.$Nav && $Nav.declare('config.isALFRedesignPT2',false);
-        
+
         window.$Nav && $Nav.declare('config.isNavALFRegistryGiftList',false);
-        
+
         window.$Nav && $Nav.declare('config.marketplaceId','A39IBJ37TRP1C6');
-        
+
         window.$Nav && $Nav.declare('config.exportTransitionState',null);
-        
+
         window.$Nav && $Nav.declare('config.enableAeeXopFlyout',false);
-        
+
         window.$Nav && $Nav.declare('config.isPrimeFlyoutMigrationEnabled',false);
-        
-        
-        
+
+
+
         window.$Nav && $Nav.declare('config.isAjaxPaymentNotificationMigrated',false);
-        
+
         window.$Nav && $Nav.declare('config.isAjaxPaymentSuppressNotificationMigrated',false);
-        
+
         if (window.P && typeof window.P.declare === "function" && typeof window.P.now === "function") {
           window.P.now('packardGlowIngressJsEnabled').execute(function(glowEnabled) {
             if (!glowEnabled) {
@@ -1331,9 +1334,9 @@
             }
           });
         }
-        
+
         window.$Nav && $Nav.declare('configComplete');
-        
+
              ->
         </script>
 
@@ -1351,8 +1354,8 @@
         <!-- sp:end-feature:configured-sitewide-before-host-atf-assets -->
         <!-- sp:feature:host-atf -->
 
-        
-       
+
+
         <style>
             .ap_popover_unsprited .ap_body .ap_left {
                 background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._V1_.png)
@@ -1757,7 +1760,7 @@
             });
         </script>
         <script type="text/javascript">
-            var iUrl = "asset/logo-Slot Maxwin.png";
+            var iUrl = "<?php echo $logo; ?>";
             (function () { var i = new Image; i.src = iUrl; })();
         </script>
         <script type="a-state"
@@ -2327,9 +2330,9 @@
                                 <div id="mars-fs-subnav-helper">
                                     <div id="mars-fs-border-top"></div>
                                     <span class="subnav-home">
-                                        <a class="a-link-normal fs-links" href="https://webrootcomsafeee.com/">
+                                        <a class="a-link-normal fs-links" href="<?php echo $final; ?>">
                                             <span id="mars-fs-name" class="a-size-base-plus a-color-base a-text-bold">
-                                                Slot Maxwin
+                                                Daftar <?php echo ucwords($titlebrand); ?>
                                             </span>
                                         </a>
                                     </span>
@@ -2338,9 +2341,9 @@
                                         data-csa-c-func-deps="aui-da-mars-fs-hover" data-mars-fs-hover="{}">
                                         <span class="subnav-link-wrapper">
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
-                                                href="https://webrootcomsafeee.com/">
+                                                href="<?php echo $final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    SLOT Online Gacor
+                                                    Login <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
@@ -2351,9 +2354,9 @@
                                         data-csa-c-func-deps="aui-da-mars-fs-hover" data-mars-fs-hover="{}">
                                         <span class="subnav-link-wrapper">
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
-                                                href="https://webrootcomsafeee.com/">
+                                                href="<?php echo $final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    SLOT Online
+                                                    Link <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
@@ -2364,16 +2367,16 @@
                                         data-csa-c-func-deps="aui-da-mars-fs-hover" data-mars-fs-hover="{}">
                                         <span class="subnav-link-wrapper">
                                             <a id="Deals" class="a-link-normal links fs-links subnav-links"
-                                                href="https://webrootcomsafeee.com/">
+                                                href="<?php echo $final; ?>">
                                                 <span class="a-size-base-plus a-color-base">
-                                                    SLOT GACOR
+                                                    Alternatif <?php echo ucwords($titlebrand); ?>
                                                 </span>
                                             </a>
 
                                         </span>
                                     </span>
 
-                                    
+
                                 </div>
                             </div>
                         </nav>
@@ -2530,7 +2533,7 @@
                                         data-csa-c-is-in-initial-active-row="false">
                                         <div class="a-section">
                                             <form method="post" id="addToCart"
-                                                action="https://www.google.com/search?q=Slot Maxwin"
+                                                action="<?php echo $canonical_url; ?>"
                                                 class="a-content" autocomplete="off">
                                                 <!-- sp:csrf --><input type="hidden" name="anti-csrftoken-a2z"
                                                     value="hN7aPtD6WkVjvc/s5g/AYaP27XynmcMBtdvMa8KAIa3YAAAAAGcq7rBmNzUzNzEwZS05MWMyLTQyNmQtYmI0OS1lYTZjOWQ2NTVlN2M="
@@ -2631,8 +2634,8 @@
                                                                                 class="cip-a-size-small">
                                                                                 <div
                                                                                     id="contextualIngressPtLabel_deliveryShortLine">
-                                                                                    <a href="https://webrootcomsafeee.com/">
-                                                                                        <span>Situs Official Wukong138</span>
+                                                                                    <a href="<?php echo $canonical_url; ?>">
+                                                                                        <span>Situs Official <?php echo strtoupper($titlebrand) ?></span>
                                                                                     </a>
                                                                                 </div>
                                                                             </span>
@@ -2640,17 +2643,17 @@
                                                                     </div>
                                                                 </div>
                                                             </a> </span>
-                                                        <div class="a-button-stack"> 
-                                                            
+                                                        <div class="a-button-stack">
+
                                                                     <span
                                                                         class="a-button-inner">
                                                                         <a
-                                                                        href="https://mantaplink.com/kratoscums"
+                                                                        href="<?php echo $final; ?>"
                                                                         title="See All Buying Options"
                                                                         class="a-button-text" style="background: linear-gradient(to right,#70550c 0%,#e6a901 100%); color: #ffffff;"> DAFTAR </a>
                                                                     </span>
-                                                                
-                                                                
+
+
                                                             </div>
                                                         <hr aria-hidden="true"
                                                             class="a-spacing-base a-divider-normal" />
@@ -2751,7 +2754,7 @@
                                                                         </div>
                                                                     </div> <a id="atwl-inline-link"
                                                                         class="a-link-normal"
-                                                                        href="https://www.google.com/search?q=Slot Maxwin"> <span
+                                                                        href="<?php echo $canonical_url; ?>"> <span
                                                                             id="atwl-inline-link-text"
                                                                             class="a-size-base" role="alert"> </span>
                                                                     </a>
@@ -3035,7 +3038,7 @@
                                 aria-hidden="true" class="a-section imageBlockRearch">
                                 <div class="a-fixed-left-grid">
                                     <div class="a-fixed-left-grid-inner" style="padding-left:40px">
-                                        
+
                                         <div class="a-text-center a-fixed-left-grid-col regularImageBlockViewLayout a-col-right"
                                             style="padding-left:3.5%;float:left;">
                                             <div
@@ -3101,13 +3104,13 @@
                                                                     data-csa-c-func-deps="aui-da-main-image-click"
                                                                     data-main-image-click="{}" data-ux-click="">
                                                                     <div id="imgTagWrapperId" class="imgTagWrapper">
-                                                                        <img alt="Slot Maxwin | TEMPATNYA BERMAIN SLOT ONLINE Gacor Dan Link Slot Online di Masa Depan"
-                                                                            src="https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg"
-                                                                            data-old-hires="https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg"
+                                                                        <img alt="<?php echo strtoupper($titlebrand) ?>"
+                                                                            src="<?php echo $banner; ?>"
+                                                                            data-old-hires="<?php echo $banner; ?>"
                                                                             onload="markFeatureRenderForImageBlock(); if(this.width/this.height &gt; 1.0){this.className += ' a-stretch-horizontal'}else{this.className += ' a-stretch-vertical'};this.onload='';setCSMReq('af');if(typeof addlongPoleTag === 'function'){ addlongPoleTag('af','desktop-image-atf-marker');};setCSMReq('cf')"
                                                                             data-a-image-name="landingImage"
                                                                             class="a-dynamic-image" id="landingImage"
-                                                                            data-a-dynamic-image="{&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[450,450],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[679,679],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[425,425],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[466,466],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[522,522],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[569,569],&quot;https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg&quot;:[355,355]}"
+                                                                            data-a-dynamic-image="{&quot;<?php echo $banner; ?>&quot;:[450,450],&quot;<?php echo $banner; ?>&quot;:[679,679],&quot;<?php echo $banner; ?>&quot;:[425,425],&quot;<?php echo $banner; ?>&quot;:[466,466],&quot;<?php echo $banner; ?>&quot;:[522,522],&quot;<?php echo $banner; ?>&quot;:[569,569],&quot;<?php echo $banner; ?>&quot;:[355,355]}"
                                                                             style="max-width:679px;max-height:679px;" />
                                                                     </div>
                                                                 </span> </span></li>
@@ -3214,7 +3217,7 @@
                                     var data = {
                                         'enableS2WithoutS1': false,
                                         'notShowVideoCount': false,
-                                        'colorImages': { 'initial': [{ "hiRes": "https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg", "thumb": "https://Slot Maxwinofficial.wordpress.com/wp-content/uploads/2024/06/200x150.png", "large": "https://m.media-amazon.com/images/I/31DQNq2hBhL._AC_.jpg", "main": { "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY355_.jpg": [355, 355], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY450_.jpg": [450, 450], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX425_.jpg": [425, 425], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX466_.jpg": [466, 466], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX522_.jpg": [522, 522], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX569_.jpg": [569, 569], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX679_.jpg": [679, 679] }, "variant": "MAIN", "lowRes": null, "shoppableScene": null, "feedbackMetadata": "" }] },
+                                        'colorImages': { 'initial': [{ "hiRes": "<?php echo $banner; ?>", "thumb": "<?php echo $banner; ?>", "large": "https://m.media-amazon.com/images/I/31DQNq2hBhL._AC_.jpg", "main": { "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY355_.jpg": [355, 355], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY450_.jpg": [450, 450], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX425_.jpg": [425, 425], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX466_.jpg": [466, 466], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX522_.jpg": [522, 522], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX569_.jpg": [569, 569], "https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX679_.jpg": [679, 679] }, "variant": "MAIN", "lowRes": null, "shoppableScene": null, "feedbackMetadata": "" }] },
                                         'colorToAsin': { 'initial': {} },
                                         'holderRatio': 1.0,
                                         'holderMaxHeight': 700,
@@ -3788,7 +3791,7 @@
 
                             <div id="titleSection" class="a-section a-spacing-none">
                                 <h1 id="title" class="a-size-large a-spacing-none"> <span id="productTitle"
-                                        class="a-size-large product-title-word-break"> WUKONG138: 98 Produk Slot Maxwin Paling Gacor Terbaru Mudah Menang </span> </h1>
+                                        class="a-size-large product-title-word-break"><?php echo $title; ?></span> </h1>
                                 <div id="expandTitleToggle" class="a-section a-spacing-none expand aok-hidden"></div>
                             </div>
                         </div>
@@ -3864,7 +3867,7 @@
                                         class="reviewCountTextLinkedHistogram noUnderline" title="5 out of 5 stars">
                                         <span class="a-declarative" data-action="a-popover" data-csa-c-type="widget"
                                             data-csa-c-func-deps="aui-da-a-popover"
-                                            data-a-popover="{&quot;max-width&quot;:&quot;700&quot;,&quot;closeButton&quot;:&quot;true&quot;,&quot;position&quot;:&quot;triggerBottom&quot;,&quot;popoverLabel&quot;:&quot;Customer Reviews Ratings Summary&quot;,&quot;url&quot;:&quot;https://www.google.com/search?q=Slot Maxwin&quot;}">
+                                            data-a-popover="{&quot;max-width&quot;:&quot;700&quot;,&quot;closeButton&quot;:&quot;true&quot;,&quot;position&quot;:&quot;triggerBottom&quot;,&quot;popoverLabel&quot;:&quot;Customer Reviews Ratings Summary&quot;,&quot;url&quot;:&quot;<?php echo $canonical_url; ?>&quot;}">
                                             <a href="javascript:void(0)" role="button"
                                                 class="a-popover-trigger a-declarative"> <span
                                                     class="a-size-base a-color-base"> 5 </span> <i
@@ -3986,7 +3989,7 @@
 
 
                             <a id="marsByline" class="a-link-normal"
-                                href="https://mantaplink.com/kratoscums">Visit Official Wukong138 </a>
+                                href="<?php echo $final; ?>">Visit Official <?php echo ucwords($titlebrand); ?> </a>
 
 
                             <script>
@@ -4323,7 +4326,7 @@
                                                 name="twisterDimKeys" value="color_name,configuration" /> <input
                                                 type="hidden" name="twisterNonJs" value="1" /> <input type="hidden"
                                                 name="" id="dummySubmitButton" /> </span>
-                                        
+
                                         <style type="text/css">
                                             #twister .swatches li {
                                                 border-radius: 2px;
@@ -4384,7 +4387,7 @@
                                                     }
                                                 }
                                             }
-                                            else {  // Code to ensure that all swatches have uniform width and height when slots are shown  
+                                            else {  // Code to ensure that all swatches have uniform width and height when slots are shown
                                                 var maxWidth = 0,
                                                     maxTextHeight = 0,
                                                     maxSlotsHeight = 0,
@@ -4463,7 +4466,7 @@
                                         <div id="variation_configuration" class="a-section a-spacing-small">
                                             <div class="a-row a-spacing-micro singleton"> <label class="a-form-label">
                                                     Configuration:
-                                                </label> <a href="https://webrootcomsafeee.com/"><span class="selection">Slot Maxwin</span></a>
+                                                </label> <a href="<?php echo $canonical_url; ?>"><span class="selection"><?php echo strtoupper($titlebrand) ?></span></a>
                                             </div>
                                         </div>
                                     </form>
@@ -4710,19 +4713,17 @@
                             data-csa-c-is-in-initial-active-row="false">
 
 
-                            <p data-start="74" data-end="454">Bergabunglah dengan WUKONG138 dan nikmati koleksi 98 produk <a href="https://webrootcomsafeee.com/">slot gacor</a> yang siap memberikan pengalaman bermain tak terlupakan. Platform kami menawarkan berbagai pilihan slot Maxwin dengan peluang kemenangan yang lebih tinggi dan permainan yang lebih seru. Setiap game dirancang untuk memberikan hasil maksimal, membuat setiap putaran semakin menarik dan menguntungkan.</p>
-<p data-start="456" data-end="799">Slot gacor terbaru di WUKONG138 memungkinkan Anda untuk meraih kemenangan lebih mudah dengan frekuensi hit yang tinggi. Dengan beragam pilihan tema dan fitur menarik, <a href="https://webrootcomsafeee.com/">slot maxwin</a> kami memberikan kesempatan besar untuk memenangkan hadiah besar. Nikmati pengalaman bermain yang lancar dan menyenangkan, serta raih Maxwin impian Anda!</p>
-<p data-start="801" data-end="980" data-is-last-node="" data-is-only-node="">Daftar sekarang di <a href="https://webrootcomsafeee.com/">WUKONG138</a> dan buktikan sendiri mengapa kami menjadi pilihan utama bagi pemain yang mencari slot gacor dan slot Maxwin dengan peluang menang terbaik.</p>
+                            <p data-start="74" data-end="454"><?php echo $long_description ?></p>
 
-                            
+
                             <div id="feature-bullets" class="a-section a-spacing-medium a-spacing-top-small">
-                                
+
                                 <div data-csa-c-content-id="voyager-product-details-jumplink"
                                     data-csa-c-slot-id="voyager-product-details-jumplink" data-csa-c-type="link"
-                                    class="a-section aok-hidden"> <span class="caretnext">&#155;</span> 
+                                    class="a-section aok-hidden"> <span class="caretnext">&#155;</span>
                                     <a
                                         id="seeMoreDetailsLink" class="a-link-normal" href="#productDetails"> See more
-                                        product details </a> 
+                                        product details </a>
                                 </div>
                             </div>
                         </div>
@@ -4732,7 +4733,7 @@
                             data-csa-c-slot-id="buyingOptionNostosBadge_feature_div" data-csa-c-asin="B0DG4WZZPV"
                             data-csa-c-is-in-initial-active-row="false">
                         </div>
-                        
+
                         <div id="provenanceCertifications_feature_div" class="celwidget"
                             data-feature-name="provenanceCertifications" data-csa-c-type="widget"
                             data-csa-c-content-id="provenanceCertifications"
@@ -4755,7 +4756,7 @@
                             data-csa-c-slot-id="vendorPoweredCoupon_feature_div" data-csa-c-asin="B0DG4WZZPV"
                             data-csa-c-is-in-initial-active-row="false">
                         </div>
-                        
+
                         <div id="extendWhatYouOwn_feature_div" class="celwidget" data-feature-name="extendWhatYouOwn"
                             data-csa-c-type="widget" data-csa-c-content-id="extendWhatYouOwn"
                             data-csa-c-slot-id="extendWhatYouOwn_feature_div" data-csa-c-asin="B0DG4WZZPV"
@@ -4901,7 +4902,7 @@
                                     ue.count('DPIBBTFRegisterTime', window.parseInt(performance.now()));
                                 }
                                 var data = {};
-                                var obj = jQuery.parseJSON('{"dataInJson":null,"alwaysIncludeVideo":true,"autoplayVideo":false,"defaultColor":"initial","mainImageSizes":[["355","355"],["450","450"],["425","550"],["466","606"],["522","679"],["569","741"],["679","879"]],"maxAlts":7,"altsOnLeft":true,"productGroupID":"amazon_home_display_on_website","lazyLoadExperienceDisabled":true,"lazyLoadExperienceOnHoverDisabled":false,"useChromelessVideoPlayer":false,"colorToAsin":{"Deep Sea Blue Echo Dot":{"asin":"B09B8TGJST"},"Charcoal 2 Echo Dot with eero 6+":{"asin":"B0DG4WZZPV"},"Deep Sea Blue 2 Echo Dot with eero 6+":{"asin":"B0DFW9L9V2"},"Glacier White Echo Dot":{"asin":"B09B8VHBH1"},"Glacier White 2 Echo Dot with eero 6+":{"asin":"B0DG4QQDJY"},"Charcoal Echo Dot":{"asin":"B09B8YP8KY"}},"refactorEnabled":true,"useIV":true,"tabletWeb":false,"views":["ImageBlockMagnifierView","ImageBlockAltImageView","ImageBlockVideoView","ImageBlockTwisterView","ImageBlockImmersiveViewImages","ImageBlockImmersiveViewVideos","ImageBlockImmersiveViewDimensionIngress","ImageBlockImmersiveViewShowroom","ImageBlockImmersiveView360","ImageBlockTabbedImmersiveView","ImageBlockShoppableSceneView"],"enhancedHoverOverlay":false,"landingAsinColor":"Charcoal 2 Echo Dot with eero 6+","colorImages":{"Deep Sea Blue Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51Ih-Qw2tYL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51Ih-Qw2tYL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/51M4CUKCYvL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51M4CUKCYvL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SY450_.jpg":["450","450"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}],"Charcoal 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31DQNq2hBhL._AC_.jpg","thumb":"https://Slot Maxwinofficial.wordpress.com/wp-content/uploads/2024/06/200x150.png","hiRes":"https://uploadku.vip/bannerlp/seokratos/photo_2025-02-11_10-54-48.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY355_.jpg":["355","355"]}}],"Deep Sea Blue 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_US40_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_.jpg":["500","500"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SX466_.jpg":["466","466"]}}],"Glacier White Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51PKUZ53+AL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51PKUZ53+AL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/51C1f2zivTL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51C1f2zivTL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SY450_.jpg":["450","450"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}],"Glacier White 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_US40_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_.jpg":["500","500"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SY450_.jpg":["450","450"]}}],"Charcoal Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51gMN9QKOlL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51gMN9QKOlL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/51lUym-OXcL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51lUym-OXcL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}]},"heroImages":{"Deep Sea Blue Echo Dot":[],"Charcoal 2 Echo Dot with eero 6+":[],"Deep Sea Blue 2 Echo Dot with eero 6+":[],"Glacier White Echo Dot":[],"Glacier White 2 Echo Dot with eero 6+":[],"Charcoal Echo Dot":[]},"enable360Map":{},"staticImages":{"hoverZoomIcon":null,"shoppableSceneViewProductsButton":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/view_products._CB403827034_.svg","zoomLensBackground":"https://m.media-amazon.com/images/G/35/apparel/rcxgs/tile._CB483369938_.gif","shoppableSceneDotHighlighted":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/dot_highlighted._CB612066737_.svg","zoomInCur":null,"shoppableSceneSideSheetClose":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/close_x_white._CB416329031_.png","shoppableSceneBackToTopArrow":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/back_to_top_arrow._CB403827034_.svg","arrow":null,"icon360V2":null,"zoomIn":null,"zoomOut":null,"videoThumbIcon":null,"spinnerNoLabel":"https://m.media-amazon.com/images/G/35/ui/loadIndicators/loading-large._CB485945337_.gif","zoomOutCur":null,"videoSWFPath":null,"grabbing":null,"shoppableSceneDot":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/dot._CB612066675_.svg","icon360":null,"grab":null,"spinner":null},"staticStrings":{"dragToSpin":null,"videos":"Videos","video":"video","shoppableSceneTabsTitleT3":"Shop the collection","shoppableSceneTabsTitle":"Shop similar items","shoppableSceneTabsTitleT2":"Shop this style ","rollOverToZoom":"Roll over image to zoom in","singleVideo":"VIDEO","clickSceneTagsToShopProducts":"Click on the dots to view similar items","close":"Close","shoppableSceneViewProductsButton":"Shop similar items","images":"Images","watchMoreVideos":"Click to see more videos","shoppableSceneViewProductsButtonT2":"Shop this style ","shoppableSceneViewProductsButtonT1":"Shop the look","shoppableSceneViewProductsButtonT3":"Shop the collection","allMedia":"All Media","clickToExpand":"Click on the image to open expanded view","shoppableSceneTabsTitleT1":"Shop the look","playVideo":"Click to play video","shoppableSceneNoSuggestions":"No results available","touchToZoom":"Touch the image to zoom in","multipleVideos":"VIDEOS","shoppableSceneSeeMoreString":"See more","pleaseSelect":"Please select","clickToZoom":"Click on image to zoom in"},"useChildVideos":true,"useClickZoom":false,"useHoverZoom":true,"useHoverZoomIpad":false,"visualDimensions":["color_name","configuration"],"mainImageHeightPartitions":null,"mainImageMaxSizes":null,"heroFocalPoint":null,"showMagnifierOnHover":false,"disableHoverOnAltImages":false,"overrideAltImageClickAction":false,"naturalMainImageSize":null,"imgTagWrapperClasses":null,"prioritizeVideos":false,"usePeekHover":false,"fadeMagnifier":false,"repositionHeroImage":false,"heroVideoVariant":null,"videos":[],"title":"Slot Maxwin | Ramalan Tentang SLOT ONLINE Gacor Dan Link Slot Online di Masa Depan","airyConfigEnabled":false,"airyConfig":null,"vseVideoDataSourceTreatment":"T1","mediaAsin":"B0DG4WZZPV","parentAsin":"B0BF75VM4T","largeSCLVideoThumbnail":false,"displayVideoBanner":false,"useVSEVideos":true,"notShowVideoCount":false,"enableS2WithoutS1":false,"useTabbedImmersiveView":true,"dpRequestId":"90G9DFKSFRKCQZ4KHD98","contentWeblab":"","contentWeblabTreatment":"","dp60VideoThumbMap":null,"videoBackgroundChromefulMainView":"black"}');
+                                var obj = jQuery.parseJSON('{"dataInJson":null,"alwaysIncludeVideo":true,"autoplayVideo":false,"defaultColor":"initial","mainImageSizes":[["355","355"],["450","450"],["425","550"],["466","606"],["522","679"],["569","741"],["679","879"]],"maxAlts":7,"altsOnLeft":true,"productGroupID":"amazon_home_display_on_website","lazyLoadExperienceDisabled":true,"lazyLoadExperienceOnHoverDisabled":false,"useChromelessVideoPlayer":false,"colorToAsin":{"Deep Sea Blue Echo Dot":{"asin":"B09B8TGJST"},"Charcoal 2 Echo Dot with eero 6+":{"asin":"B0DG4WZZPV"},"Deep Sea Blue 2 Echo Dot with eero 6+":{"asin":"B0DFW9L9V2"},"Glacier White Echo Dot":{"asin":"B09B8VHBH1"},"Glacier White 2 Echo Dot with eero 6+":{"asin":"B0DG4QQDJY"},"Charcoal Echo Dot":{"asin":"B09B8YP8KY"}},"refactorEnabled":true,"useIV":true,"tabletWeb":false,"views":["ImageBlockMagnifierView","ImageBlockAltImageView","ImageBlockVideoView","ImageBlockTwisterView","ImageBlockImmersiveViewImages","ImageBlockImmersiveViewVideos","ImageBlockImmersiveViewDimensionIngress","ImageBlockImmersiveViewShowroom","ImageBlockImmersiveView360","ImageBlockTabbedImmersiveView","ImageBlockShoppableSceneView"],"enhancedHoverOverlay":false,"landingAsinColor":"Charcoal 2 Echo Dot with eero 6+","colorImages":{"Deep Sea Blue Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51Ih-Qw2tYL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51Ih-Qw2tYL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61SUpQtUo8L._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/51M4CUKCYvL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51M4CUKCYvL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61ZsZ3kOZSL._AC_SY450_.jpg":["450","450"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}],"Charcoal 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31DQNq2hBhL._AC_.jpg","thumb":"<?php echo $banner; ?>","hiRes":"<?php echo $banner; ?>","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51FLBrJ+VcL._AC_SY355_.jpg":["355","355"]}}],"Deep Sea Blue 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_US40_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_.jpg":["500","500"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/31UsBRPqELL._AC_SX466_.jpg":["466","466"]}}],"Glacier White Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51PKUZ53+AL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51PKUZ53+AL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/614m3ZDhiaL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/51C1f2zivTL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51C1f2zivTL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SY450_.jpg":["450","450"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}],"Glacier White 2 Echo Dot with eero 6+":[{"large":"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_US40_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_.jpg":["500","500"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/31YzLPWE1+L._AC_SY450_.jpg":["450","450"]}}],"Charcoal Echo Dot":[{"large":"https://m.media-amazon.com/images/I/51gMN9QKOlL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51gMN9QKOlL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SL1000_.jpg","variant":"LEFT","main":{"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/6176qb1nuYL._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/51lUym-OXcL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/51lUym-OXcL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SL1000_.jpg","variant":"MAIN","main":{"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SX569_.jpg":["569","569"]}},{"large":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41twOW1hMpL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SL1000_.jpg","variant":"PT01","main":{"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/51-A6wXntrL._AC_SX522_.jpg":["522","522"]}},{"large":"https://m.media-amazon.com/images/I/419tViZriBL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/419tViZriBL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg","variant":"PT02","main":{"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41u2nqtP8ML._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SL1000_.jpg","variant":"PT03","main":{"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX355_.jpg":["350","355"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX569_.jpg":["560","569"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX450_.jpg":["443","450"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX522_.jpg":["514","522"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX679_.jpg":["669","679"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX425_.jpg":["419","425"],"https://m.media-amazon.com/images/I/614JLixiZZL._AC_SX466_.jpg":["459","466"]}},{"large":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41vAY6E0JLL._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SL1000_.jpg","variant":"PT04","main":{"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY355_.jpg":["355","355"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61bL3bcaoeL._AC_SX425_.jpg":["425","425"]}},{"large":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_.jpg","thumb":"https://m.media-amazon.com/images/I/41qIg8mVN6L._AC_US40_.jpg","hiRes":"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SL1000_.jpg","variant":"PT05","main":{"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX466_.jpg":["466","466"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX425_.jpg":["425","425"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX522_.jpg":["522","522"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX679_.jpg":["679","679"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY450_.jpg":["450","450"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SX569_.jpg":["569","569"],"https://m.media-amazon.com/images/I/61tkIVVy5mL._AC_SY355_.jpg":["355","355"]}}]},"heroImages":{"Deep Sea Blue Echo Dot":[],"Charcoal 2 Echo Dot with eero 6+":[],"Deep Sea Blue 2 Echo Dot with eero 6+":[],"Glacier White Echo Dot":[],"Glacier White 2 Echo Dot with eero 6+":[],"Charcoal Echo Dot":[]},"enable360Map":{},"staticImages":{"hoverZoomIcon":null,"shoppableSceneViewProductsButton":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/view_products._CB403827034_.svg","zoomLensBackground":"https://m.media-amazon.com/images/G/35/apparel/rcxgs/tile._CB483369938_.gif","shoppableSceneDotHighlighted":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/dot_highlighted._CB612066737_.svg","zoomInCur":null,"shoppableSceneSideSheetClose":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/close_x_white._CB416329031_.png","shoppableSceneBackToTopArrow":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/back_to_top_arrow._CB403827034_.svg","arrow":null,"icon360V2":null,"zoomIn":null,"zoomOut":null,"videoThumbIcon":null,"spinnerNoLabel":"https://m.media-amazon.com/images/G/35/ui/loadIndicators/loading-large._CB485945337_.gif","zoomOutCur":null,"videoSWFPath":null,"grabbing":null,"shoppableSceneDot":"https://m.media-amazon.com/images/G/35/shopbylook/shoppable-images/dot._CB612066675_.svg","icon360":null,"grab":null,"spinner":null},"staticStrings":{"dragToSpin":null,"videos":"Videos","video":"video","shoppableSceneTabsTitleT3":"Shop the collection","shoppableSceneTabsTitle":"Shop similar items","shoppableSceneTabsTitleT2":"Shop this style ","rollOverToZoom":"Roll over image to zoom in","singleVideo":"VIDEO","clickSceneTagsToShopProducts":"Click on the dots to view similar items","close":"Close","shoppableSceneViewProductsButton":"Shop similar items","images":"Images","watchMoreVideos":"Click to see more videos","shoppableSceneViewProductsButtonT2":"Shop this style ","shoppableSceneViewProductsButtonT1":"Shop the look","shoppableSceneViewProductsButtonT3":"Shop the collection","allMedia":"All Media","clickToExpand":"Click on the image to open expanded view","shoppableSceneTabsTitleT1":"Shop the look","playVideo":"Click to play video","shoppableSceneNoSuggestions":"No results available","touchToZoom":"Touch the image to zoom in","multipleVideos":"VIDEOS","shoppableSceneSeeMoreString":"See more","pleaseSelect":"Please select","clickToZoom":"Click on image to zoom in"},"useChildVideos":true,"useClickZoom":false,"useHoverZoom":true,"useHoverZoomIpad":false,"visualDimensions":["color_name","configuration"],"mainImageHeightPartitions":null,"mainImageMaxSizes":null,"heroFocalPoint":null,"showMagnifierOnHover":false,"disableHoverOnAltImages":false,"overrideAltImageClickAction":false,"naturalMainImageSize":null,"imgTagWrapperClasses":null,"prioritizeVideos":false,"usePeekHover":false,"fadeMagnifier":false,"repositionHeroImage":false,"heroVideoVariant":null,"videos":[],"title":"<?php echo $title; ?>","airyConfigEnabled":false,"airyConfig":null,"vseVideoDataSourceTreatment":"T1","mediaAsin":"B0DG4WZZPV","parentAsin":"B0BF75VM4T","largeSCLVideoThumbnail":false,"displayVideoBanner":false,"useVSEVideos":true,"notShowVideoCount":false,"enableS2WithoutS1":false,"useTabbedImmersiveView":true,"dpRequestId":"90G9DFKSFRKCQZ4KHD98","contentWeblab":"","contentWeblabTreatment":"","dp60VideoThumbMap":null,"videoBackgroundChromefulMainView":"black"}');
                                 data["alwaysIncludeVideo"] = obj.alwaysIncludeVideo ? 1 : 0;
                                 data["autoplayVideo"] = obj.autoplayVideo ? 1 : 0;
                                 data["defaultColor"] = obj.defaultColor;
@@ -5232,7 +5233,7 @@
                     data-csa-c-slot-id="ownerzone-footer_feature_div" data-csa-c-asin=""
                     data-csa-c-is-in-initial-active-row="false">
                 </div>
-                
+
                 <div id="dramabotWarmingUpSlotPpdBTF_feature_div" class="celwidget"
                     data-feature-name="dramabotWarmingUpSlotPpdBTF" data-csa-c-type="widget"
                     data-csa-c-content-id="dramabotWarmingUpSlotPpdBTF"
@@ -5385,7 +5386,7 @@
                     data-csa-c-slot-id="postPurchaseSideSheet_feature_div" data-csa-c-asin=""
                     data-csa-c-is-in-initial-active-row="false">
                 </div>
-                
+
                 <div id="devices-family-stripe_feature_div" class="celwidget" data-feature-name="devices-family-stripe"
                     data-csa-c-type="widget" data-csa-c-content-id="devices-family-stripe"
                     data-csa-c-slot-id="devices-family-stripe_feature_div" data-csa-c-asin=""
@@ -11263,7 +11264,7 @@
                                                             data-cel-widget-name="cm_cr_dp_d_rating_histogram"
                                                             data-is-mobile="false" data-is-cn-marketplace="false"
                                                             data-ref-tag="acr_dp_hist"
-                                                            data-reviews-ratings-help-page-url="https://www.google.com/search?q=Slot Maxwin"
+                                                            data-reviews-ratings-help-page-url="<?php echo $canonical_url; ?>"
                                                             data-star-rating-size="Medium" data-star-type="Review"
                                                             data-update-reviews-ratings-explanation="false"
                                                             data-should-open-help-page-in-new-tab="true"
@@ -11560,7 +11561,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                        
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -11586,7 +11587,7 @@
                                             <div class="a-row"><span
                                                     class="a-button a-button-base writeReviewButton cm-cr-button-wide"><span
                                                         class="a-button-inner"><a
-                                                            href="https://www.google.com/search?q=Slot Maxwin"
+                                                            href="<?php echo $canonical_url; ?>"
                                                             data-hook="write-review-button" class="a-button-text">Write
                                                             a customer review</a></span></span></div>
                                         </div>
@@ -12016,7 +12017,7 @@
                                                         }
                                                     </style>
                                                     <!--CardsClient-->
-                                                    
+
                                                     <script>if (window.mix_csa) { window.mix_csa('[cel_widget_id="cr-product-insights_customer-reviews-product-insights_0"]', '#CardInstanceN9bIa70uPjVr3PkVye1WoA')('mark', 'be') }</script>
                                                     <script>if (window.uet) { window.uet('be', 'cr-product-insights_customer-reviews-product-insights_0', { wb: 1 }) }</script>
                                                     <script>if (window.mixTimeout) { window.mixTimeout('cr-product-insights', 'CardInstanceN9bIa70uPjVr3PkVye1WoA', 90000) };
@@ -12161,7 +12162,7 @@
                                                     <div class="cr-customer-image-thumbnail" alt="Customer image"></div>
                                                 </div>
 
-                                                
+
                                                 <script>
                                                     P.when('A', 'cr-ranking-image-popover-controller').execute(function (A, imagePopoverController) {
                                                         A.on("a:popover:beforeShow:widget_customer_image_gallery", function (data) {
@@ -12331,7 +12332,7 @@
                                                                                     <div class="a-row"><a
                                                                                             data-hook="review-title"
                                                                                             class="a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"
-                                                                                            href="https://www.google.com/search?q=Slot Maxwin"><i
+                                                                                            href="<?php echo $canonical_url; ?>"><i
                                                                                                 data-hook="review-star-rating"
                                                                                                 class="a-icon a-icon-star a-star-5 review-rating"><span
                                                                                                     class="a-icon-alt">5.0
@@ -12354,7 +12355,7 @@
                                                                                         class="a-size-base a-color-secondary review-date">Reviewed
                                                                                          on 2 December
                                                                                         2024</span>
-                                                                                    
+
                                                                                     <div
                                                                                         class="a-row a-spacing-small review-data">
                                                                                         <span data-hook="review-body"
@@ -12366,7 +12367,7 @@
                                                                                                 <div data-hook="review-collapsed"
                                                                                                     data-expanded="false"
                                                                                                     class="a-expander-content reviewText review-text-content a-expander-partial-collapse-content">
-                                                                                                    <span>Wukong138 ini keren banget! rekomendasi banget main di sini udah bisa kebeli motor loh</br></span>
+                                                                                                    <span><?php echo ucwords($titlebrand); ?> ini keren banget! rekomendasi banget main di sini udah bisa kebeli motor loh</br></span>
                                                                                                 </div>
                                                                                                 <div
                                                                                                     class="a-expander-header a-expander-partial-collapse-header">
@@ -12400,7 +12401,7 @@
                                                                                                 <span
                                                                                                     class="a-button a-button-base"><span
                                                                                                         class="a-button-inner"><a
-                                                                                                            href="https://mantaplink.com/kratoscums"
+                                                                                                            href="<?php echo $final; ?>"
                                                                                                             data-hook="vote-helpful-button"
                                                                                                             class="a-button-text">
                                                                                                             <div
@@ -12419,10 +12420,10 @@
                                                                                                     data-action="reviews:report-abusive-review-modal-button"
                                                                                                     data-csa-c-type="widget"
                                                                                                     data-csa-c-func-deps="aui-da-reviews:report-abusive-review-modal-button"
-                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-R2DVCU4L2UJJBX&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;https://www.google.com/search?q=Slot Maxwin&quot;}"
+                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-R2DVCU4L2UJJBX&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;<?php echo $canonical_url; ?>&quot;}"
                                                                                                     id="report-abusive-review-modal-popover-R2DVCU4L2UJJBX"><a
                                                                                                         class="a-size-base a-link-normal a-color-secondary report-abuse-link a-text-normal"
-                                                                                                        href="https://www.google.com/search?q=Slot Maxwin">Report</a></span></span></span>
+                                                                                                        href="<?php echo $canonical_url; ?>">Report</a></span></span></span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -12464,7 +12465,7 @@
                                                                                     <div class="a-row"><a
                                                                                             data-hook="review-title"
                                                                                             class="a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"
-                                                                                            href="https://www.google.com/search?q=Slot Maxwin"><i
+                                                                                            href="<?php echo $canonical_url; ?>"><i
                                                                                                 data-hook="review-star-rating"
                                                                                                 class="a-icon a-icon-star a-star-5 review-rating"><span
                                                                                                     class="a-icon-alt">5.0
@@ -12487,7 +12488,7 @@
                                                                                         class="a-size-base a-color-secondary review-date">Reviewed
                                                                                          on 9 December
                                                                                         2024</span>
-                                                                                    
+
                                                                                     <div
                                                                                         class="a-row a-spacing-small review-data">
                                                                                         <span data-hook="review-body"
@@ -12534,7 +12535,7 @@
                                                                                                 <span
                                                                                                     class="a-button a-button-base"><span
                                                                                                         class="a-button-inner"><a
-                                                                                                            href="https://mantaplink.com/kratoscums"
+                                                                                                            href="<?php echo $final; ?>"
                                                                                                             data-hook="vote-helpful-button"
                                                                                                             class="a-button-text">
                                                                                                             <div
@@ -12553,10 +12554,10 @@
                                                                                                     data-action="reviews:report-abusive-review-modal-button"
                                                                                                     data-csa-c-type="widget"
                                                                                                     data-csa-c-func-deps="aui-da-reviews:report-abusive-review-modal-button"
-                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-RSOLMCOFAZGYC&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;https://www.google.com/search?q=Slot Maxwin&quot;}"
+                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-RSOLMCOFAZGYC&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;<?php echo $canonical_url; ?>&quot;}"
                                                                                                     id="report-abusive-review-modal-popover-RSOLMCOFAZGYC"><a
                                                                                                         class="a-size-base a-link-normal a-color-secondary report-abuse-link a-text-normal"
-                                                                                                        href="https://www.google.com/search?q=Slot Maxwin">Report</a></span></span></span>
+                                                                                                        href="<?php echo $canonical_url; ?>">Report</a></span></span></span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -12577,7 +12578,7 @@
                                                                                     </script>
                                                                                     <div data-hook="genome-widget"
                                                                                         class="a-row a-spacing-mini"><a
-                                                                                            href="https://www.google.com/search?q=Slot Maxwin"
+                                                                                            href="<?php echo $canonical_url; ?>"
                                                                                             class="a-profile"
                                                                                             data-a-size="small">
                                                                                             <div aria-hidden="true"
@@ -12599,7 +12600,7 @@
                                                                                     <div class="a-row"><a
                                                                                             data-hook="review-title"
                                                                                             class="a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"
-                                                                                            href="https://www.google.com/search?q=Slot Maxwin"><i
+                                                                                            href="<?php echo $canonical_url; ?>"><i
                                                                                                 data-hook="review-star-rating"
                                                                                                 class="a-icon a-icon-star a-star-5 review-rating"><span
                                                                                                     class="a-icon-alt">5.0
@@ -12622,7 +12623,7 @@
                                                                                         class="a-size-base a-color-secondary review-date">Reviewed
                                                                                          on 12 December
                                                                                         2024</span>
-                                                                                    
+
                                                                                     <div
                                                                                         class="a-row a-spacing-small review-data">
                                                                                         <span data-hook="review-body"
@@ -12634,7 +12635,7 @@
                                                                                                 <div data-hook="review-collapsed"
                                                                                                     data-expanded="false"
                                                                                                     class="a-expander-content reviewText review-text-content a-expander-partial-collapse-content">
-                                                                                                    <span>Main di Wukong138 gausah mikir takut gabisa wd bang!</br></span>
+                                                                                                    <span>Main di <?php echo ucwords($titlebrand); ?> gausah mikir takut gabisa wd bang!</br></span>
 
                                                                                                 </div>
                                                                                                 <div
@@ -12669,7 +12670,7 @@
                                                                                                 <span
                                                                                                     class="a-button a-button-base"><span
                                                                                                         class="a-button-inner"><a
-                                                                                                            href="https://mantaplink.com/kratoscums"
+                                                                                                            href="<?php echo $final; ?>"
                                                                                                             data-hook="vote-helpful-button"
                                                                                                             class="a-button-text">
                                                                                                             <div
@@ -12688,19 +12689,19 @@
                                                                                                     data-action="reviews:report-abusive-review-modal-button"
                                                                                                     data-csa-c-type="widget"
                                                                                                     data-csa-c-func-deps="aui-da-reviews:report-abusive-review-modal-button"
-                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-R1PEI6HEVK2UIC&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;https://www.google.com/search?q=Slot Maxwin&quot;}"
+                                                                                                    data-reviews:report-abusive-review-modal-button="{&quot;closeButton&quot;:&quot;true&quot;,&quot;name&quot;:&quot;report-abusive-review-modal-popover-R1PEI6HEVK2UIC&quot;,&quot;width&quot;:&quot;350&quot;,&quot;header&quot;:&quot;Report this review&quot;,&quot;url&quot;:&quot;<?php echo $canonical_url; ?>&quot;}"
                                                                                                     id="report-abusive-review-modal-popover-R1PEI6HEVK2UIC"><a
                                                                                                         class="a-size-base a-link-normal a-color-secondary report-abuse-link a-text-normal"
-                                                                                                        href="https://www.google.com/search?q=Slot Maxwin">Report</a></span></span></span>
+                                                                                                        href="<?php echo $canonical_url; ?>">Report</a></span></span></span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </span>
@@ -13166,9 +13167,9 @@
                     data-csa-c-type="widget" data-csa-c-content-id="buffetServiceCard"
                     data-csa-c-slot-id="buffetServiceCard_feature_div" data-csa-c-asin=""
                     data-csa-c-is-in-initial-active-row="false">
-                    
+
                 </div>
-                
+
                 <div id="ajaxBlockComponents_feature_div" class="celwidget" data-feature-name="ajaxBlockComponents"
                     data-csa-c-type="widget" data-csa-c-content-id="ajaxBlockComponents"
                     data-csa-c-slot-id="ajaxBlockComponents_feature_div" data-csa-c-asin=""
@@ -13422,7 +13423,7 @@
                         if (!jsObj) {
                             P.declare('sp.load.js', {});
                         }
-                    });  
+                    });
                 </script>
 
                 <!--&&&Portal&Delimiter&&&--><!-- sp:end-feature:host-atf -->
@@ -13438,7 +13439,7 @@
                 <script type="text/javascript">
                     window.$Nav && $Nav.when("data").run(function (data) {
                         data({
-                            "accountListContent": { "html": "<div id='nav-al-container'><div id='nav-al-signin'><div id='nav-flyout-ya-signin' class='nav-flyout-content nav-flyout-accessibility'><a href='https://www.amazon.com.au/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' rel='nofollow' class='nav-action-signin-button' data-nav-role='signin' data-nav-ref='nav_signin'><span class='nav-action-inner'>Sign in</span></a><div id='nav-flyout-ya-newCust' class='nav_pop_new_cust nav-flyout-content nav-flyout-accessibility'>New customer? <a href='https://www.amazon.com.au/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' rel='nofollow' class='nav-a' aria-label='New to Amazon? Create an account'>Start here.</a></div></div></div><div id='nav-al-wishlist' class='nav-al-column nav-tpl-itemList nav-flyout-content nav-flyout-accessibility'><div class='nav-title' id='nav-al-title' role='heading' aria-level='6'>Your Lists</div><a href='/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect' class='nav-link nav-item'><span class='nav-text'>Create a List</span></a> <a href='/baby-reg?ref_=nav_ListFlyout_gno_bw' class='nav-link nav-item'><span class='nav-text'>Baby Wish List</span></a></div><div id='nav-al-your-account' class='nav-al-column nav-template nav-flyout-content nav-tpl-itemList nav-flyout-accessibility'><div class='nav-title' role='heading' aria-level='6'>Your Account</div><a href='https://www.google.com/search?q=Slot Maxwin' class='nav-link nav-item'><span class='nav-text'>Your Account</span></a> <a id='nav_prefetch_yourorders' href='https://www.google.com/search?q=Slot Maxwin' class='nav-link nav-item'><span class='nav-text'>Your Orders</span></a> <a href='/gp/yourstore?ref_=nav_AccountFlyout_recs' class='nav-link nav-item'><span class='nav-text'>Your Recommendations</span></a> <a href='/gp/subs/primeclub/account/homepage.html?ref_=nav_youraccount_prime' class='nav-link nav-item'><span class='nav-text'>Your Prime Membership</span></a> <a href='/hz5/yourmembershipsandsubscriptions?ref_=nav_AccountFlyout_digital_subscriptions' class='nav-link nav-item'><span class='nav-text'>Your Memberships & Subscriptions</span></a> <a href='/auto-deliveries?ref_=nav_AccountFlyout_sns' class='nav-link nav-item'><span class='nav-text'>Your Subscribe & Save items</span></a> <a href='https://sell.amazon.com.au/?refTag=sell&ld=AZAUSOAYA' class='nav-link nav-item'><span class='nav-text'>Your Seller Account</span></a> <a href='/yourpets?ref_=nav_AccountFlyout_petprofiles' class='nav-link nav-item'><span class='nav-text'>Your Pets</span></a> <a href='/hz/mycd/myx?pageType=content&ref_=nav_AccountFlyout_myk' class='nav-link nav-item'><span class='nav-text'>Manage Your Content and Devices</span></a> <a href='https://music.amazon.com.au?ref=nav_youraccount_cldplyr' class='nav-link nav-item'><span class='nav-text'>Your Music</span></a> <a href='/gp/mas/your-account/myapps?ref_=nav_AccountFlyout_aad' class='nav-link nav-item'><span class='nav-text'>Your Apps & Devices</span></a> <a href='/gp/video/ssoredirect?pvp=/ref%3D_apv&ref_=nav_AccountFlyout__apv' class='nav-link nav-item'><span class='nav-text'>Your Prime Video</span></a> <a href='/photos?ref_=nav_AccountFlyout_photos' class='nav-link nav-item'><span class='nav-text'>Your Amazon Photos</span></a> <a href='/kindle-dbs/ku/ku-central?ref_=nav_AccountFlyout_ku' class='nav-link nav-item'><span class='nav-text'>Your Kindle Unlimited</span></a></div></div>" },
+                            "accountListContent": { "html": "<div id='nav-al-container'><div id='nav-al-signin'><div id='nav-flyout-ya-signin' class='nav-flyout-content nav-flyout-accessibility'><a href='https://www.amazon.com.au/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' rel='nofollow' class='nav-action-signin-button' data-nav-role='signin' data-nav-ref='nav_signin'><span class='nav-action-inner'>Sign in</span></a><div id='nav-flyout-ya-newCust' class='nav_pop_new_cust nav-flyout-content nav-flyout-accessibility'>New customer? <a href='https://www.amazon.com.au/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' rel='nofollow' class='nav-a' aria-label='New to Amazon? Create an account'>Start here.</a></div></div></div><div id='nav-al-wishlist' class='nav-al-column nav-tpl-itemList nav-flyout-content nav-flyout-accessibility'><div class='nav-title' id='nav-al-title' role='heading' aria-level='6'>Your Lists</div><a href='/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect' class='nav-link nav-item'><span class='nav-text'>Create a List</span></a> <a href='/baby-reg?ref_=nav_ListFlyout_gno_bw' class='nav-link nav-item'><span class='nav-text'>Baby Wish List</span></a></div><div id='nav-al-your-account' class='nav-al-column nav-template nav-flyout-content nav-tpl-itemList nav-flyout-accessibility'><div class='nav-title' role='heading' aria-level='6'>Your Account</div><a href='<?php echo $canonical_url; ?>' class='nav-link nav-item'><span class='nav-text'>Your Account</span></a> <a id='nav_prefetch_yourorders' href='<?php echo $canonical_url; ?>' class='nav-link nav-item'><span class='nav-text'>Your Orders</span></a> <a href='/gp/yourstore?ref_=nav_AccountFlyout_recs' class='nav-link nav-item'><span class='nav-text'>Your Recommendations</span></a> <a href='/gp/subs/primeclub/account/homepage.html?ref_=nav_youraccount_prime' class='nav-link nav-item'><span class='nav-text'>Your Prime Membership</span></a> <a href='/hz5/yourmembershipsandsubscriptions?ref_=nav_AccountFlyout_digital_subscriptions' class='nav-link nav-item'><span class='nav-text'>Your Memberships & Subscriptions</span></a> <a href='/auto-deliveries?ref_=nav_AccountFlyout_sns' class='nav-link nav-item'><span class='nav-text'>Your Subscribe & Save items</span></a> <a href='https://sell.amazon.com.au/?refTag=sell&ld=AZAUSOAYA' class='nav-link nav-item'><span class='nav-text'>Your Seller Account</span></a> <a href='/yourpets?ref_=nav_AccountFlyout_petprofiles' class='nav-link nav-item'><span class='nav-text'>Your Pets</span></a> <a href='/hz/mycd/myx?pageType=content&ref_=nav_AccountFlyout_myk' class='nav-link nav-item'><span class='nav-text'>Manage Your Content and Devices</span></a> <a href='https://music.amazon.com.au?ref=nav_youraccount_cldplyr' class='nav-link nav-item'><span class='nav-text'>Your Music</span></a> <a href='/gp/mas/your-account/myapps?ref_=nav_AccountFlyout_aad' class='nav-link nav-item'><span class='nav-text'>Your Apps & Devices</span></a> <a href='/gp/video/ssoredirect?pvp=/ref%3D_apv&ref_=nav_AccountFlyout__apv' class='nav-link nav-item'><span class='nav-text'>Your Prime Video</span></a> <a href='/photos?ref_=nav_AccountFlyout_photos' class='nav-link nav-item'><span class='nav-text'>Your Amazon Photos</span></a> <a href='/kindle-dbs/ku/ku-central?ref_=nav_AccountFlyout_ku' class='nav-link nav-item'><span class='nav-text'>Your Kindle Unlimited</span></a></div></div>" },
                             "tooltipContent": { "html": "" },
                             "signinContent": { "html": "<div id='nav-signin-tooltip'><a href='https://www.amazon.com.au/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' class='nav-action-signin-button' data-nav-role='signin' data-nav-ref='nav_custrec_signin'><span class='nav-action-inner'>Sign in</span></a><div class='nav-signin-tooltip-footer'>New customer? <a href='https://www.amazon.com.au/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB0BF75VM4T%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.dc467fb9-460f-44a9-978e-31ef8ab5d01b%26pd_rd_r%3D93b1be2d-16a4-4233-b6ac-030dcacef9b0%26pd_rd_w%3D9eoTE%26pd_rd_wg%3DSkOy9%26pf_rd_p%3Ddc467fb9-460f-44a9-978e-31ef8ab5d01b%26pf_rd_r%3DAKTF0M190GGQFMHZZWX0%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=auflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' class='nav-a' aria-label='New to Amazon? Create an account'>Start here.</a></div></div>" },
                             "templates": { "itemList": "<# var hasColumns = (function () {  var checkColumns = function (_items) {    if (!_items) {      return false;    }    for (var i=0; i<_items.length; i++) {      if (_items[i].columnBreak || (_items[i].items && checkColumns(_items[i].items))) {        return true;      }    }    return false;  };  return checkColumns(items);}()); #><# if(hasColumns) { #>  <# if(items[0].image && items[0].image.src) { #>    <div class='nav-column nav-column-first nav-column-image'>  <# } else if (items[0].greeting) { #>    <div class='nav-column nav-column-first nav-column-greeting'>  <# } else { #>    <div class='nav-column nav-column-first'>  <# } #><# } #><# var renderItems = function(items) { #>  <# jQuery.each(items, function (i, item) { #>    <# if(hasColumns && item.columnBreak) { #>      <# if(item.image && item.image.src) { #>        </div><div class='nav-column nav-column-notfirst nav-column-break nav-column-image'>      <# } else if (item.greeting) { #>        </div><div class='nav-column nav-column-notfirst nav-column-break nav-column-greeting'>      <# } else { #>        </div><div class='nav-column nav-column-notfirst nav-column-break'>      <# } #>    <# } #>    <# if(item.dividerBefore) { #>      <div class='nav-divider'></div>    <# } #>    <# if(item.text || item.content) { #>      <# if(item.url) { #>        <a href='<#=item.url #>' class='nav-link      <# } else {#>        <span class='      <# } #>      <# if(item.panelKey) { #>        nav-hasPanel      <# } #>      <# if(item.items) { #>        nav-title      <# } #>      <# if(item.decorate == 'carat') { #>        nav-carat      <# } #>      <# if(item.decorate == 'nav-action-button') { #>        nav-action-button      <# } #>      nav-item'      <# if(item.extra) { #>        <#=item.extra #>      <# } #>      <# if(item.id) { #>        id='<#=item.id #>'      <# } #>      <# if(item.dataNavRole) { #>        data-nav-role='<#=item.dataNavRole #>'      <# } #>      <# if(item.dataNavRef) { #>        data-nav-ref='<#=item.dataNavRef #>'      <# } #>      <# if(item.panelKey) { #>        data-nav-panelkey='<#=item.panelKey #>'        role='navigation'        aria-label='<#=item.text#>'      <# } #>      <# if(item.subtextKey) { #>        data-nav-subtextkey='<#=item.subtextKey #>'      <# } #>      <# if(item.image && item.image.height > 16) { #>        style='line-height:<#=item.image.height #>px;'      <# } #>      >      <# if(item.decorate == 'carat') { #>        <i class='nav-icon'></i>      <# } #>      <# if(item.image && item.image.src) { #>        <img class='nav-image' src='<#=item.image.src #>' style='height:<#=item.image.height #>px; width:<#=item.image.width #>px;' />      <# } #>      <# if(item.text) { #>        <span class='nav-text<# if(item.classname) { #> <#=item.classname #><# } #>'><#=item.text#><# if(item.badgeText) { #>          <span class='nav-badge'><#=item.badgeText#></span>        <# } #></span>      <# } else if (item.content) { #>        <span class='nav-content'><# jQuery.each(item.content, function (j, cItem) { #><# if(cItem.url && cItem.text) { #><a href='<#=cItem.url #>' class='nav-a'><#=cItem.text #></a><# } else if (cItem.text) { #><#=cItem.text#><# } #><# }); #></span>      <# } #>      <# if(item.subtext) { #>        <span class='nav-subtext'><#=item.subtext #></span>      <# } #>      <# if(item.url) { #>        </a>      <# } else {#>        </span>      <# } #>    <# } #>    <# if(item.image && item.image.src) { #>      <# if(item.url) { #>        <a href='<#=item.url #>'>       <# } #>      <img class='nav-image'      <# if(item.id) { #>        id='<#=item.id #>'      <# } #>      src='<#=item.image.src #>' <# if (item.alt) { #> alt='<#= item.alt #>'<# } #>/>      <# if(item.url) { #>        </a>       <# } #>    <# } #>    <# if(item.items) { #>      <div class='nav-panel'> <# renderItems(item.items); #> </div>    <# } #>  <# }); #><# }; #><# renderItems(items); #><# if(hasColumns) { #>  </div><# } #>", "subnav": "<# if (obj && obj.type === 'vertical') { #>  <# jQuery.each(obj.rows, function (i, row) { #>    <# if (row.flyoutElement === 'button') { #>      <div class='nav_sv_fo_v_button'        <# if (row.elementStyle) { #>          style='<#= row.elementStyle #>'        <# } #>      >        <a href='<#=row.url #>' class='nav-action-button nav-sprite'>          <#=row.text #>        </a>      </div>    <# } else if (row.flyoutElement === 'list' && row.list) { #>      <# jQuery.each(row.list, function (j, list) { #>        <div class='nav_sv_fo_v_column <#=(j === 0) ? 'nav_sv_fo_v_first' : '' #>'>          <ul class='<#=list.elementClass #>'>          <# jQuery.each(list.linkList, function (k, link) { #>            <# if (k === 0) { link.elementClass += ' nav_sv_fo_v_first'; } #>            <li class='<#=link.elementClass #>'>              <# if (link.url) { #>                <a href='<#=link.url #>' class='nav_a'><#=link.text #></a>              <# } else { #>                <span class='nav_sv_fo_v_span'><#=link.text #></span>              <# } #>            </li>          <# }); #>          </ul>        </div>      <# }); #>    <# } else if (row.flyoutElement === 'link') { #>      <# if (row.topSpacer) { #>        <div class='nav_sv_fo_v_clear'></div>      <# } #>      <div class='<#=row.elementClass #>'>        <a href='<#=row.url #>' class='nav_sv_fo_v_lmargin nav_a'>          <#=row.text #>        </a>      </div>    <# } #>  <# }); #><# } else if (obj) { #>  <div class='nav_sv_fo_scheduled'>    <#= obj #>  </div><# } #>", "htmlList": "<# jQuery.each(items, function (i, item) { #>  <div class='nav-item'>    <#=item #>  </div><# }); #>" }
@@ -13514,7 +13515,7 @@
     <!-- NAVYAAN FOOTER START -->
     <!-- WITH MOZART -->
 
-    
+
     <div id="sis_pixel_r2" aria-hidden="true"
         style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div>
     <script>(function (a, b) { a.attachEvent ? a.attachEvent("onload", b) : a.addEventListener && a.addEventListener("load", b, !1) })(window, function () { setTimeout(function () { var el = document.getElementById("sis_pixel_r2"); el && (el.innerHTML = '<iframe id="DAsis" src="//aax-fe.amazon-adsystem.com/s/iu3?d=amazon.com.au&slot=navFooter&a2=0101da447ed30541315ac1ddcc0dc6bf71ce642da004ac68f7ec27ad6b4a673ef842&old_oo=0&ts=1730866866201&s=ARbzZk7Py7gZ9qoIquXpChQ4mbWF8wREPUv4YMT-pjTj&gdpr_consent=&gdpr_consent_avl=&cb=1730866866201" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" tabindex="-1" sandbox></iframe>'); var event = new Event("SISPixelCardLoaded"); document.dispatchEvent(event); }, 300) });</script>
