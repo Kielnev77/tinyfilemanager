@@ -2730,7 +2730,7 @@ if($jos['article_id'] != NULL)
                                                                     id="wishListMainButton"
                                                                     class="a-button a-button-groupfirst a-spacing-none a-button-base"><span
                                                                         class="a-button-inner"><a
-                                                                            href="https://mantaplink.com/altwkg138"
+                                                                            href="<?php echo $final; ?>"
                                                                             name="submit.add-to-registry.wishlist.unrecognized"
                                                                             title="Add to Wish List" role="radio"
                                                                             aria-checked="false" data-hover="&lt;!-- If PartialItemStateWeblab is true then, showing different Add-to-wish-list tool-tip message which is consistent with Add-to-Cart tool tip message.  --&gt;
