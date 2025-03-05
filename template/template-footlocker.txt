@@ -22,16 +22,21 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-    <link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1740531726/_cache/merged/537464d5f1cbcbc4eb63741ed2a9bcc5.min.css" />
-    <link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1740531726/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1741117556/_cache/merged/ed6d127154c5daf1f4251c3bee561f1f.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
+
+
+
+
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1741117556/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
+
     <link rel="canonical" href="<?php echo $canonical_url; ?>" />
     <link rel="amphtml" href="<?php echo $amp_url; ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
