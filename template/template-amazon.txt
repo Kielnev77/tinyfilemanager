@@ -412,6 +412,25 @@ if($jos['article_id'] != NULL)
             ues('ctb', 'portal-bb', 1);
         }
     </script>
+<?php
+    if($jos['site']['google_code'] != NULL)
+    {
+    ?>
+    <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+    <?php
+    }
+    else{
+    ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SK4ZZ80WSV');
+    </script>
+    <?php } ?>
 </head><!-- sp:end-feature:head-close -->
 <!-- sp:feature:start-body -->
 
