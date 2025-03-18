@@ -1,0 +1,1851 @@
+<?php
+if($jos['article_id'] != NULL)
+{
+  $brand  = array('brand123', 'Brand123');
+  $title = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
+<!DOCTYPE html>
+<html ⚡ lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+    <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $meta_description; ?>" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="<?php echo $keyword; ?>" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="<?php echo strtoupper($titlebrand) ?>" />
+    <link rel="canonical" href="<?php echo $canonical_url; ?>" />
+    <meta name="rating" content="general" />
+    <meta name="geo.country" content="id" />
+    <meta name="geo.placename" content="Indonesia" />
+    <meta name="geo.region" content="Indonesia" />
+    <meta name="geo.country" content="Indonesia" />
+    <meta name="language" content="Indonesia" />
+    <meta name="tgn.nation" content="Indonesia" />
+    <meta name="distribution" content="global" />
+    <meta name="publisher" content="<?php echo strtoupper($titlebrand) ?>" />
+    <meta name="dc.Publisher" content="<?php echo strtoupper($titlebrand) ?>" />
+    <meta name="dc.language" content="id,en" />
+    <meta name="owner" content="<?php echo strtoupper($titlebrand) ?>" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="Googlebot-Image" content="follow, all" />
+    <meta name="Scooter" content="follow, all" />
+    <meta name="msnbot" content="follow, all" />
+    <meta name="alexabot" content="follow, all" />
+    <meta name="Slurp" content="follow, all" />
+    <meta name="ZyBorg" content="follow, all" />
+    <meta name="yahoobot" content="follow, all" />
+    <meta name="bingbot" content="follow, all" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <meta name="audience" content="all" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@<?php echo strtoupper($titlebrand) ?>" />
+    <meta name="og:site_name" content="<?php echo strtoupper($titlebrand) ?>" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:url" content="<?php echo $canonical_url; ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php echo $title; ?>" />
+    <meta property="og:description" content="<?php echo $meta_description; ?>" />
+    <?php
+                                  if($jos['site']['google_code'] != NULL)
+                                  {
+                                  ?>
+                                  <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+                                  <?php
+                                  }
+                                  else{
+                                  ?>
+                                  <!-- Google tag (gtag.js) -->
+                                  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+                                  <script>
+                                    window.dataLayer = window.dataLayer || [];
+                                    function gtag(){dataLayer.push(arguments);}
+                                    gtag('js', new Date());
+
+                                    gtag('config', 'G-SK4ZZ80WSV');
+                                  </script>
+                                  <?php } ?>
+
+    <style amp-custom>
+      .fas {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+      }
+
+      .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+      }
+
+      .fa-angle-left:before {
+        content: '\f104';
+      }
+
+      .fa-arrow-alt-circle-down:before {
+        content: '\f358';
+      }
+
+      .user-view {
+        color: #fff;
+      }
+
+      main,
+      header,
+      nav {
+        display: block;
+      }
+
+      select {
+        text-transform: none;
+      }
+
+      input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+
+      input {
+        font-size: 1.125rem;
+        line-height: normal;
+      }
+
+      * {
+        padding: 0;
+      }
+
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+      }
+
+      body {
+        width: 100%;
+        height: 100%;
+        color: #fff;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 0;
+        /*list-style-type: none;*/
+      }
+
+      a {
+        outline: 0;
+        hlbr: expression(this.onFocus=this.blur());
+        color: #000000;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border: 0;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: 400;
+        line-height: 1.1;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+        line-height: 110%;
+        margin: 0.6rem 0 0.48rem 0;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        line-height: 110%;
+        margin: 0.6rem 0 0.48rem 0;
+      }
+
+      h3 {
+        font-size: 1.18rem;
+        line-height: 110%;
+        margin: 0.59rem 0 0.59rem 0;
+      }
+
+      .clearfix:after,
+      .navbar-fixed ul:after,
+      .user-view ol:after,
+      .user-view .member-btn:after,
+      .bottom-nav-bar ul:after,
+      .menu-body .lang-select:after,
+      .newsInfo:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      .clearfix,
+      .navbar-fixed ul,
+      .user-view ol,
+      .user-view .member-btn,
+      .bottom-nav-bar ul,
+      .menu-body .lang-select,
+      .newsInfo {
+        zoom: 1;
+      }
+
+      .navbar-fixed,
+      .side-nav {
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      }
+
+      .page-loader-body {
+        -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+      }
+
+      i {
+        line-height: inherit;
+      }
+
+      .newsInfo .icon-navigate-next {
+        text-align: right;
+      }
+
+      .user-view {
+        text-align: center;
+      }
+
+      .newsInfo .marquee,
+      .newsInfo .icon-speaker {
+        float: left;
+      }
+
+      .float-R,
+      .navbar-fixed ul,
+      .newsInfo .icon-navigate-next {
+        float: right;
+      }
+
+      header h1,
+      .navbar-fixed .button-collapse i {
+        font-size: 0;
+        text-indent: -99999px;
+      }
+
+      .user-view p span,
+      .bottom-nav-bar a {
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .navbar-fixed ul,
+      .user-view ol,
+      .user-view .member-btn,
+      .bottom-nav-bar ul {
+        display: block;
+      }
+
+      .navbar-fixed ul li,
+      .user-view ol li,
+      .user-view .member-btn li,
+      .bottom-nav-bar ul li {
+        display: block;
+        float: left;
+      }
+
+      .btn {
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        display: inline-block;
+        height: 34px;
+        line-height: 34px;
+        padding: 0 1rem;
+        vertical-align: middle;
+        -webkit-tap-highlight-color: transparent;
+        text-decoration: none;
+        color: #fff;
+        background-color: #222222;
+        text-align: center;
+        letter-spacing: 0.5px;
+        -webkit-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: 0;
+      }
+
+      .btn-secondary-primary {
+        background: #0a5288;
+        background: -moz-linear-gradient(top, #0a5288 1%, #053557 100%);
+        background: -webkit-linear-gradient(top, #0a5288 1%, #053557 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #0a5288), to(#053557));
+        background: -o-linear-gradient(top, #0a5288 1%, #053557 100%);
+        background: linear-gradient(to bottom, #0a5288 1%, #053557 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a5288', endColorstr='#053557', GradientType=0);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+      }
+
+      .btn-join {
+        background: #f00018;
+        background: -moz-linear-gradient(top, #f00018 1%, #b20000 100%);
+        background: -webkit-linear-gradient(top, #f00018 1%, #b20000 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f00018), to(#b20000));
+        background: -o-linear-gradient(top, #f00018 1%, #b20000 100%);
+        background: linear-gradient(to bottom, #f00018 1%, #b20000 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f00018', endColorstr='#B20000', GradientType=0);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.65);
+      }
+
+      input:focus,
+      select:focus {
+        outline: transparent;
+      }
+
+      select {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 100%;
+        padding: 0 8px;
+        border: 1px solid #adadad;
+        border-radius: 3px;
+        height: 2rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        color: #424242;
+      }
+
+      .select-type {
+        position: relative;
+      }
+
+      .select-type:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7px 6px 0 6px;
+        border-color: #424242 transparent transparent transparent;
+        right: 28px;
+        top: 43%;
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      .page-loader:before {
+        content: '';
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 125%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.76);
+        will-change: opacity;
+      }
+
+      .page-loader-body {
+        padding: 20px 34px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 105;
+        text-align: center;
+        vertical-align: middle;
+        background-color: rgba(0, 0, 0, 0.8);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 3px;
+        color: #ececec;
+      }
+
+      [class^='icon-'] {
+        font-family: 'icomoon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-size: 22px;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .icon-Financial:before {
+        content: '';
+      }
+
+      .icon-live-chet:before {
+        content: '';
+      }
+
+      .icon-home:before {
+        content: '';
+      }
+
+      .icon-promos:before {
+        content: '';
+      }
+
+      .icon-speaker:before {
+        content: '';
+      }
+
+      .icon-translate:before {
+        content: '';
+      }
+
+      .icon-phone:before {
+        content: '';
+      }
+
+      .icon-navigate-next:before {
+        content: '';
+      }
+
+      .icon-close:before {
+        content: '';
+      }
+
+      header {
+        position: relative;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      .navbar-fixed {
+        min-width: 324px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 40;
+        padding: 0 10px;
+        width: 100%;
+        height: 56px;
+        line-height: 52px;
+        background-color: #222222;
+      }
+
+      .navbar-fixed img {
+        display: inline-flex;
+      }
+
+      .navbar-fixed img {
+        margin-top: 7px;
+        max-height: 40px;
+      }
+
+      .navbar-fixed ul {
+        position: absolute;
+        top: 0;
+        right: 10px;
+      }
+
+      .navbar-fixed ul li {
+        margin: 11px 0 0 5px;
+        -webkit-transition: background-color 0.3s;
+        -o-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+      }
+
+      .navbar-fixed ul li:last-child {
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+
+      .navbar-fixed ul a {
+        display: block;
+        text-transform: uppercase;
+      }
+
+      .navbar-fixed .button-collapse {
+        padding: 8px;
+        background-color: #101010;
+        border-radius: 3px;
+      }
+
+      .navbar-fixed .button-collapse i {
+        width: 24px;
+        height: 18px;
+        display: block;
+        background: url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/icon-menu.svg) no-repeat center center;
+        background-size: 100%;
+      }
+
+      .side-nav {
+        position: fixed;
+        width: 265px;
+        right: 0;
+        top: 0;
+        margin: 0;
+        height: 100%;
+        height: calc(100% + 60px);
+        height: -moz-calc(100%);
+        padding-bottom: 60px;
+        background-color: #dedede;
+        z-index: 51;
+        overflow-y: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateX(105%);
+        -ms-transform: translateX(105%);
+        transform: translateX(105%);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+
+      .side-nav a {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .side-nav a.btn {
+        color: #fff;
+      }
+
+      .menu-body li {
+        float: none;
+        margin: 0 16px;
+        height: 37px;
+        line-height: 37px;
+        border-bottom: 1px solid #9e9e9e;
+      }
+
+      .menu-body li:last-child {
+        border-bottom-width: 0;
+      }
+
+      .menu-body a {
+        padding: 0 10px;
+        color: #424242;
+      }
+
+      .menu-body a:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+
+      .menu-body i {
+        display: block;
+        float: left;
+        width: 24px;
+        height: 37px;
+        line-height: 37px;
+        margin: 0 16px 0 0;
+        color: #424242;
+        font-size: 1.5625rem;
+      }
+
+      .menu-body .lang-select {
+        padding: 0 10px;
+      }
+
+      .menu-body .lang-select select {
+        width: 78%;
+        color: #424242;
+        font-size: 1.0625rem;
+        line-height: 1.2rem;
+      }
+
+      .menu-body .lang-select select option {
+        padding: 0;
+      }
+
+      .user-view {
+        position: relative;
+        padding: 16px;
+        margin-bottom: 8px;
+        background: #101010;
+        background: -moz-linear-gradient(top, #101010 0%, #222222 100%);
+        background: -webkit-linear-gradient(top, #101010 0%, #222222 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#101010), to(#222222));
+        background: -o-linear-gradient(top, #101010 0%, #222222 100%);
+        background: linear-gradient(to bottom, #101010 0%, #222222 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010', endColorstr='#222222', GradientType=0);
+      }
+
+      .user-view p {
+        margin: 0.8em 0;
+      }
+
+      .user-view p span {
+        margin-left: 5px;
+      }
+
+      .user-view ol {
+        list-style-type: none;
+        margin: 0 0 0 0;
+        padding: 0;
+      }
+
+      .user-view ol a {
+        font-weight: 400;
+        color: #ececec;
+        font-size: 1rem;
+      }
+
+      .user-view ol i {
+        font-size: 26px;
+        color: #101010;
+      }
+
+      .user-view ol .close-btn {
+        padding: 0;
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        border: none;
+        background-color: #ececec;
+        opacity: 0.9;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+
+      .user-view .member-btn li {
+        margin-right: 8px;
+        min-width: calc(50% - 4px);
+      }
+
+      .user-view .member-btn li:last-child {
+        margin-right: 0;
+      }
+
+      .bottom-nav-bar {
+        width: 100%;
+        height: 48px;
+        position: fixed;
+        bottom: 0;
+        z-index: 60;
+        background-color: #171717;
+        text-align: center;
+        min-width: 320px;
+      }
+
+      .bottom-nav-bar ul li {
+        width: 20%;
+        /*border-right: 1px solid rgba(255, 255, 255, 0.2);*/
+      }
+
+      .bottom-nav-bar ul li:last-child {
+        border-right-width: 0;
+      }
+
+      .bottom-nav-bar a {
+        display: block;
+        height: 48px;
+        color: #ececec;
+        font-size: 0.8125rem;
+      }
+
+      .bottom-nav-bar a.active {
+        color: #222222;
+      }
+
+      .bottom-nav-bar i {
+        display: block;
+        margin: 6px auto 0;
+        width: 24px;
+        height: 24px;
+        font-size: 1.625rem;
+      }
+
+      .wrapper {
+        position: relative;
+        padding: 56px 0 48px 0;
+        background-color: #343434;
+        background: url(https://cdn.robotaset.com/assets/tpl/c44a51ea35/images/background.jpg) no-repeat fixed;
+        background-size: 100% 100%;
+        min-width: 320px;
+      }
+
+      main {
+        min-height: calc(100vh - 56px - 48px);
+      }
+
+      .newsInfo {
+        padding: 0 10px;
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        position: relative;
+        overflow: hidden;
+        background-color: #ececec;
+        color: #424242;
+      }
+
+      .newsInfo i {
+        display: block;
+        width: 28px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 1.375rem;
+      }
+
+      .newsInfo .marquee {
+        width: calc(100vw - 28px - 28px - 22px);
+        height: 34px;
+        line-height: 34px;
+        position: relative;
+        overflow: hidden;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      @media only screen and (min-width: 601px) {
+        .newsInfo .marquee {
+          width: calc(100vw - 28px - 28px - 48px);
+        }
+      }
+
+      .newsInfo .icon-navigate-next {
+        font-size: 1.625rem;
+      }
+
+      .user-view {
+        color: #ffffff;
+      }
+
+      a {
+        color: #ffffff;
+      }
+
+      select {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-color: #adadad;
+        color: #424242;
+      }
+
+      .select-type:after {
+        border-color: #424242 transparent transparent transparent;
+      }
+
+      .navbar-fixed,
+      .side-nav {
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      }
+
+      .page-loader-body {
+        -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+      }
+
+      .page-loader:before {
+        background-color: rgba(0, 0, 0, 0.76);
+      }
+
+      .page-loader-body {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .navbar-fixed {
+        background-color: #181818;
+        text-align: center;
+      }
+
+      .side-nav {
+        background-color: #dedede;
+      }
+
+      .user-view {
+        background: #101010;
+        background: -moz-linear-gradient(top, #101010 0%, #222222 100%);
+        background: -webkit-linear-gradient(top, #101010 0%, #222222 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#101010), to(#222222));
+        background: -o-linear-gradient(top, #101010 0%, #222222 100%);
+        background: linear-gradient(to bottom, #101010 0%, #222222 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010', endColorstr='#222222', GradientType=0);
+      }
+
+      .user-view ol a {
+        color: #ececec;
+      }
+
+      .user-view ol i {
+        color: #101010;
+      }
+
+      .user-view ol .close-btn {
+        background-color: #ececec;
+      }
+
+      .menu-body {
+        padding-bottom: 48px;
+      }
+
+      .menu-body li {
+        border-bottom-color: #9e9e9e;
+      }
+
+      .menu-body a,
+      .menu-body i,
+      .menu-body .lang-select select {
+        color: #424242;
+      }
+
+      .menu-body a:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+
+      .bottom-nav-bar {
+        background-color: #171717;
+      }
+
+      .bottom-nav-bar ul li {
+        border-right-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .bottom-nav-bar a {
+        color: #ececec;
+      }
+
+      .bottom-nav-bar a.active {
+        color: #53c6ff;
+      }
+
+      .col-12,
+      .col-sm-6 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+      .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .index-card {
+        padding: 0;
+        float: left;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .supported-bank {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0 10px;
+      }
+
+      .supported-bank .bank {
+        margin: 5px 3px;
+        border: 1px solid #4c4c4c;
+        background-color: #080d10;
+        border-radius: 8px;
+        padding: 5px 0;
+        max-width: 90px;
+        display: inline-block;
+        height: inherit;
+      }
+
+      .supported-bank .bank > div {
+        width: 70px;
+        height: 20px;
+        margin-left: 15px;
+        margin-top: 3px;
+        background: url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/210716-bank87dd87dd87dd.png?d=2) no-repeat;
+        background-size: 200%;
+        background-position: right 0;
+      }
+
+      .supported-bank .bank .permata {
+        background-position: right -22px;
+      }
+
+      .supported-bank .bank .mandiri {
+        background-position: right -45px;
+      }
+
+      .supported-bank .bank .bni {
+        background-position: right -71px;
+      }
+
+      .supported-bank .bank .danamon {
+        background-position: right -96px;
+      }
+
+      .supported-bank .bank .cimb {
+        background-position: right -118px;
+      }
+
+      .supported-bank .bank .bri {
+        background-position: right -138px;
+      }
+
+      .supported-bank .bank .ovo {
+        background-position: right -162px;
+      }
+
+      .supported-bank .bank .gopay {
+        background-position: right -186px;
+      }
+
+      .supported-bank .bank .xl {
+        background-position: right -207px;
+      }
+
+      .supported-bank .bank .simpati {
+        background-position: right -229px;
+      }
+
+      .supported-bank .bank .dana {
+        background-position: right -249px;
+      }
+
+      .supported-bank .bank .linkaja {
+        background-position: right -273px;
+      }
+
+      .supported-bank .bank .panin {
+        background-position: right -293px;
+      }
+
+      .supported-bank .bank .sakuku {
+        background-position: right -314px;
+      }
+
+      .supported-bank .indicator {
+        position: absolute;
+        top: 14px;
+        left: 4px;
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+      }
+
+      .supported-bank .indicator.on {
+        background: url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/indic-on87dd87dd87dd.png?d=2) no-repeat;
+      }
+
+      .supported-bank .indicator.off {
+        background: url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/indic-on87dd87dd87dd.png?d=2) no-repeat;
+      }
+
+      .supported-bank .indicator.on,
+      .supported-bank .indicator.off {
+        background-position: center center;
+      }
+
+      .seo-footer {
+        padding: 15px;
+        text-align: center;
+        background-color: black;
+      }
+
+      .seo-footer > .infini-logo {
+        margin-bottom: 20px;
+      }
+
+      .seo-footer li {
+        margin-left: 20px;
+      }
+
+      .btn-account {
+        display: flex;
+        padding: 0;
+        min-height: 40px;
+      }
+
+      .btn-account > a {
+        border-radius: inherit;
+        width: calc(100% / 2);
+        float: left;
+        display: block;
+        line-height: 40px;
+        height: inherit;
+        text-transform: uppercase;
+      }
+
+      .game-front-wrapper {
+        background-color: #181818;
+        padding: 0 40px;
+      }
+
+      .nav-link > span {
+        display: block;
+        text-align: center;
+      }
+
+      .nav-link > i {
+        width: 90px;
+        height: 50px;
+        margin: 0 auto;
+        display: block;
+        background: url(https://cdn.rbtasset.com/assets/images/common/icon_nav-black.png) no-repeat;
+        background-size: 60%;
+        background-position: center -190px;
+      }
+
+      i.slot {
+        background-position: center -56px;
+      }
+
+      i.tembak_ikan {
+        background-position: center -260px;
+      }
+
+      i.lottery {
+        background-position: center -334px;
+      }
+
+      i.sports {
+        background-position: center -615px;
+      }
+
+      i.cock_fighting {
+        background-position: center -753px;
+      }
+
+      i.games {
+        background-position: center -686px;
+      }
+
+      .progressive-jackpot {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 100%;
+        filter: contrast(100%) hue-rotate(-22deg) grayscale(49%) saturate(1.4);
+      }
+
+      .progressive-jackpot > h2 {
+        display: inline-block;
+        outline: none;
+        box-sizing: border-box;
+        border-radius: 0.3em;
+        text-transform: uppercase;
+        box-shadow: inset 0 -2px 5px 1px rgb(0 0 0), inset 0 -1px 1px 3px rgb(151 151 151);
+        background-image: linear-gradient(160deg, #424242, #595959, #787878, #4f4f4f, #000000);
+        border: 1px solid #000000;
+        color: #f5f5f5;
+        text-shadow: 0 2px 2px rgb(0 0 0);
+        transition: all 0.2s ease-in-out;
+        background-size: 100% 100%;
+        background-position: center;
+        top: -2px;
+        max-width: 240px;
+        z-index: 5;
+        letter-spacing: 0;
+        font-size: 2.5vw;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        line-height: inherit;
+      }
+
+      .jackpot-wrapper {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .jackpot-wrapper > amp-img {
+        width: 100%;
+        text-align: center;
+      }
+
+      .jackpot-wrapper > span {
+        position: absolute;
+        width: 100%;
+        font-size: 8.5vw;
+        z-index: 1;
+      }
+
+      .custom-page {
+        padding: 10px 0;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+
+      .custom-page .page-item {
+        margin-bottom: 0;
+        padding-left: 0;
+      }
+
+      .custom-page .page-item li {
+        display: inline;
+        border-right: 1px solid #fff;
+      }
+
+      .custom-page .page-item li:last-child {
+        border-right: none;
+      }
+
+      .custom-page .page-item a {
+        padding: 0 10px;
+        line-height: 22px;
+      }
+
+      .custom-page .page-item a:hover {
+        text-decoration: underline;
+      }
+
+      .seo-footer {
+        padding-bottom: 60px;
+      }
+
+      .navbar-fixed {
+        background: #181c1f;
+      }
+
+      .navbar-fixed .button-collapse {
+        background-color: #222;
+      }
+
+      .wrapper {
+        background: rgb(152, 40, 11);
+        background: url(https://cdn.robotaset.com/assets/tpl/c44a51ea35/images/background.jpg) no-repeat fixed;
+        background-size: 100% 100%;
+      }
+
+      .progressive-jackpot {
+        filter: unset;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        background-size: 100% 100%;
+      }
+
+      .progressive-jackpot > h2 {
+        visibility: hidden;
+      }
+
+      .btn-secondary-primary {
+        background: url(https://cdn.rbtasset.com/assets/tpl/c44a51ea35/images/btn-login-altm.png) no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        color: #fff;
+        width: 112px;
+      }
+
+      .btn-join {
+        background: url(https://cdn.rbtasset.com/assets/tpl/c44a51ea35/images/btn-register.png) no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        color: #fff;
+        width: 112px;
+      }
+
+      .bottom-nav-bar a.active {
+        color: #f3d924;
+      }
+
+      .supported-bank {
+        border-top: 2px solid #ff0000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .custom-page {
+        border-width: 2px;
+        border-color: #eeba29;
+      }
+
+      .game-front-wrapper {
+        background: url(https://cdn.rbtasset.com/assets/tpl/c44a51ea35/images/menu-altm.jpg);
+        background-position: center;
+      }
+
+      .supported-bank .bank {
+        border: 1px solid #ffdd00;
+        background-color: #370200;
+      }
+
+      /*! CSS Used from: Embedded */
+
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: normal;
+      }
+
+      /*! CSS Used keyframes */
+
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      /*! CSS Used fontfaces */
+
+      @font-face {
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url(assets/thirdparty/font-awesome/webfonts/fa-regular-400.html);
+        src: url(assets/thirdparty/font-awesome/webfonts/fa-regular-400d41d.html#iefix) format('embedded-opentype'), url(assets/thirdparty/font-awesome/webfonts/fa-regular-401.html) format('woff2'),
+          url(assets/thirdparty/font-awesome/webfonts/fa-regular-402.html) format('woff'), url(assets/thirdparty/font-awesome/webfonts/fa-regular-403.html) format('truetype'),
+          url(assets/thirdparty/font-awesome/webfonts/fa-regular-404.html#fontawesome) format('svg');
+      }
+
+      @font-face {
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(assets/thirdparty/font-awesome/webfonts/fa-solid-900.html);
+        src: url(assets/thirdparty/font-awesome/webfonts/fa-solid-900-iefix.html) format('embedded-opentype'), url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/fa-solid-900.woff2) format('woff2'),
+          url(assets/thirdparty/font-awesome/webfonts/fa-solid-901.html) format('woff'), url(assets/thirdparty/font-awesome/webfonts/fa-solid-902.html) format('truetype'),
+          url(assets/thirdparty/font-awesome/webfonts/fa-solid-903.html) format('svg');
+      }
+
+      @font-face {
+        font-family: 'icomoon';
+        src: url(https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/bin/lpinfi/icomoon.ttf) format('truetype'), url(assets/fonts/icomoon/icomoon.html) format('woff'), url(assets/fonts/icomoon/icomoon-2.html) format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      .bottom-nav-bar {
+        width: 100%;
+        height: 48px;
+        position: fixed;
+        bottom: 0;
+        z-index: 60;
+        background-color: #171717;
+        text-align: center;
+        min-width: 320px;
+      }
+
+      /* cyrillic-ext */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/cyrillic-ext.html) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/cyrillic.html) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* greek-ext */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/greek-ext.html) format('woff2');
+        unicode-range: U+1F00-1FFF;
+      }
+
+      /* greek */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/greek.html) format('woff2');
+        unicode-range: U+0370-03FF;
+      }
+
+      /* latin-ext */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/latin-ext.html) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(assets/fonts/ubuntu/latin.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      .seo-text {
+        text-align: justify;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #f8dc4f;
+        text-align: left;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      table,
+      td {
+        text-align: left;
+        border: 1px solid #f8dc4f;
+        border-top: 1px solid #f8dc4f;
+      }
+
+      .text-yellow {
+        color: #f2a238;
+      }
+
+      .wa-button {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 10;
+        opacity: 0.98;
+      }
+
+      .visibility-auto {
+        content-visibility: auto;
+        text-align: center;
+      }
+
+      /* Accordion styles */
+
+      .tabs {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+      }
+
+      .tab {
+        width: 100%;
+        color: white;
+        overflow: hidden;
+        padding-top: 15px;
+      }
+
+      .tab-label {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        background: #790303;
+        font-weight: bold;
+        cursor: pointer;
+        /* Icon */
+      }
+
+      .tab-label:hover {
+        background: #181c1f;
+      }
+
+      .tab-label::after {
+        content: '❯';
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all 0.35s;
+      }
+
+      .tab-content {
+        max-height: 0;
+        padding: 0 1em;
+        color: #181c1f;
+        background: white;
+        transition: all 0.35s;
+      }
+
+      .tab-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em;
+        font-size: 0.75em;
+        background: #790303;
+        cursor: pointer;
+      }
+
+      .tab-close:hover {
+        background: #181c1f;
+      }
+
+      input:checked + .tab-label {
+        background: #790303;
+      }
+
+      input:checked + .tab-label::after {
+        transform: rotate(90deg);
+      }
+
+      input:checked ~ .tab-content {
+        max-height: 100vh;
+        padding: 1em;
+      }
+
+      .chck {
+        display: none;
+      }
+
+      ul.seo-footer {
+        list-style-type: disc;
+      }
+
+      /* Accordion styles */
+    </style>
+
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      }
+
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body {
+          -webkit-animation: none;
+          -moz-animation: none;
+          -ms-animation: none;
+          animation: none;
+        }
+      </style>
+    </noscript>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  </head>
+
+  <body data-mobile="true">
+    <amp-analytics type="gtag" data-credentials="include">
+      <script type="application/json">
+        {
+          "vars": {
+            "gtag_id": "G-JDM1P2DWX0",
+            "config": {
+              "G-JDM1P2DWX0": { "groups": "default" }
+            }
+          }
+        }
+      </script>
+    </amp-analytics>
+
+    <input type="hidden" id="DeviceToken" class="JSBridge" name="dt" value="" />
+    <input type="hidden" id="DeviceID" class="JSBridge" name="dt" value="" />
+
+    <div class="wrapper">
+      <header>
+        <div class="navbar-fixed">
+          <a href="<?php echo $canonical_url; ?>" class="brand-logo" rel="nofollow">
+            <amp-img src="<?php echo $logo; ?>" width="200" height="40" alt="<?php echo strtoupper($titlebrand) ?>"> </amp-img>
+          </a>
+          <ul>
+            <li>
+              <a class="button-collapse" on="tap:sidebar1.toggle"><i id="menu_icon">menu icon</i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar menu -->
+
+        <nav class="side-nav" id="side_nav">
+          <div class="user-view">
+            <ol>
+              <li><a href="#">Selamat datang</a></li>
+              <li class="float-R">
+                <a class="close-btn"><i class="icon-close" id="icon_close"></i></a>
+              </li>
+            </ol>
+
+            <p>Silahkan masuk atau daftar <span></span></p>
+            <ul class="member-btn">
+              <li><a class="btn btn-secondary-primary" href="<?php echo $final; ?>" rel="nofollow">Masuk</a></li>
+              <li><a class="btn btn-join" href="<?php echo $final; ?>" rel="nofollow">Daftar</a></li>
+            </ul>
+          </div>
+          <ul class="menu-body">
+            <li>
+              <a href="<?php echo $final; ?>" rel="nofollow"><i class="icon-home"></i>Beranda</a>
+            </li>
+
+            <li>
+              <a href="<?php echo $final; ?>"><i class="icon-phone"></i>Hubungi Kami</a>
+            </li>
+
+            <li>
+              <a href="<?php echo $final; ?>"><i class="fas fa-arrow-alt-circle-down"></i>Unduh Aplikasi</a>
+            </li>
+          </ul>
+          <!--#endregion -->
+        </nav>
+        <div id="sidenav_overlay"></div>
+      </header>
+
+      <main class="clearfix">
+        <div class="newsInfo visibility-auto" id="newsInfo">
+          <i class="icon-speaker"></i>
+          <span class="marquee"> Selamat Datang di <?php echo strtoupper($titlebrand) ?> untuk claim bonus dan informasi lainnya silahkan hubungi live chat kami ! </span>
+
+          <i class="icon-navigate-next"></i>
+        </div>
+
+        <amp-carousel width="411" height="95" layout="responsive" type="slides" autoplay delay="2000" role="region" aria-label="type='slides' carousel">
+          <a href="<?php echo $final; ?>">
+            <amp-img src="<?php echo $banner; ?>" width="511" height="200" layout="responsive" alt="<?php echo strtoupper($titlebrand) ?>"></amp-img>
+          </a>
+        </amp-carousel>
+
+        <div class="index-card">
+          <div class="btn-account visibility-auto">
+            <a class="btn btn-secondary-primary" href="<?php echo $final; ?>">Masuk</a>
+            <a class="btn btn-join" href="<?php echo $final; ?>">Daftar</a>
+          </div>
+
+          <div class="game-front-menu visibility-auto">
+            <div class="game-front-wrapper">
+              <amp-carousel height="96" layout="fixed-height" type="carousel" role="region" autoplay delay="2000" aria-label="Basic usage carousel" style="padding-top: 20px">
+                <div class="item">
+                  <a href="<?php echo $final; ?>" class="nav-link">
+                    <i class="sports"></i>
+                    <span>Sports</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="casino"></i>
+                    <span>Casino</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="slot"></i>
+                    <span>Slot</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="tembak_ikan"></i>
+                    <span>Tembak Ikan</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="lottery"></i>
+                    <span>Lottery</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="cock_fighting"></i>
+                    <span>Sabung Ayam</span>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="<?php echo $canonical_url; ?>" class="nav-link">
+                    <i class="games"></i>
+                    <span>Games</span>
+                  </a>
+                </div>
+              </amp-carousel>
+            </div>
+          </div>
+
+          <div>
+            <div class="progressive-jackpot visibility-auto">
+              <h2>Progressive Jackpot</h2>
+              <div class="jackpot-wrapper">
+                <span id="jackpot" data-value="16838958590.59">16,838,958,590.59</span>
+
+                <amp-img src="https://cdn.robotaset.com/assets/tpl/c44a51ea35/images/progressive-jackpot.gif" width="411" height="86" layout="responsive" alt="<?php echo strtoupper($titlebrand) ?>"></amp-img>
+              </div>
+            </div>
+          </div>
+
+          <div class="supported-bank visibility-auto">
+            <div class="col-12 col-sm-6 bank">
+              <div class="bca"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="mandiri"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="cimb"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="bni"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="bri"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="danamon"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="permata"><span class="indicator off"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="ovo"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="gopay"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="xl"><span class="indicator off"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="simpati"><span class="indicator off"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="dana"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="panin"><span class="indicator off"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="linkaja"><span class="indicator on"></span></div>
+            </div>
+
+            <div class="col-12 col-sm-6 bank">
+              <div class="sakuku"><span class="indicator on"></span></div>
+            </div>
+          </div>
+
+          <div class="custom-page"></div>
+
+          <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+            <div class="user-view">
+              <ol>
+                <li><a href="#">Selamat datang</a></li>
+                <li class="float-R">
+                  <a class="close-btn"><i class="icon-close" id="icon_close"></i></a>
+                </li>
+              </ol>
+
+              <p>Silahkan masuk atau daftar <span></span></p>
+              <ul class="member-btn">
+                <li><a class="btn btn-secondary-primary" href="<?php echo $final; ?>">Masuk</a></li>
+                <li><a class="btn btn-join" href="<?php echo $final; ?>">Daftar</a></li>
+              </ul>
+            </div>
+            <ul class="menu-body">
+              <li>
+                <a href="<?php echo $final; ?>"><i class="icon-home"></i>Beranda</a>
+              </li>
+
+              <li>
+                <a href="<?php echo $final; ?>"><i class="icon-phone"></i>Hubungi Kami</a>
+              </li>
+
+              <li>
+                <a href="<?php echo $final; ?>"><i class="fas fa-arrow-alt-circle-down"></i>Unduh Aplikasi</a>
+              </li>
+            </ul>
+            <!--#endregion -->
+          </amp-sidebar>
+
+          <div class="seo-footer">
+            <div style="text-align: justify">
+              <div class="word">
+                <div style="font-size: 18px; text-align: justify; color: white" class="text-white-50 black">
+                  <h1><?php echo $title; ?></h1>
+
+                  <p>
+                    <?php echo $long_description; ?>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="bottom-nav-bar" id="bottom-nav-bar">
+        <ul>
+          <li>
+            <a href="<?php echo $final; ?>"><i class="fas fa-angle-left"></i>Kembali</a>
+          </li>
+          <li>
+            <a href="<?php echo $final; ?>" id="Financial"><i class="icon-Financial" rel="nofollow"></i>Akun Saya</a>
+          </li>
+          <li>
+            <a href="<?php echo $final; ?>" id="Promotions"><i class="icon-promos" rel="nofollow"></i>Promosi</a>
+          </li>
+          <li>
+            <a href="<?php echo $final; ?>" target="_blank" id="Contact" rel="nofollow"><i class="icon-live-chet"></i>Live Chat</a>
+          </li>
+          <li>
+            <a href="<?php echo $final; ?>" id="Home" class="active"><i class="icon-home"></i>Beranda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
