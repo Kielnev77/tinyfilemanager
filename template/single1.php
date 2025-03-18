@@ -1,0 +1,282 @@
+<?php
+if($jos['article_id'] != NULL)
+{
+  $brand  = array('brand123', 'Brand123');
+  $title = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
+<!DOCTYPE html>
+<html ⚡ lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $meta_description; ?>" />
+    <meta name="keywords" content="<?php echo $keyword; ?>" />
+    <link rel="canonical" href="<?php echo $canonical_url; ?>" />
+    <link href="<?php echo $canonical_url; ?>" rel="dns-prefetch">
+    <meta name="robots" content="index, follow" />
+    <meta name="page-locale" content="id, en">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta content="Indonesian" name="language">
+    <meta name="supported-amp-formats" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="<?php echo $canonical_url; ?>">
+    <meta name="twitter:title" content="<?php echo $title; ?>">
+    <meta name="twitter:description" content="<?php echo $meta_description; ?>">
+    <meta name="twitter:image:src" content="<?php echo $logo; ?>">
+    <meta name="og:title" content="<?php echo $title; ?>">
+    <meta name="og:description" content="<?php echo $meta_description; ?>">
+    <meta property="og:url" content="<?php echo $canonical_url; ?>">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="<?php echo $logo; ?>">>
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="<?php echo strtoupper($titlebrand) ?>" />
+    <meta name="og:site_name" content="<?php echo strtoupper($titlebrand) ?>">
+    <meta name="og:locale" content="ID_id">
+    <meta name="theme-color" content="#FFD1000" />
+    <meta name="categories" content="website" />
+    <meta name="language" content="ID">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="<?php echo strtoupper($titlebrand) ?>">
+    <meta name="author" content="<?php echo strtoupper($titlebrand) ?>">
+    <meta name="distribution" content="global">
+    <meta name="publisher" content="<?php echo strtoupper($titlebrand) ?>">
+    <meta name="geo.placename" content="Indonesia">
+    <meta name="geo.country" content="ID_id">
+    <meta name="geo.region" content="ID_id" />
+    <meta name="tgn.nation" content="Indonesia">
+    <meta name="googlebot" content="index,follow" />
+    <meta name="expires" content="never" />
+    <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
+
+    <!-- Google Verify -->
+    <meta name="google-site-verification" content="ISvPTWEJUp2FmEe-cq6BFNOXeHFsd8PYNbivC2THpxc" />
+    <meta name="google-site-verification" content="2CwSuKUpsKxxE-NRLk5CSXFv4rEWuETQDcDLCMrK-Yc" />
+    <!-- AMP Script -->
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+    <!-- preload -->
+    <link rel="preload" href="<?php echo $logo; ?>" as="image" />
+    <link rel="preload" href="<?php echo $logo; ?>" as="image" />
+    <link rel="preload" href="<?php echo $banner; ?>"
+        as="image" />
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-carousel-0.2.js">
+    <!-- Data Structure -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Game",
+            "name": "Situs game <?php echo $titlebrand; ?>",
+            "author": { "@type": "Person", "name": "Situs game <?php echo $titlebrand; ?>" },
+            "headline": "<?php echo $title; ?>",
+            "description": "<?php echo $meta_description; ?>",
+            "keywords": ["<?php echo $keyword; ?>"],
+            "image": "<?php echo $logo; ?>",
+            "url": "<?php echo $canonical_url; ?>",
+            "publisher": { "@type": "Organization", "name": "Situs game <?php echo $titlebrand; ?>" },
+            "aggregateRating": { "@type": "AggregateRating", "ratingValue": "99", "bestRating": "100", "worstRating": "0", "ratingCount": "888999" },
+            "inLanguage": "id-ID"
+        }
+  </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "<?php echo $canonical_url; ?>"
+          },
+          "headline": "<?php echo $title; ?>",
+          "description": "<?php echo $meta_description; ?>",
+          "image": "<?php echo $logo; ?>",
+          "author": {
+            "@type": "Organization",
+            "name": "<?php echo $titlebrand; ?>",
+            "url": "<?php echo $canonical_url; ?>"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "<?php echo $titlebrand; ?>",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "<?php echo $logo; ?>"
+            }
+          },
+          "datePublished": "2023-07-15",
+          "dateModified": "2023-07-15"
+        }
+        </script>
+
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "<?php echo $titlebrand; ?>",
+              "url": "<?php echo $canonical_url; ?>"
+
+            }
+            </script>
+    <script type="application/ld+json">
+                {
+                  "@context": "https://schema.org",
+                  "@type": "Organization",
+                  "name": "<?php echo $titlebrand; ?>",
+                  "alternateName": "<?php echo $titlebrand; ?>",
+                  "url": "<?php echo $canonical_url; ?>",
+                  "logo": "<?php echo $logo; ?>",
+                  "sameAs": [
+                    "<?php echo $canonical_url; ?>"
+                  ]
+                }
+                </script>
+
+    <!-- end -->
+    <!-- AMP Boilerplate -->
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none;
+            }
+        </style>
+    </noscript><style amp-custom>*{ box-sizing: border-box} .menu{ position: relative} nav .menu ul{ list-style-type: none; position: relative; margin: 0; padding: 0} nav .menu ul li{ color: #fff; display: inline-block} nav .menu ul li a{ color: #fff; text-decoration: none; padding: 10px 15px; display: inline-block} nav .menu ul li a:hover{ background-color: #565656} .active{ background-color: #002b60} .container{ margin: 0 auto; padding: 0 15px; max-width: 960px} .content{ margin: 5px auto} .header-text{ position: relative; display: block} .banner{ position: relative} .banner-wrapper{ padding: 5px 0} .text-center{ text-align: center} .title{ text-align: center; font-weight: 600} .title h2{ text-align: center; margin: 0; padding: 0} a{ color: #eb9900} h1{ text-align: center; font-size: 1.8em; margin-top: 25px; margin-bottom: 10px; color: #eb9900} h2{ text-align: center; font-size: 1.5em; color: #eb9900} h3{ font-size: 1.1em; font-weight: 600; color: #fff} h4{ font-size: 1em; color: #002b60} .time{ font-size: 16px; text-align: center; color: #b9b9b9; margin-bottom: 25px} .btn-body{ margin: 15px -5px; position: relative; display: flex} .thumbs{ position: relative} .btn-body .btn-items{ margin: 0 5px; width: 100%} .btn-body .btn-items a{ text-decoration: none; width: 100%; padding: 10px 5px; color: #fff; background-color: #002b60; border-radius: 5px; display: inline-block; text-align: center} .box-games-wrapper{ display: flex; flex-direction: row; flex-wrap: wrap; margin: -5px} .box-games-wrapper .box-games{ width: 20%; padding: 5px} .box-games-wrapper .box-games .games-img{ position: relative; overflow: hidden} .box-games-wrapper .box-games .games-name{ background-color: #222; padding: 5px 3px; text-align: center; font-weight: 500; border-radius: 5px; font-size: 12px} .games-name h3{ font-size: 15px; margin: 0} .games-name p{ font-size: 14px} .box-games .box-text table th, td{ border: 1px solid #fff; padding: 5px} .mt-50{ margin-top: 50px} footer{ padding: 15px 5px} footer .footer-text{ text-align: center} .breadcrump-list{ text-align: center; color: #fff} .breadcrump-list ul{ padding: 10px 16px; list-style: none} .breadcrump-list ul li{ display: inline; font-size: 18px} .breadcrump-list ul li+li:before{ padding: 8px; color: #fff; content: "\003e"} .breadcrump-list ul li a{ color: #ffd386; text-decoration: none} .mt-10{ margin-top: 50px} article header{ background-color: #000} @media only screen and (max-width:720px){ .box-games-wrapper{ justify-content: center} .box-games-wrapper .box-games{ width: 33%} .box-games .rtp-box .txt{ font-size: 12px; color: #fff} nav .menu ul li{ display: block; text-align: center; border-top: 1px solid #000} nav .menu ul li a{ width: 100%} .games-name p{ font-size: 12px}} .marquee-info{ width: 100%; max-width: 100%; margin: 0 auto; display: flex; height: auto; flex-direction: row; align-items: center; background: rgb(19 4 36); border-top: 0px solid rgb(237, 206, 71); border-bottom: 0px solid rgb(245, 201, 5)} .marquee{ display: block; width: 100%; overflow: hidden; text-align: left; word-break: break-word} .marquee.marquee-speed-drowsy:before{ animation-duration: 15s} .marquee.marquee-speed-slow:before{ animation-duration: 15s} .marquee.marquee-speed-custom:before{ animation-duration: inherit} .marquee.marquee-speed-normal:before{ animation-duration: 7s} .marquee.marquee-speed-fast:before{ animation-duration: 7s} .marquee.marquee-speed-swift:before{ animation-duration: 3s} .marquee.marquee-speed-hyper:before{ animation-duration: 2s} .amp-mode-mouse .amp-carousel-button, amp-carousel.amphtml-carousel-has-controls .amp-carousel-button, amp-carousel[controls] .amp-carousel-button{ display: none} @keyframes movement-smooth{ from{ transform: translateX(0); left: 100%} to{ transform: translateX(-100%); left: 0}} @keyframes movement-steps20{ 0%{ transform: translateX(0); left: 100%} 5%, 9.99%{ transform: translateX(-5%); left: 95%} 10%, 14.99%{ transform: translateX(-10%); left: 90%} 15%, 19.99%{ transform: translateX(-15%); left: 85%} 20%, 24.99%{ transform: translateX(-20%); left: 80%} 25%, 29.99%{ transform: translateX(-25%); left: 75%} 30%, 34.99%{ transform: translateX(-30%); left: 70%} 35%, 39.99%{ transform: translateX(-35%); left: 65%} 40%, 44.99%{ transform: translateX(-40%); left: 60%} 45%, 49.99%{ transform: translateX(-45%); left: 55%} 50%, 54.99%{ transform: translateX(-50%); left: 50%} 55%, 59.99%{ transform: translateX(-55%); left: 45%} 60%, 64.99%{ transform: translateX(-60%); left: 40%} 65%, 69.99%{ transform: translateX(-65%); left: 35%} 70%, 74.99%{ transform: translateX(-70%); left: 30%} 75%, 79.99%{ transform: translateX(-75%); left: 25%} 80%, 84.99%{ transform: translateX(-80%); left: 20%} 85%, 89.99%{ transform: translateX(-85%); left: 15%} 90%, 94.99%{ transform: translateX(-90%); left: 10%} 95%, 99.99%{ transform: translateX(-95%); left: 5%} 100%{ transform: translateX(-100%); left: 0}} @keyframes movement-steps10{ 0%{ transform: translateX(0); left: 100%} 10%, 19.99%{ transform: translateX(-10%); left: 90%} 20%, 29.99%{ transform: translateX(-20%); left: 80%} 30%, 39.99%{ transform: translateX(-30%); left: 70%} 40%, 49.99%{ transform: translateX(-40%); left: 60%} 50%, 59.99%{ transform: translateX(-50%); left: 50%} 60%, 69.99%{ transform: translateX(-60%); left: 40%} 70%, 79.99%{ transform: translateX(-70%); left: 30%} 80%, 89.99%{ transform: translateX(-80%); left: 20%} 90%, 99.99%{ transform: translateX(-90%); left: 10%} 100%{ transform: translateX(-100%); left: 0}} @keyframes movement-steps5{ 0%, 19.99%{ transform: translateX(0); left: 100%} 20%, 39.99%{ transform: translateX(-20%); left: 80%} 40%, 59.99%{ transform: translateX(-40%); left: 60%} 60%, 79.99%{ transform: translateX(-60%); left: 40%} 80%, 99.99%{ transform: translateX(-80%); left: 20%} 100%{ transform: translateX(-100%); left: 0}} .marquee.marquee-movement-smooth:before{ animation-name: movement-smooth} .marquee.marquee-movement-steps20:before{ animation-name: movement-steps20} .marquee.marquee-movement-steps10:before{ animation-name: movement-steps10} .marquee.marquee-movement-steps5:before{ animation-name: movement-steps5} .marquee.marquee-direction-left:before, .marquee.marquee-direction-normal:before{ animation-direction: normal} .marquee.marquee-direction-alternate:before{ animation-direction: alternate} .marquee.marquee-direction-reverse:before, .marquee.marquee-direction-right:before{ animation-direction: reverse} .marquee:before{ content: attr(data-marquee); white-space: nowrap; position: relative; transform: translateX(-50%); display: inline-block; left: 50%; animation: linear infinite} .marquee:before{ animation-duration: 20s} .marquee:before{ animation-name: movement-smooth} .check-list li:before{ content: "\f00c"; padding: 0 5px; color: rgb(255 216 252); font-weight: 400; font-family: FontAwesome} .marquee:before{ animation-direction: normal} .marquee-info .right{ color: #fff; width: 100%; height: 35px; padding: 8px; float: left; display: flex; align-items: center; background-color: #333333} .support{ display: flex; flex-wrap: wrap; flex-direction: column; background: url(#) no-repeat center top; background-size: cover} .support>.nav{ width: 100%; display: flex; flex-direction: row} .support>.nav>.btn{ width: 450px; max-width: 50%; font-size: 28px; border-bottom: 5px solid rgb(149 154 201); background-image: -webkit-linear-gradient(top, rgb(255 216 252) 0, rgb(245, 201, 5) 100%)} .support>.nav>.btn a{ width: 100%; height: 50px; display: flex; font-size: 28px; font-weight: 800; align-items: center; justify-content: center; color: rgb(245, 201, 5); text-decoration: none; text-shadow: 1px 1px 2px rgb(7 229 255);} .support>.nav>.btn:hover{ width: 450px; max-width: 50%; font-size: 18px; border-bottom: 5px solid rgbrgb(245, 201, 5)} .provider{ width: 100%; padding: 8px; display: flex; flex-wrap: wrap; align-content: center; justify-content: space-around; align-items: center} .provider .name .logo{ padding: 8px 2px} .provider .name .logo img{ border-radius: 6px} .provider .headline{ color: #fff; width: 100%; padding: 8px; font-weight: 1000; text-transform: uppercase; background-color: rgb(75 77 79)} .provider .name .logo img:hover{ filter: grayscale(1)} .provider .name{ padding: 8px 0; flex-basis: calc(35% * 2)} .provider img{ width: 100%; max-width: 118px} .link{ margin: 18px auto} .fullsize>figure{ margin: 0} .fullsize>figure a{ display: contents} .fullsize>figure img{ height: 100%; min-height: 55px} .copyright{ width: 100%; padding: 28px; background: -webkit-linear-gradient(left, rgb(17 19 27) 0, rgb(19 4 36) 50%, rgb(17 19 27) 100%)} @media only screen and (max-width:600px){ header{ padding: 0; display: flex; margin: auto; flex-direction: column; align-content: space-around} .support{ flex-direction: column-reverse} .provider .name{ flex-basis: auto} .desc>tbody>tr{ width: 100%} .provider .name .logo{ max-width: 20%} .marquee-info{ flex-direction: column} .marquee-info .left, .marquee-info .right{ width: 100%; padding: 5px; text-align: center; border-bottom: 1px solid rgb(161 177 188 / 50%)}} body{ font-family: 'Open Sans', sans-serif; background: #000; background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; padding-bottom: 80px;} .header-mobile{ position: sticky; top: 0; z-index: 1; padding: 10px 10px; display: flex; align-items: center; background: #00000e; border-bottom: 1px solid #000;} .header-mobile .mobile-logo{ min-height: 30px;} .header-mobile .mobile-logo amp-img img{ width: 100%; height: auto; object-fit: contain; object-position: left;} .mobile-button{ margin-left: auto; display: flex; align-items: center;} .mobile-button button{ outline: none; border-radius: 5px; min-width: 75px; min-height: 33px; border: none; font-size: 14px; font-weight: 600; margin-left: 5px; padding: 5px 0px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);} .mobile-button .login{ text-decoration: none; width: 100%; padding: 6px 4px; color: #00000e; background: #990000; border: 1px solid #990000;} .mobile-button .login a{ text-decoration: none; color: #fff;} .mobile-button .register{ background: #990000; border: 1px solid #002b60; text-decoration: none;} .mobile-button .register a{ color: #fff; text-decoration: none;} .mobile-button .promo a{ color: #fff; text-decoration: none;} .btn-body .btn-promosi{ margin: 0 3px; width: 100%} .btn-body .btn-promosi a{ text-decoration: none; width: 100%; padding: 6px 4px; color: #fff; background-color: #a21caa; border-radius: 3px; display: inline-block; text-align: center} .btn-body .btn-daftar{ margin: 0 3px; width: 100%} .btn-body .btn-daftar a{ text-decoration: none; width: 100%; padding: 20px 4px; color: #fff; background-color: #b70509; border-radius: 3px; display: inline-block; text-align: center; font-size: 20px;} .btn-body .btn-login{ margin: 0 3px; width: 100%} .btn-body .btn-login a{ text-decoration: none; margin-left: auto; width: 100%; padding: 20px 4px; color: #fff; background-color: #eb9900; border-radius: 3px; display: inline-block; text-align: center; font-size: 20px;} table.gajah138{ color: white; border-collapse: collapse} table.gajah138 td, table.gajah138 th{ vertical-align: middle; border: 1px solid #fff; padding: 6px; letter-spacing: 0.69px} amp-sidebar{ background: #30115c; border: 1px solid #002b60; width: 250px; color: #fff;} .sidenav__header{ background: #00000e; padding: 20px; border-bottom: 2px solid rgba(255, 255, 255, 0.1);} .sidenav__header-user{ color: #ffffff; font-size: 12px; font-weight: 500; font-weight: 600;} .sidenav__header-logo{ margin: 10px 0px 15px; text-align: center;} .sidenav__header-logo amp-img img{ height: 90px; object-fit: contain;} .sidenav-button-title{ text-align: center; color: #ffffff; font-size: 13px; font-weight: 600;} .sidenav-button{ display: flex; align-items: center; justify-content: center; margin: 8px 0px;} .sidenav-button button{ outline: none; border-radius: 5px; min-width: 100px; border: none; font-size: 12px; font-weight: 500; padding: 10px 0px; box-shadow: 0px 1px 1px rgb(0 0 0 / 25%);} .sidenav-button .btn-login a{ text-decoration: none; color: #00000e; font-weight: 600;} .sidenav-button .btn-register{ background: #cc001b; border: 1px solid #cc001b; text-decoration: none;} .sidenav-button .btn-register a{ text-decoration: none; color: #ffffff; font-weight: 600;} .sidenav-password{ text-align: right; font-size: 13px;} .sidenav-password a{ text-align: right; font-size: 13px; color: #ffffff; text-decoration: none;} .sidenav-list{ padding: 10px 15px;} .sidenav-list ul{ padding-left: 0px; margin-bottom: 0px; margin-top: 0px;} .sidenav-list ul li{ list-style: none; font-size: 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; padding: 10px; color: #fff;} .sidenav-list ul li a{ color: #fff; text-decoration: none; font-weight: 500;} .sidenav-list ul li i{ width: 14px; margin-right: 10px;} .home__menu{ padding-right: 10px; padding-left: 10px; margin-right: auto; margin-left: auto;} .menu-games{ display: grid; grid-template-columns: repeat(6, 1fr); grid-gap: 0px; margin: 20px 0;} .menu-tengah{ display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 0px; margin: 20px 0;} .menu-games a{ text-decoration: none;} .games-item{ background: transparent; text-align: center;} .games-item amp-img img{ object-fit: contain;} .game-border{ padding: 2px; border-radius: 20px; margin-top: 10px; max-width: 100px; margin-left: auto; margin-right: auto;} .games-name{ font-size: 13px; padding: 6px 5px; font-weight: 1000; color: #ffffff; border-radius: 20px;} @keyframes bounce{ 0%{ transform: translateY(-3px)} 50%{ transform: translateY(3px)} 100%{ transform: translateY(0)}} .home__seo{ padding: 0 15px; margin-top: 25px;} .animate-charcter{ display: inline-block; text-transform: uppercase; background-image: linear-gradient(45deg, #fff800 0%, #ff1361 25%, #44107a 50%, #ff1361 75%, #fff800 100%); background-size: 200% auto; color: #fff; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: textclip 2s linear infinite; font-size: 22px; font-weight: 1000;} .home__seo .game__seo{ background: transparent; color: #fff; border-radius: 10px; padding: 15px 0;} .home__seo .game__seo .seo-content{ padding: 0 15px 10px; font-size: 16px; text-align: justify;} .home__seo .seo-mobile .seo-mob-title{ background: transparent; text-align: center; padding: 10px 15px; border: 0; border-radius: 10px; font-size: 16px; font-weight: 600; margin: 0;} .footer-mobile{ background: #00000e; position: fixed; bottom: 0; right: 0; left: 0; z-index: 997; display: grid; grid-template-columns: repeat(5, 1fr);} .footer-mobile .footer-item{ text-align: center; padding: 12px 5px 18px; border-top: 0, 5px solid #002b60; color: #fff; text-decoration: none;} .footer-mobile .footer-item .footer-icon i{ font-size: 30px;} .footer-mobile .footer-item .footer-title{ font-size: 13px; font-weight: 600;} p, li{ background: transparent; color: #fff; border-radius: 10px; padding: 15px 0;} .btn-account{ display: flex; padding: 0; min-height: 40px} .btn-account>a{ border-radius: inherit; width: calc(100% / 2); float: left; display: block; line-height: 40px; height: inherit; text-transform: uppercase} </style>
+
+</head>
+
+<body>
+    <div class="header-mobile">
+        <div class="mobile-logo">
+            <a href="<?php echo $canonical_url; ?>">
+                <amp-img src="<?php echo $logo; ?>" alt="game <?php echo $titlebrand; ?>" width="120"
+                    height="39" layout="intrinsic">
+                </amp-img>
+            </a>
+        </div>
+        <div class="mobile-button">
+            <button class="register" type="button">
+                <a href="https://go.myshortlink.org/0mjx23p">DAFTAR</a>
+            </button>
+            <button class="login">
+                <a href="https://go.myshortlink.org/0mjx23p">LOGIN</a>
+            </button>
+        </div>
+    </div>
+    <div class="marquee-info">
+        <div class="right">
+            <i class="fas fa-volume-up"></i>
+            <div data-marquee="<?php echo $title; ?>" class="marquee">
+            </div>
+        </div>
+    </div>
+    <div class="main-content home">
+        <div class="home__slider">
+            <amp-carousel width="1000" height="200" layout="responsive" type="slides" autoplay delay="2000">
+                <a href="https://go.myshortlink.org/0mjx23p">
+                    <amp-img
+                        src="<?php echo $banner; ?>"
+                        width="1000" height="200" layout="responsive" alt="<?php echo $titlebrand; ?>"></amp-img>
+                </a>
+            </amp-carousel>
+        </div>
+    </div>
+    <section>
+        <div class="btn-body mobile-button">
+            <div class="btn-daftar">
+                <a href="https://go.myshortlink.org/0mjx23p" rel="nofollow noreferrer" target="_blank"
+                    title="game <?php echo $titlebrand; ?>">LOGIN</a>
+            </div>
+            <div class="btn-login">
+                <a href="https://go.myshortlink.org/0mjx23p" rel="nofollow noreferrer" target="_blank"
+                    title="game <?php echo $titlebrand; ?>">DAFTAR</a>
+            </div>
+        </div>
+
+      </section>
+        <div class="home__menu">
+            <div>
+                 <h1><?php echo $title; ?></h1>
+                 <p><?php echo $long_description; ?></p>
+</div>
+</div>
+        <section>
+            <div class="footer">
+                <div class="footer text-center pb-2">
+                    <p style="text-align: center;"><span style="color: #eb9900;">&copy; 2025 All rights reserved
+                            <a href="<?php echo $canonical_url; ?>" style="color: #eb9900;"><strong><?php echo $titlebrand; ?></strong></a></span></p>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
