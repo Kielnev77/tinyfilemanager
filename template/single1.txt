@@ -35,7 +35,7 @@ if($jos['article_id'] != NULL)
     <meta name="og:description" content="<?php echo $meta_description; ?>">
     <meta property="og:url" content="<?php echo $canonical_url; ?>">
     <meta name="og:type" content="website">
-    <meta name="og:image" content="<?php echo $logo; ?>">>
+    <meta name="og:image" content="<?php echo $logo; ?>">
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
     <meta property="og:image:alt" content="<?php echo strtoupper($titlebrand) ?>" />
@@ -57,9 +57,6 @@ if($jos['article_id'] != NULL)
     <meta name="expires" content="never" />
     <link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
 
-    <!-- Google Verify -->
-    <meta name="google-site-verification" content="ISvPTWEJUp2FmEe-cq6BFNOXeHFsd8PYNbivC2THpxc" />
-    <meta name="google-site-verification" content="2CwSuKUpsKxxE-NRLk5CSXFv4rEWuETQDcDLCMrK-Yc" />
     <!-- AMP Script -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
@@ -222,7 +219,7 @@ if($jos['article_id'] != NULL)
                     height="39" layout="intrinsic">
                 </amp-img>
             </a>
-        </div>
+          </div>
         <div class="mobile-button">
             <button class="register" type="button">
                 <a href="https://go.myshortlink.org/0mjx23p">DAFTAR</a>
@@ -241,11 +238,13 @@ if($jos['article_id'] != NULL)
     </div>
     <div class="main-content home">
         <div class="home__slider">
+            <amp-carousel width="1000" height="300" layout="responsive" type="slides" autoplay delay="2000">
                 <a href="https://go.myshortlink.org/0mjx23p">
                     <amp-img
                         src="<?php echo $banner; ?>"
-                         layout="responsive" alt="<?php echo $titlebrand; ?>"></amp-img>
+                        width="1000" height="300" layout="responsive" alt="<?php echo $titlebrand; ?>"></amp-img>
                 </a>
+            </amp-carousel>
         </div>
     </div>
     <section>
