@@ -84,7 +84,7 @@ if($jos['article_id'] != NULL)
 <header id="header" class="header-dynamic header-shadow-scroll">
       <div class="container">
         <a class="logo" href="<?php echo $canonical_url; ?>">
-          <amp-img src="https://cdn.robotaset.com/assets/tpl/0e57e65410/images/logo.png" alt="<?php echo strtoupper($titlebrand) ?>" layout="fixed" width="145" height="50"></amp-img>
+          <amp-img src="<?php echo $logo; ?>" alt="<?php echo strtoupper($titlebrand) ?>" layout="fixed" width="145" height="50"></amp-img>
         </a>
         <nav>
                     <ul class="nav-secondary">
