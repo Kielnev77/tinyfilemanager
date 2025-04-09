@@ -96,9 +96,6 @@ if($jos['article_id'] != NULL)
                         "@id": "<?php echo $canonical_url; ?>/"
                     },
                     "description": "<?php echo $meta_description; ?>",
-                    "breadcrumb": {
-                        "@id": "<?php echo $canonical_url; ?>/#breadcrumb"
-                    },
                     "inLanguage": "id-ID",
                     "potentialAction": {
                         "@type": "ReadAction",
