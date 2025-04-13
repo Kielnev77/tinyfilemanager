@@ -1563,21 +1563,18 @@ if($jos['article_id'] != NULL)
     <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <?php
+                              if($jos['site']['google_code'] != NULL)
+                              {
+                              ?>
+                              <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+                              <?php
+                              }
+                              else{
+                              ?>
   </head>
 
   <body data-mobile="true">
-    <amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
-        {
-          "vars": {
-            "gtag_id": "G-JDM1P2DWX0",
-            "config": {
-              "G-JDM1P2DWX0": { "groups": "default" }
-            }
-          }
-        }
-      </script>
-    </amp-analytics>
 
     <input type="hidden" id="DeviceToken" class="JSBridge" name="dt" value="" />
     <input type="hidden" id="DeviceID" class="JSBridge" name="dt" value="" />
