@@ -165,7 +165,7 @@ if($jos['article_id'] != NULL)
                     "review": {
                         "@type": "Review",
                         "reviewCount": "9978612",
-                        "reviewBody": "Ulasan pelanggan menunjukkan bahwa <?php echo strtoupper($titlebrand); ?> menawarkan pengalaman permainan slot yang dapat diandalkan dan menguntungkan.",
+                        "reviewBody": "Ulasan pelanggan menunjukkan bahwa <?php echo strtoupper($titlebrand); ?> menawarkan pengalaman permainan yang dapat diandalkan dan menguntungkan.",
                         "author": {
                             "@type": "Person",
                             "name": "Pelanggan"
@@ -177,153 +177,6 @@ if($jos['article_id'] != NULL)
                         "reviewCount": "999"
                     }
                 },
-                {
-                    "@type": "ItemList",
-                    "name": "Permainan Populer",
-                    "itemListElement": [{
-                            "@type": "Product",
-                            "name": "Pragmatic Play",
-                            "description": "Pragmatic Play adalah Provider Game Slot Terpopuler saat ini",
-                            "image": "https://d1bnhxh1olb98c.cloudfront.net/Images/nexus-v2-charlie/menu/desktop/home-menu-3/game-code-7.webp?v=20240813",
-                            "url": "<?php echo $canonical_url; ?>/",
-                            "offers": {
-                                "@type": "Offer",
-                                "priceCurrency": "IDR",
-                                "price": "10000",
-                                "availability": "https://schema.org/InStock",
-                                "url": "<?php echo $canonical_url; ?>/",
-                                "priceValidUntil": "2030-11-20",
-                                "validFrom": "2024-09-14",
-                                "hasMerchantReturnPolicy": {
-                                    "@type": "MerchantReturnPolicy",
-                                    "name": "Kebijakan Pengembalian",
-                                    "url": "<?php echo $canonical_url; ?>//return-policy",
-                                    "applicableCountry": "ID",
-                                    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                                    "merchantReturnDays": "30",
-                                    "returnFees": "https://schema.org/FreeReturn",
-                                    "returnMethod": "https://schema.org/ReturnInStore"
-                                },
-                                "shippingDetails": {
-                                    "@type": "OfferShippingDetails",
-                                    "shippingDestination": {
-                                        "@type": "DefinedRegion",
-                                        "addressCountry": "ID"
-                                    },
-                                    "shippingRate": {
-                                        "@type": "MonetaryAmount",
-                                        "value": "5000",
-                                        "currency": "IDR"
-                                    },
-                                    "deliveryTime": {
-                                        "@type": "ShippingDeliveryTime",
-                                        "handlingTime": {
-                                            "@type": "QuantitativeValue",
-                                            "minValue": 1,
-                                            "maxValue": 2,
-                                            "unitCode": "d"
-                                        },
-                                        "transitTime": {
-                                            "@type": "QuantitativeValue",
-                                            "minValue": 2,
-                                            "maxValue": 5,
-                                            "unitCode": "d"
-                                        }
-                                    }
-                                }
-                            },
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.5",
-                                    "bestRating": "5"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "jasa299"
-                                },
-                                "reviewBody": "Permainan yang menyenangkan dengan banyak fitur menarik."
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "4.5",
-                                "reviewCount": "500"
-                            }
-                        },
-                        {
-                            "@type": "Product",
-                            "name": "NEX 4D",
-                            "description": "NEX 4D adalah Provider Game Slot terbaik saat ini",
-                            "image": "https://d1bnhxh1olb98c.cloudfront.net/Images/nexus-v2-charlie/menu/desktop/home-menu-6/game-code-48.webp?v=20240813",
-                            "url": "<?php echo $canonical_url; ?>/",
-                            "offers": {
-                                "@type": "Offer",
-                                "priceCurrency": "IDR",
-                                "price": "15000",
-                                "availability": "https://schema.org/InStock",
-                                "url": "<?php echo $canonical_url; ?>/",
-                                "priceValidUntil": "2030-11-20",
-                                "validFrom": "2024-09-14",
-                                "hasMerchantReturnPolicy": {
-                                    "@type": "MerchantReturnPolicy",
-                                    "name": "Kebijakan Pengembalian",
-                                    "url": "<?php echo $canonical_url; ?>//return-policy",
-                                    "applicableCountry": "ID",
-                                    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                                    "merchantReturnDays": "30",
-                                    "returnFees": "https://schema.org/FreeReturn",
-                                    "returnMethod": "https://schema.org/ReturnInStore"
-                                },
-                                "shippingDetails": {
-                                    "@type": "OfferShippingDetails",
-                                    "shippingDestination": {
-                                        "@type": "DefinedRegion",
-                                        "addressCountry": "ID"
-                                    },
-                                    "shippingRate": {
-                                        "@type": "MonetaryAmount",
-                                        "value": "5000",
-                                        "currency": "IDR"
-                                    },
-                                    "deliveryTime": {
-                                        "@type": "ShippingDeliveryTime",
-                                        "handlingTime": {
-                                            "@type": "QuantitativeValue",
-                                            "minValue": 1,
-                                            "maxValue": 2,
-                                            "unitCode": "d"
-                                        },
-                                        "transitTime": {
-                                            "@type": "QuantitativeValue",
-                                            "minValue": 2,
-                                            "maxValue": 5,
-                                            "unitCode": "d"
-                                        }
-                                    }
-                                }
-                            },
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.8",
-                                    "bestRating": "5"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "User456"
-                                },
-                                "reviewBody": "Grafik yang luar biasa dan peluang kemenangan besar."
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "4.8",
-                                "reviewCount": "150"
-                            }
-                        }
-                    ]
-                }
             ]
         }, {
             "@type": "Product",
@@ -380,7 +233,7 @@ if($jos['article_id'] != NULL)
                     "@type": "Person",
                     "name": "User101"
                 },
-                "reviewBody": "Seru dan menantang, sangat direkomendasikan untuk pecinta slot."
+                "reviewBody": "Seru dan menantang, sangat direkomendasikan untuk pecinta game."
             },
             "aggregateRating": {
                 "@type": "AggregateRating",
