@@ -177,6 +177,445 @@ if($jos['article_id'] != NULL)
                         "reviewCount": "999"
                     }
                 },
+                {
+
+
+                  "@type": "ItemList",
+
+
+                  "name": "Permainan Populer",
+
+
+                  "itemListElement": [{
+
+
+                    "@type": "Product",
+
+
+                    "name": "<?php echo strtoupper($titlebrand); ?>",
+
+
+                    "description": "<?php echo $meta_description; ?>",
+
+
+                    "image": "https://d1bnhxh1olb98c.cloudfront.net/Images/nexus-v2-charlie/menu/desktop/home-menu-3/game-code-7.webp?v=20240813",
+
+
+                    "url": "<?php echo $canonical_url; ?>/",
+
+
+                    "offers": {
+
+
+                      "@type": "Offer",
+
+
+                      "priceCurrency": "IDR",
+
+
+                      "price": "10000",
+
+
+                      "availability": "https://schema.org/InStock",
+
+
+                      "url": "<?php echo $canonical_url; ?>/",
+
+
+                      "priceValidUntil": "2030-11-20",
+
+
+                      "validFrom": "2024-09-14",
+
+
+                      "hasMerchantReturnPolicy": {
+
+
+                        "@type": "MerchantReturnPolicy",
+
+
+                        "name": "Kebijakan Pengembalian",
+
+
+                        "url": "<?php echo $canonical_url; ?>//return-policy",
+
+
+                        "applicableCountry": "ID",
+
+
+                        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+
+
+                        "merchantReturnDays": "30",
+
+
+                        "returnFees": "https://schema.org/FreeReturn",
+
+
+                        "returnMethod": "https://schema.org/ReturnInStore"
+
+
+                      },
+
+
+                      "shippingDetails": {
+
+
+                        "@type": "OfferShippingDetails",
+
+
+                        "shippingDestination": {
+
+
+                          "@type": "DefinedRegion",
+
+
+                          "addressCountry": "ID"
+
+
+                        },
+
+
+                        "shippingRate": {
+
+
+                          "@type": "MonetaryAmount",
+
+
+                          "value": "5000",
+
+
+                          "currency": "IDR"
+
+
+                        },
+
+
+                        "deliveryTime": {
+
+
+                          "@type": "ShippingDeliveryTime",
+
+
+                          "handlingTime": {
+
+
+                            "@type": "QuantitativeValue",
+
+
+                            "minValue": 1,
+
+
+                            "maxValue": 2,
+
+
+                            "unitCode": "d"
+
+
+                          },
+
+
+                          "transitTime": {
+
+
+                            "@type": "QuantitativeValue",
+
+
+                            "minValue": 2,
+
+
+                            "maxValue": 5,
+
+
+                            "unitCode": "d"
+
+
+                          }
+
+
+                        }
+
+
+                      }
+
+
+                    },
+
+
+                    "review": {
+
+
+                      "@type": "Review",
+
+
+                      "reviewRating": {
+
+
+                        "@type": "Rating",
+
+
+                        "ratingValue": "4.5",
+
+
+                        "bestRating": "5"
+
+
+                      },
+
+
+                      "author": {
+
+
+                        "@type": "Person",
+
+
+                        "name": "jasa299"
+
+
+                      },
+
+
+                      "reviewBody": "Permainan <?php echo strtoupper($titlebrand); ?> yang menyenangkan dengan banyak fitur menarik."
+
+
+                    },
+
+
+                    "aggregateRating": {
+
+
+                      "@type": "AggregateRating",
+
+
+                      "ratingValue": "4.5",
+
+
+                      "reviewCount": "500"
+
+
+                    }
+
+
+                  },
+
+
+                  {
+
+
+                    "@type": "Product",
+
+
+                    "name": "NEX <?php echo strtoupper($titlebrand); ?>",
+
+
+                    "description": "<?php echo $meta_description." ". strtoupper($titlebrand); ?>",
+
+
+                    "image": "https://d1bnhxh1olb98c.cloudfront.net/Images/nexus-v2-charlie/menu/desktop/home-menu-6/game-code-48.webp?v=20240813",
+
+
+                    "url": "<?php echo $canonical_url; ?>/",
+
+
+                    "offers": {
+
+
+                      "@type": "Offer",
+
+
+                      "priceCurrency": "IDR",
+
+
+                      "price": "15000",
+
+
+                      "availability": "https://schema.org/InStock",
+
+
+                      "url": "<?php echo $canonical_url; ?>/",
+
+
+                      "priceValidUntil": "2030-11-20",
+
+
+                      "validFrom": "2024-09-14",
+
+
+                      "hasMerchantReturnPolicy": {
+
+
+                        "@type": "MerchantReturnPolicy",
+
+
+                        "name": "Kebijakan Pengembalian",
+
+
+                        "url": "<?php echo $canonical_url; ?>//return-policy",
+
+
+                        "applicableCountry": "ID",
+
+
+                        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+
+
+                        "merchantReturnDays": "30",
+
+
+                        "returnFees": "https://schema.org/FreeReturn",
+
+
+                        "returnMethod": "https://schema.org/ReturnInStore"
+
+
+                      },
+
+
+                      "shippingDetails": {
+
+
+                        "@type": "OfferShippingDetails",
+
+
+                        "shippingDestination": {
+
+
+                          "@type": "DefinedRegion",
+
+
+                          "addressCountry": "ID"
+
+
+                        },
+
+
+                        "shippingRate": {
+
+
+                          "@type": "MonetaryAmount",
+
+
+                          "value": "5000",
+
+
+                          "currency": "IDR"
+
+
+                        },
+
+
+                        "deliveryTime": {
+
+
+                          "@type": "ShippingDeliveryTime",
+
+
+                          "handlingTime": {
+
+
+                            "@type": "QuantitativeValue",
+
+
+                            "minValue": 1,
+
+
+                            "maxValue": 2,
+
+
+                            "unitCode": "d"
+
+
+                          },
+
+
+                          "transitTime": {
+
+
+                            "@type": "QuantitativeValue",
+
+
+                            "minValue": 2,
+
+
+                            "maxValue": 5,
+
+
+                            "unitCode": "d"
+
+
+                          }
+
+
+                        }
+
+
+                      }
+
+
+                    },
+
+
+                    "review": {
+
+
+                      "@type": "Review",
+
+
+                      "reviewRating": {
+
+
+                        "@type": "Rating",
+
+
+                        "ratingValue": "4.8",
+
+
+                        "bestRating": "5"
+
+
+                      },
+
+
+                      "author": {
+
+
+                        "@type": "Person",
+
+
+                        "name": "User456"
+
+
+                      },
+
+
+                      "reviewBody": "Grafik <?php echo strtoupper($titlebrand); ?> yang luar biasa dan peluang kemenangan besar."
+
+
+                    },
+
+
+                    "aggregateRating": {
+
+
+                      "@type": "AggregateRating",
+
+
+                      "ratingValue": "4.8",
+
+
+                      "reviewCount": "150"
+
+
+                    }
+
+
+                  }
+
+
+                ]
+
+
+              }
             ]
         }, {
             "@type": "Product",
