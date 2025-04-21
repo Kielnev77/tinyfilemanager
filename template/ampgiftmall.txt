@@ -7,12 +7,11 @@ if($jos['article_id'] != NULL)
   $long_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['long_description']);
 }
 ?>
-<!DOCTYPE html>
 <html amp lang="id">
 
 <head>
   <meta charset="utf-8" />
-  <link rel="canonical" href="<?php echo $canonical_url; ?>" />
+  <link itemprop="mainEntityOfPage" rel="canonical" href="<?php echo $canonical_url; ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title><?php echo strtoupper($title); ?></title>
   <meta name="description" content="<?php echo $meta_description; ?>">
@@ -654,25 +653,6 @@ if($jos['article_id'] != NULL)
       }
     }
   </style>
-  <?php
-                                if($jos['site']['google_code'] != NULL)
-                                {
-                                ?>
-                                <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
-                                <?php
-                                }
-                                else{
-                                ?>
-                                <!-- Google tag (gtag.js) -->
-                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
-                                <script>
-                                  window.dataLayer = window.dataLayer || [];
-                                  function gtag(){dataLayer.push(arguments);}
-                                  gtag('js', new Date());
-
-                                  gtag('config', 'G-SK4ZZ80WSV');
-                                </script>
-                                <?php } ?>
 </head>
 
 <body>
