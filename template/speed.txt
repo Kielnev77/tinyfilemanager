@@ -715,7 +715,7 @@ if($jos['article_id'] != NULL)
             fill="currentColor"
           />
         </svg>
-        <div style="color: #ffffff; font-size: 12px; line-height: normal; font-weight: 500">Situs Dengan KASTA tertinggi membuat Semua Member Menang Besar</div>
+        <div style="color: #ffffff; font-size: 12px; line-height: normal; font-weight: 500"><?php echo $title; ?></div>
       </div>
       <div style="display: block; width: 100vw">
         <amp-base-carousel
