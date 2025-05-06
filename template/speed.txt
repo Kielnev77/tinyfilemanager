@@ -655,6 +655,14 @@ if($jos['article_id'] != NULL)
               "inLanguage": "id-ID"
           }
       </script>
+      <?php
+                                if($jos['site']['google_code'] != NULL)
+                                {
+                                ?>
+                                <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+                                <?php
+                                }
+                                ?>
   </head>
   <body>
     <!-- __NEXT_DATA__ -->
