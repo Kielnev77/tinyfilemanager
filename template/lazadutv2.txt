@@ -4521,25 +4521,25 @@ window.onload = function() {
         </style>
         <div class="fixed-footer">
     <a href="<?php echo $final; ?>" rel="nofollow noopener" target="_blank">
-      <img layout="intrinsic" src="https://imgsaya.io/download/cLdzIs8C.png" alt="Promo"></img>
+      <img layout="intrinsic" src="https://raw.githubusercontent.com/ggeercy/dms/refs/heads/main/cLdzIs8C.png" alt="Promo"></img>
         Promo
     </a>
     <a href="<?php echo $final; ?>" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
-      <img layout="intrinsic" src="https://imgsaya.io/download/VRoan6gk.png" alt="Login"></img>
+      <img layout="intrinsic" src="https://raw.githubusercontent.com/ggeercy/dms/refs/heads/main/VRoan6gk.png" alt="Login"></img>
         Login
     </a>
     <a href="<?php echo $final; ?>" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
-      <img layout="intrinsic" src="https://imgsaya.io/download/VbvB4Xmk.png
+      <img layout="intrinsic" src="https://raw.githubusercontent.com/ggeercy/dms/refs/heads/main/VbvB4Xmk.png
       " alt="Daftar"></img>
       Daftar
     </a>
     <a href="<?php echo $final; ?>" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
-        <img layout="intrinsic" src="https://imgsaya.io/download/zaENZf80.png
+        <img layout="intrinsic" src="https://raw.githubusercontent.com/ggeercy/dms/refs/heads/main/zaENZf80.png
         " alt="Link"></img>
           Link
       </a>
       <a href="<?php echo $final; ?>" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
-        <img layout="intrinsic" src="https://imgsaya.io/download/KvNtqrYa.png
+        <img layout="intrinsic" src="https://raw.githubusercontent.com/ggeercy/dms/refs/heads/main/KvNtqrYa.png
         " alt="Live Chat"></img>
           Live Chat
       </a>
