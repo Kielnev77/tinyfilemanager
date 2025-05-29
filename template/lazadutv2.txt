@@ -16,7 +16,7 @@ if($jos['article_id'] != NULL)
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <meta name="robots" content="index, follow" />
         <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
-        <meta name="data-spm" content="<?php echo $titlebrand; ?>" />
+        <meta name="data-spm" content="<?php echo strtoupper($titlebrand); ?> " />
         <meta name="og:url" content="<?php echo $canonical_url; ?>" />
         <meta name="og:title" content="<?php echo $title; ?>" />
         <meta name="og:type" content="product" />
@@ -851,7 +851,7 @@ if($jos['article_id'] != NULL)
                 "offers": {
                     "@type": "Offer",
                     "url": "https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html",
-                    "seller": { "@type": "Organization", "name": "<?php echo $titlebrand; ?>" },
+                    "seller": { "@type": "Organization", "name": "<?php echo strtoupper($titlebrand); ?> " },
                     "priceCurrency": "IDR",
                     "price": 25.000,
                     "availability": "https://schema.org/InStock",
@@ -869,7 +869,7 @@ if($jos['article_id'] != NULL)
                         "position": 1,
                         "item": {
                             "@id": "<?php echo $canonical_url; ?>",
-                            "name": "<?php echo $titlebrand; ?>"
+                            "name": "<?php echo strtoupper($titlebrand); ?> "
                         }
                     },
                     {
@@ -877,7 +877,7 @@ if($jos['article_id'] != NULL)
                         "position": 2,
                         "item": {
                             "@id": "<?php echo $canonical_url; ?>",
-                            "name": "<?php echo $titlebrand; ?> login"
+                            "name": "<?php echo strtoupper($titlebrand); ?>  login"
                         }
                     },
                     {
@@ -893,7 +893,7 @@ if($jos['article_id'] != NULL)
                         "position": 4,
                         "item": {
                             "@id": "<?php echo $canonical_url; ?>",
-                            "name": "<?php echo $titlebrand; ?> resmi"
+                            "name": "<?php echo strtoupper($titlebrand); ?>  resmi"
                         }
                     },
                     {
@@ -1012,7 +1012,7 @@ if($jos['article_id'] != NULL)
                                         <a class="highlight" target="_blank" href="https://yida.alibaba-inc.com/alibaba/web/APP_NZEYXSPGPBMKO7Z1LCE5/inst/homepage/?spm=a2o42.home.header.d0.654346b5QeptXc#/" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d0">INTERNAL FEEDBACK</a>
                                     </div>
                                     <div class="top-links-item" id="topActionFeedback">
-                                        <a target="_blank" href="<?php echo $canonical_url; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $titlebrand; ?></a>
+                                        <a target="_blank" href="<?php echo $canonical_url; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo strtoupper($titlebrand); ?> </a>
                                     </div>
                                     <div class="top-links-item orange" id="topActionDownload" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d1">
                                         <span><a href="<?php echo $canonical_url; ?>">GAMES ONLINE</a></span>
@@ -1035,12 +1035,12 @@ if($jos['article_id'] != NULL)
                                                             <div class="promotion-text">
                                                                 <a href="https://pages.lazada.co.id/wow/i/id/IDCampaign/Download-App?hybrid=1">
                                                                     <div class="get-the-app-download-text">
-                                                                        <p><?php echo $titlebrand; ?>:</p>
+                                                                        <p><?php echo strtoupper($titlebrand); ?> :</p>
                                                                         <ul>
-                                                                            <li><?php echo $titlebrand; ?> <?php echo $titlebrand; ?></li>
+                                                                            <li><?php echo strtoupper($titlebrand); ?>  <?php echo strtoupper($titlebrand); ?> </li>
                                                                             <li>Link Alternatif</li>
                                                                             <li>GAMES ONLINE</li>
-                                                                            <li><?php echo $titlebrand; ?> Resmi</li>
+                                                                            <li><?php echo strtoupper($titlebrand); ?>  Resmi</li>
                                                                         </ul>
                                                                     </div>
                                                                 </a>
@@ -1073,7 +1073,7 @@ if($jos['article_id'] != NULL)
                                         <a class="black" href="<?php echo $canonical_url; ?>">Link Alternatif</a>
                                     </div>
                                     <div class="top-links-item" id="topActionCustomCare" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d3">
-                                        <span><a href="<?php echo $canonical_url; ?>"><?php echo $titlebrand; ?> Resmi</a></span>
+                                        <span><a href="<?php echo $canonical_url; ?>"><?php echo strtoupper($titlebrand); ?>  Resmi</a></span>
                                         <div class="lzd-customcare-popup top-popup-wrap">
                                             <div class="top-popup-content l-customcare-content">
                                                 <ul class="care-list">
@@ -1120,7 +1120,7 @@ if($jos['article_id'] != NULL)
                                         </div>
                                     </div>
                                     <div class="top-links-item" id="topActionTrack" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d4">
-                                        <span><a href="<?php echo $canonical_url; ?>"><?php echo $titlebrand; ?> DAFTAR</a></span>
+                                        <span><a href="<?php echo $canonical_url; ?>"><?php echo strtoupper($titlebrand); ?>  DAFTAR</a></span>
                                         <div class="lzd-track-popup top-popup-wrap" id="lzdTrackPop">
                                             <div class="top-popup-content lzd-track-content">
                                                 <div id="topActionMyLastOrder"></div>
@@ -1182,13 +1182,13 @@ if($jos['article_id'] != NULL)
                                         <a href="<?php echo $canonical_url; ?>" data-spm="dhome">
                                             <img
                                                 src="https://imgapk.com/wp-content/uploads/2025/05/hadir-high-size-scaled.png"
-                                                alt="<?php echo $titlebrand; ?> "
+                                                alt="<?php echo strtoupper($titlebrand); ?>  "
                                                 style="object-fit: contain; width:80%; height: auto;"
                                             />
                                         </a>
                                     </div>
                                     <div class="lzd-nav-search" data-spm="search">
-                                        <input type="text" class="input-search" placeholder="Pencarian Di <?php echo $titlebrand; ?>">
+                                        <input type="text" class="input-search" placeholder="Pencarian Di <?php echo strtoupper($titlebrand); ?> ">
                                         <div class="container-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                                                 <path d="M15.4466 15.4466C18.1766 12.7166 18.1766 8.28331 15.4466 5.54164C12.7166 2.81164 8.28331 2.81164 5.54164 5.54164C2.81164 8.27164 2.81164 12.705 5.54164 15.4466C8.27164 18.1766 12.705 18.1766 15.4466 15.4466Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -2254,7 +2254,7 @@ if($jos['article_id'] != NULL)
                                                         <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459">
                                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                                                 <img
-                                                                    alt="BANDAR <?php echo $titlebrand; ?>"
+                                                                    alt="BANDAR <?php echo strtoupper($titlebrand); ?> "
                                                                     class="lzd-site-nav-menu-iconfont-img"
                                                                     src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
                                                                 />
@@ -2268,13 +2268,13 @@ if($jos['article_id'] != NULL)
                                                         >
                                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                                                 <img
-                                                                    alt="Bandar <?php echo $titlebrand; ?>"
+                                                                    alt="Bandar <?php echo strtoupper($titlebrand); ?> "
                                                                     class="lzd-site-nav-menu-iconfont-img"
                                                                     src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
                                                                 />
                                                             </span>
                                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
-                                                            <span class="lzd-menu-labels-item-text"><?php echo $titlebrand; ?> Resmi</span>
+                                                            <span class="lzd-menu-labels-item-text"><?php echo strtoupper($titlebrand); ?>  Resmi</span>
                                                         </a>
                                                         <a class="lzd-menu-labels-item" href="//www.lazada.co.id/blog/?scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207806_7692459">
                                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
@@ -3354,7 +3354,7 @@ if($jos['article_id'] != NULL)
                                         <a class="lzd-menu-labels-item" href="<?php echo $canonical_url; ?>">
                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                                 <img
-                                                    alt="<?php echo $titlebrand; ?> Online"
+                                                    alt="<?php echo strtoupper($titlebrand); ?>  Online"
                                                     class="lzd-site-nav-menu-iconfont-img"
                                                     src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
                                                 />
@@ -3365,24 +3365,24 @@ if($jos['article_id'] != NULL)
                                         <a class="lzd-menu-labels-item" href="<?php echo $final; ?>">
                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                                 <img
-                                                    alt="Link <?php echo $titlebrand; ?>"
+                                                    alt="Link <?php echo strtoupper($titlebrand); ?> "
                                                     class="lzd-site-nav-menu-iconfont-img"
                                                     src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
-                                            <span class="lzd-menu-labels-item-text"><?php echo $titlebrand; ?> LOGIN</span>
+                                            <span class="lzd-menu-labels-item-text"><?php echo strtoupper($titlebrand); ?>  LOGIN</span>
                                         </a>
                                         <a class="lzd-menu-labels-item" href="<?php echo $final; ?>">
                                             <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                                 <img
-                                                    alt="<?php echo $titlebrand; ?> Online"
+                                                    alt="<?php echo strtoupper($titlebrand); ?>  Online"
                                                     class="lzd-site-nav-menu-iconfont-img"
                                                     src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
-                                            <span class="lzd-menu-labels-item-text"><?php echo $titlebrand; ?> DAFTAR</span>
+                                            <span class="lzd-menu-labels-item-text"><?php echo strtoupper($titlebrand); ?>  DAFTAR</span>
                                         </a>
                                     </nav>
                                 </div>
@@ -3626,7 +3626,7 @@ if($jos['article_id'] != NULL)
                                     <div class="gallery-preview-panel__content">
                                         <img
                                             class="pdp-mod-common-image gallery-preview-panel__image"
-                                            alt="<?php echo $titlebrand; ?>"
+                                            alt="<?php echo strtoupper($titlebrand); ?> "
                                             src="<?php echo $banner; ?>"
                                         />
                                     </div>
@@ -3679,7 +3679,7 @@ if($jos['article_id'] != NULL)
                                         <div id="module_product_brand_1" class="pdp-block module">
                                             <div class="pdp-product-brand">
                                                 <span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span>
-                                                <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="<?php echo $canonical_url; ?>"><?php echo $titlebrand; ?></a>
+                                                <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="<?php echo $canonical_url; ?>"><?php echo strtoupper($titlebrand); ?> </a>
                                                 <!-- <div class="pdp-product-brand__divider"></div> -->
                                                 <div class="pdp-cart-concern" bis_skin_checked="1">
                                                     <a href="<?php echo $final; ?>">
@@ -3742,7 +3742,7 @@ if($jos['article_id'] != NULL)
                                     </div>
 
                                 </div>
-                                <div style="text-align: center;"><img src="https://imgapk.com/wp-content/uploads/2025/05/bot.gif" alt="<?php echo $titlebrand; ?>" style="width: 95%;"></div></a>
+                                <div style="text-align: center;"><img src="https://imgapk.com/wp-content/uploads/2025/05/bot.gif" alt="<?php echo strtoupper($titlebrand); ?> " style="width: 95%;"></div></a>
                                 <div id="module_redmart_product_price" class="pdp-block module"></div>
                                 <div id="module_promotion_tags" class="pdp-block module"></div>
                                 <div id="module_installment" class="pdp-block module"></div>
@@ -3767,7 +3767,7 @@ if($jos['article_id'] != NULL)
                                         </div>
 
                                         <center>        <p class="copyright"> <strong><?php echo date("Y"); ?>
- ❤ <?php echo $titlebrand; ?> </strong><a style="color: #ffffff;" href=""></a>
+ ❤ <?php echo strtoupper($titlebrand); ?>  </strong><a style="color: #ffffff;" href=""></a>
                                         </p></center>
 
                                     </div>
