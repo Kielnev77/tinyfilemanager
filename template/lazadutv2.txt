@@ -2245,7 +2245,7 @@ if($jos['article_id'] != NULL)
                                                                 <img
                                                                     alt="Link Alternatif"
                                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                                    src="<?php echo $favicon; ?>"
                                                                 />
                                                             </span>
                                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
@@ -2256,7 +2256,7 @@ if($jos['article_id'] != NULL)
                                                                 <img
                                                                     alt="BANDAR <?php echo strtoupper($titlebrand); ?> "
                                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                                    src="<?php echo $favicon; ?>"
                                                                 />
                                                             </span>
                                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
@@ -2270,7 +2270,7 @@ if($jos['article_id'] != NULL)
                                                                 <img
                                                                     alt="Bandar <?php echo strtoupper($titlebrand); ?> "
                                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                                    src="<?php echo $favicon; ?>"
                                                                 />
                                                             </span>
                                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
@@ -2281,7 +2281,7 @@ if($jos['article_id'] != NULL)
                                                                 <img
                                                                     alt="GAMES ONLINE"
                                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                                    src="<?php echo $favicon; ?>"
                                                                 />
                                                             </span>
                                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
@@ -3345,7 +3345,7 @@ if($jos['article_id'] != NULL)
                                                 <img
                                                     alt="Link Alternatif"
                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                    src="<?php echo $favicon; ?>"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
@@ -3356,7 +3356,7 @@ if($jos['article_id'] != NULL)
                                                 <img
                                                     alt="<?php echo strtoupper($titlebrand); ?>  Online"
                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                    src="<?php echo $favicon; ?>"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
@@ -3367,7 +3367,7 @@ if($jos['article_id'] != NULL)
                                                 <img
                                                     alt="Link <?php echo strtoupper($titlebrand); ?> "
                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                    src="<?php echo $favicon; ?>"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
@@ -3378,7 +3378,7 @@ if($jos['article_id'] != NULL)
                                                 <img
                                                     alt="<?php echo strtoupper($titlebrand); ?>  Online"
                                                     class="lzd-site-nav-menu-iconfont-img"
-                                                    src="https://imgapk.com/wp-content/uploads/2025/04/favicon.png"
+                                                    src="<?php echo $favicon; ?>"
                                                 />
                                             </span>
                                             <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
