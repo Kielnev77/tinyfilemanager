@@ -1181,7 +1181,7 @@ if($jos['article_id'] != NULL)
                                     <div class="lzd-logo-content">
                                         <a href="<?php echo $canonical_url; ?>" data-spm="dhome">
                                             <img
-                                                src="https://imgapk.com/wp-content/uploads/2025/05/hadir-high-size-scaled.png"
+                                                src="<?php echo $logo; ?>"
                                                 alt="<?php echo strtoupper($titlebrand); ?>  "
                                                 style="object-fit: contain; width:80%; height: auto;"
                                             />
