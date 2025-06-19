@@ -22,20 +22,21 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-<link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1744816429/_cache/merged/bc6b28370b4b291f0e03e78c95c68759.min.css" />
-<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 767px)" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1748539210/_cache/merged/7084bf41699fb1cce345573ce0cf91e8.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 767px)" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
 
 
 
 
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1744816429/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1748539210/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
+
 
 
     <link rel="canonical" href="<?php echo $canonical_url; ?>" />
