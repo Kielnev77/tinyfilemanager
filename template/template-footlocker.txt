@@ -22,22 +22,18 @@ if($jos['article_id'] != NULL)
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no" />
     <title><?php echo ucwords($title); ?></title>
-<link  rel="stylesheet" type="text/css"  media="all" href="https://www.footlocker.id/static/version1751481242/_cache/merged/b1b603e3bb3c39386bc24de65acc4ecd.min.css" />
-<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 767px)" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/css/styles-l.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/b1b603e3bb3c39386bc24de65acc4ecd.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 767px)" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/styles-l.min.css" />
 
 
-
-
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/fonts/opensans/light/opensans-300.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/fonts/opensans/regular/opensans-400.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/fonts/opensans/semibold/opensans-600.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/fonts/opensans/bold/opensans-700.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/fonts/Luma-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/Simple-Line-Icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/lined-icons.woff2" />
-<link rel="preload" as="font" crossorigin="anonymous" href="https://www.footlocker.id/static/version1751481242/frontend/Footlocker/default/id_ID/WeltPixel_DesignElements/fonts/font-icons.woff2" />
-
-
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/Luma-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/Simple-Line-Icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/lined-icons.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/ggeercy/repo@latest/font-icons.woff2" />
 
 
     <link rel="canonical" href="<?php echo $canonical_url; ?>" />
