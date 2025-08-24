@@ -51,7 +51,7 @@ if($jos['article_id'] != NULL)
 <meta name="twitter:title" content="<?php echo strtoupper($title); ?>" />
 <meta name="twitter:description" content="<?php echo $meta_description; ?>" />
 <meta name="twitter:image" content="<?php echo $logo; ?>" />
-<link rel="canonical" href="<?php echo canonical_url; ?>/">
+<link rel="canonical" href="<?php echo $canonical_url; ?>/">
 <meta name="google-site-verification" content="MfHtutyYHuaArkIjt65j72EhFT-Kd9OJ3vw6BW0TH_I" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/docs/assets/style.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
