@@ -81,7 +81,7 @@ else{
     <span class="bg-text-animation"><?php echo strtoupper($titlebrand); ?></span>
 
     <!-- Profile -->
-    <img class="my-photo" src="<?php echo $logo; ?>" alt="AR Logo">
+    <img class="my-photo" src="<?php echo $banner; ?>" alt="AR Logo">
     <h1><?php echo strtoupper($title); ?></h1>
     <p><?php echo strtoupper($titlebrand); ?> LOGIN, <?php echo strtoupper($titlebrand); ?> DAFTAR, <?php echo strtoupper($titlebrand); ?> LINK ALTERNATIF</p>
 
