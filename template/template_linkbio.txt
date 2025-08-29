@@ -8,7 +8,7 @@ if($jos['article_id'] != NULL)
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -52,6 +52,7 @@ if($jos['article_id'] != NULL)
 <meta name="twitter:description" content="<?php echo $meta_description; ?>" />
 <meta name="twitter:image" content="<?php echo $logo; ?>" />
 <link rel="canonical" href="<?php echo $canonical_url; ?>/">
+<link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/docs/assets/style.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <?php
@@ -83,7 +84,7 @@ else{
     <!-- Profile -->
     <img class="my-photo" src="<?php echo $banner; ?>" alt="AR Logo">
     <h1><?php echo strtoupper($title); ?></h1>
-    <p><?php echo strtoupper($titlebrand); ?> LOGIN, <?php echo strtoupper($titlebrand); ?> DAFTAR, <?php echo strtoupper($titlebrand); ?> LINK ALTERNATIF</p>
+    <p><?php echo $meta_description; ?></p>
 
     <!-- Sosial Media -->
     <div class="sosmed">
@@ -105,7 +106,7 @@ else{
                 <div class="link-icon">
                     <i class="ph-fill ph-chat-circle-dots"></i>
                 </div>
-                <p class="link-text">LINK LOGIN</p>
+                <p class="link-text">LINK LOGIN <?php echo strtoupper($titlebrand); ?></p>
                 <div class="link-action">
                     <i class="ph-fill ph-copy"></i>
                 </div>
@@ -116,7 +117,7 @@ else{
                 <div class="link-icon">
                     <i class="ph-fill ph-chat-circle-dots"></i>
                 </div>
-                <p class="link-text">LINK ALTERNATIF</p>
+                <p class="link-text">LINK ALTERNATIF <?php echo strtoupper($titlebrand); ?></p>
                 <div class="link-action">
                     <i class="ph-fill ph-copy"></i>
                 </div>
@@ -127,7 +128,7 @@ else{
                 <div class="link-icon">
                     <i class="ph-fill ph-chat-circle-dots"></i>
                 </div>
-                <p class="link-text">BUKTI JACKPOT</p>
+                <p class="link-text">Daftar <?php echo strtoupper($titlebrand); ?></p>
                 <div class="link-action">
                     <i class="ph-fill ph-copy"></i>
                 </div>
@@ -135,6 +136,8 @@ else{
         </li>
 
     </ul>
+
+    <p><?php echo $long_description; ?></p>
 
     <div class="copyright">
         <img src="<?php echo $logo; ?>" alt="<?php echo strtoupper($titlebrand); ?> LOGO">
