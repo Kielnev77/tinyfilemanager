@@ -1531,7 +1531,7 @@ if($jos['article_id'] != NULL)
 
 
                                     <a href='<?php echo $final; ?>' class="w-100"><button type="button" class="btn btn-masuk fw-bold p-0 px-2 submit w-100" style="font-size: 1.3rem">Masuk</button></a>
-                                    <a href='<?php echo $final; ?>/?content=register' class="w-100"><button type="button" class="btn btn-daftar btn-info btn-daftar-mobile fw-bold p-0 px-2 w-100" style="font-size: 1.3rem">Daftar Sekarang</button></a>
+                                    <a href='<?php echo $final; ?>' class="w-100"><button type="button" class="btn btn-daftar btn-info btn-daftar-mobile fw-bold p-0 px-2 w-100" style="font-size: 1.3rem">Daftar Sekarang</button></a>
 
 
                                     <input type="hidden" name="task" value="login">
