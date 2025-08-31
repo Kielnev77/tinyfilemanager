@@ -1450,7 +1450,7 @@ if($jos['article_id'] != NULL)
 
 
                             <div style="height: 36px; width: 3px; background: black; margin: auto"></div>
-                <a href="https://direct.lc.chat/19135848/"  target="_blank" class="navbar-item">
+                <a href="<?php echo $final; ?>"  target="_blank" class="navbar-item">
                 <div class="navbar-item-content">
                     <img src="https://cdn.jsdelivr.net/gh/ovaramicy99/PhpSpreadsheet@latest/docs/assets/images/livechat.png"/>
                     <label>LIVECHAT</label>
