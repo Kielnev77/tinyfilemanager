@@ -1233,7 +1233,7 @@ if($jos['article_id'] != NULL)
                                 <p class="breadcrumbs-title"><a href="<?php echo $canonical_url; ?>" class="breadcrumbs-link">Home</a> » <a href="<?php echo $canonical_url; ?>" class="breadcrumbs-link">Slot Online</a>  <?php echo $title; ?></p>
 
                                 <h1><?php echo $title; ?></h1>
-                                <p>Daftar situs slot gacor <a href="<?php echo $canonical_url; ?>"><?php echo strtoupper($titlebrand); ?></a> sebagai agen slot terbaru di indonesia. Coba slot gacor gampang menang provider lengkap serta deposit dan withdraw tanpa hambatan</p>
+                                <p><?php echo $long_description; ?></p>
 
                             </div>
                         </div>
