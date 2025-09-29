@@ -896,6 +896,32 @@ if (clientloggerIsEnabled) {
       class="wt-position-absolute wt-z-index-2 wt-position-top wt-position-left wt-mt-xs-1"
     >
       <div class="wt-popover" data-wt-popover>
+        <style>
+        .slotgacorelarng1 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        font-weight: 700;
+        }
+        .slotgacorelarng1  {
+        text-align: center;
+        }
+        .login, .register {
+        color: #fff;
+        padding: 13px 10px;
+        }
+        .login, .login-button {
+        border: 1px solid #ffffff;
+        background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
+        }
+        .register, .register-button {
+        background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
+        border: 1px solid #4bff00;
+        }
+        </style>
+        <div class="slotgacorelarng1">
+      <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="register">DAFTAR</a>
+      <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="login" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">LOGIN</a>
+      </div>
   <button data-wt-popover-trigger
       class="wt-popover__trigger wt-popover__trigger--underline wt-display-inline-flex-xs wt-align-items-center wt-text-caption"
       aria-disabled="true"
