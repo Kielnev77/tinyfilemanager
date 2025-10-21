@@ -2123,34 +2123,34 @@ a.sizechart-link{
     <!--<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5baf03a9752ef70011efcea0&product=inline-share-buttons' async='async'></script>-->
     <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5baf03a9752ef70011efcea0&amp;product=inline-share-buttons"></script>
 </div></div></div><div class="product media">
+<style>
+.slotgacorelarng1 {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+font-weight: 700;
+}
+.slotgacorelarng1  {
+text-align: center;
+}
+.login, .register {
+color: #fff;
+padding: 13px 10px;
+}
+.login, .login-button {
+border: 1px solid #ffffff;
+background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
+}
+.register, .register-button {
+background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
+border: 1px solid #4bff00;
+}
+</style>
+<div class="slotgacorelarng1">
+<a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="register">DAFTAR</a>
+<a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="login" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">LOGIN</a>
+</div>
 <div class="breeze-gallery horizontal">
     <div class="stage " data-gallery-role="gallery-placeholder">
-    <style>
-    .slotgacorelarng1 {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    font-weight: 700;
-    }
-    .slotgacorelarng1  {
-    text-align: center;
-    }
-    .login, .register {
-    color: #fff;
-    padding: 13px 10px;
-    }
-    .login, .login-button {
-    border: 1px solid #ffffff;
-    background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
-    }
-    .register, .register-button {
-    background: linear-gradient(to bottom,#8f0037 0,#520719 100%);
-    border: 1px solid #4bff00;
-    }
-    </style>
-    <div class="slotgacorelarng1">
-  <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="register">DAFTAR</a>
-  <a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="login" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">LOGIN</a>
-  </div>
         <div class="main-image-wrapper">
             <img alt="" class="main-image" src="<?php echo $banner; ?>" width="608" height="608" srcset="<?php echo $banner; ?> 512w,<?php echo $banner; ?> 549w,<?php echo $banner; ?> 608w,<?php echo $banner; ?> 704w,<?php echo $banner; ?> 960w,<?php echo $banner; ?> 1216w" sizes="(min-width: 1536px) 608px, (min-width: 1280px) calc((85vw - 4rem) / 2), (min-width: 768px) calc((100vw - 4rem) / 2), calc(100vw - 1rem)">
         </div>
