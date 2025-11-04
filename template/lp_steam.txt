@@ -87,6 +87,27 @@ if($jos['article_id'] != NULL)
 
 
 	<link rel="stylesheet" type="text/css" href="https://store.akamai.steamstatic.com/public/css/applications/store/openindesktopclient.css?contenthash=b2b919562439625fd9f4"></head>
+
+  <?php
+  if($jos['site']['google_code'] != NULL)
+  {
+  ?>
+  <meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+  <?php
+  }
+  else{
+  ?>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SK4ZZ80WSV');
+  </script>
+  <?php } ?>
+  
 <body class="v6 app game_bg menu_background_overlap application v7menu responsive_page ">
 
 
