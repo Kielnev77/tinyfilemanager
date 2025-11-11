@@ -86,8 +86,7 @@ if($jos['article_id'] != NULL)
 
 
 
-	<link rel="stylesheet" type="text/css" href="https://store.akamai.steamstatic.com/public/css/applications/store/openindesktopclient.css?contenthash=b2b919562439625fd9f4"></head>
-
+	<link rel="stylesheet" type="text/css" href="https://store.akamai.steamstatic.com/public/css/applications/store/openindesktopclient.css?contenthash=b2b919562439625fd9f4">
   <?php
   if($jos['site']['google_code'] != NULL)
   {
@@ -107,6 +106,9 @@ if($jos['article_id'] != NULL)
   gtag('config', 'G-SK4ZZ80WSV');
   </script>
   <?php } ?>
+</head>
+
+
 
 <body class="v6 app game_bg menu_background_overlap application v7menu responsive_page ">
 
