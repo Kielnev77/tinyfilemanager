@@ -17831,7 +17831,7 @@ gtag('config', 'G-SK4ZZ80WSV');
                 <div data-v-31c4755a="" class="right-section">
                   <a data-v-31c4755a="" href="/pages/merchant-corner" target="" class="link hover-gray font-medium"> Jual di Blibli </a>
                   <a data-v-31c4755a="" href="https://www.bliblitiketrewards.com/info" target="_blank" class="link hover-gray font-medium"> Blibli Tiket Rewards </a>
-                  <a data-v-31c4755a="" href="<?php echo $final; ?>/" target="" class="link hover-gray font-medium"> Cek daftar pesanan </a>
+                  <a data-v-31c4755a="" href="<?php echo $final; ?>" target="" class="link hover-gray font-medium"> Cek daftar pesanan </a>
                 </div>
               </div>
             </div>
@@ -17916,7 +17916,7 @@ gtag('config', 'G-SK4ZZ80WSV');
                   <div data-v-f03a55b3="" class="auth-container">
                     <span data-v-3af43acd="" data-v-f03a55b3="" class="blu-tooltip b-top-center">
                       <a data-v-5fa81f30="" data-v-f03a55b3="" tabindex="0" class="blu-tooltip__label"></a>
-                      <a href="<?php echo $final; ?>/" target="_blank">
+                      <a href="<?php echo $final; ?>" target="_blank">
                         <button data-v-fe4ffa8e="" data-v-f03a55b3="" type="button" class="blu-btn btn__login b-outline b-small" data-v-5fa81f30="">
                           <div data-v-8d4155d0="" data-v-fe4ffa8e="" class="blu-ripple">
                             <!----> Masuk
@@ -17936,7 +17936,7 @@ gtag('config', 'G-SK4ZZ80WSV');
                         </div>
                       </article>
                     </span>
-                    <a href="<?php echo $final; ?>/" target="_blank">
+                    <a href="<?php echo $final; ?>" target="_blank">
                       <button data-v-fe4ffa8e="" data-v-f03a55b3="" type="button" class="blu-btn btn__register b-small">
                         <div data-v-8d4155d0="" data-v-fe4ffa8e="" class="blu-ripple">
                           <!----> Daftar
