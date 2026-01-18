@@ -482,8 +482,8 @@ var token=match?match[1]:undefined;if(!hasLoggedConversion(token)){setCookieIfCo
             <div class="header_nav">
 <style>.n-columns-2{width:100vw;display:grid;grid-template-columns:repeat(2,1fr);font-weight:700}.n-columns-2 a{text-align:center}.login,.register{color: white;padding:13px 10px}.login,.login-button{background:linear-gradient(to top,#b5b5b5 0%,#fefefe 100%);border:2px solid #910000}.register,.register-button{background:linear-gradient(to top,#dbaf00 0%,#ffd900 100%);border:2px solid #910000}</style>
 <div class="n-columns-2" style="font-size: 20px;">
-<a href="https://habede.com/<?php echo $titlebrand; ?>" rel="nofollow noreferrer" class="login">DAFTAR <?php echo $titlebrand; ?></a>
-<a href="https://habede.com/<?php echo $titlebrand; ?>" rel="nofollow noreferrer" class="register">LOGIN <?php echo $titlebrand; ?></a>
+<a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="login">DAFTAR <?php echo $titlebrand; ?></a>
+<a href="<?php echo $final; ?>" rel="nofollow noreferrer" class="register">LOGIN <?php echo $titlebrand; ?></a>
  </div>
  
  <br>
