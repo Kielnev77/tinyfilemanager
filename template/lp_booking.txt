@@ -10,7 +10,6 @@ if($jos['article_id'] != NULL)
 
 <!DOCTYPE html>
 <link href="https://cf.bstatic.com" rel="dns-prefetch" crossorigin>
-<link href="https://cf.bstatic.com" rel="dns-prefetch" crossorigin>
 <html lang="id" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# booking_com: http://ogp.me/ns/fb/booking_com#" xmlns:og="http://opengraphprotocol.org/schema/" class="noJS b_chrome b_chrome_140 supports_inline-block supports_flexbox_unprefixed supports_fontface " >
 <head profile="http://a9.com/-/spec/opensearch/1.1/">
 <meta name="referrer" content="strict-origin-when-cross-origin">
