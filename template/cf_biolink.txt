@@ -8,13 +8,13 @@ if($jos['article_id'] != NULL)
 }
 ?>
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id-ID">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo strtoupper($title); ?></title>
-
+<link href="<?php echo $canonical_url; ?>" rel="preconnect"/>
 <meta content="<?php echo $keyword; ?>" name="keyword" />
 <meta content="id_ID" property="og:locale" />
 <meta content="website" property="og:type" />
@@ -23,9 +23,8 @@ if($jos['article_id'] != NULL)
 <meta content="Aeiwi, Alexa, AllTheWeb, AltaVista, AOL Netfind, Anzwers, Canada, DirectHit, EuroSeek, Excite, Overture, Go, Google, HotBot, InfoMak, Kanoodle, Lycos, MasterSite, National Directory, Northern Light, SearchIt, SimpleSearch, WebsMostLinked, WebTop, What-U-Seek, AOL, Yahoo, WebCrawler, Infoseek, Excite, Magellan, LookSmart, bing, CNET, Googlebot" name="search engines">
 <meta content="<?php echo $canonical_url; ?>" property="og:url" />
 <link rel="amphtml" href="<?php echo $amp_url; ?>" />
-<link rel="alternate" href="<?php echo $amp_url; ?>"/>
-<link rel="alternate" hreflang="en" href="<?php echo $amp_url; ?>"/>
-<link rel="alternate" hreflang="x-default" href="<?php echo $amp_url; ?>"/>
+<link rel="alternate" hreflang="id-id" href="<?php echo $amp_url; ?>"/>
+<link rel="alternate" hreflang="id" href="<?php echo $amp_url; ?>"/>
 <meta content="id-ID" name="language" />
 <meta content="id-ID" name="geo.region" />
 <meta content="INDONESIA" name="geo.placename" />
