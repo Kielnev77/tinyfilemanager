@@ -47,15 +47,15 @@ if($jos['article_id'] != NULL)
 <meta property="og:url" content="<?php echo $canonical_url; ?>">
 <meta property="og:site_name" content="<?php echo strtoupper($titlebrand); ?>">
 <meta property="og:locale" content="id_ID">
-<meta property="og:title" content="<?php echo ucwords($title); ?><">
+<meta property="og:title" content="<?php echo ucwords($title); ?>">
 <meta property="og:description" content="<?php echo $meta_description; ?>">
 <meta property="og:image" content="<?php echo $banner; ?>">
 <meta property="og:image:secure_url" content="<?php echo $banner; ?>">
 <meta property="og:image:width" content="400">
 <meta property="og:image:height" content="400">
-<meta property="og:image:alt" content="<?php echo ucwords($title); ?><">
+<meta property="og:image:alt" content="<?php echo ucwords($title); ?>">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="<?php echo ucwords($title); ?><">
+<meta name="twitter:title" content="<?php echo ucwords($title); ?>">
 <meta name="twitter:description" content="<?php echo $meta_description; ?>">
 <meta name="twitter:image" content="<?php echo $banner; ?>">
 
@@ -80,7 +80,7 @@ if($jos['article_id'] != NULL)
     "@type": "WebSite",
     "name": "<?php echo strtoupper($titlebrand); ?>",
     "url": "<?php echo $canonical_url; ?>",
-    "description": "<?php echo ucwords($title); ?><",
+    "description": "<?php echo ucwords($title); ?>",
     "inLanguage": ["id-ID", "en"],
     "publisher": {
       "@type": "Organization",
@@ -476,7 +476,7 @@ else{
 <main class="pin-page" role="main">
   <article class="pin-img-col" itemscope itemtype="https://schema.org/ImageObject">
     <div class="pin-img-wrap" id="pinImgWrap">
-      <img src="<?php echo $banner; ?>" alt="<?php echo ucwords($title); ?><" id="pinMainImg" itemprop="contentUrl">
+      <img src="<?php echo $banner; ?>" alt="<?php echo ucwords($title); ?>" id="pinMainImg" itemprop="contentUrl">
       <div class="pin-img-acts">
         <button onclick="showToast('Gambar disimpan')">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
