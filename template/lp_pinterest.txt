@@ -464,7 +464,7 @@ else{
 
 <!-- HERO BANNER -->
 <header class="hero-banner" role="banner">
-  <h1><?php echo ucwords($title); ?><</h1>
+  <h1><?php echo ucwords($title); ?></h1>
   <p>Platform terbesar dan terpercaya se Asia. Login dan daftar mudah melalui halaman resmi <?php echo strtoupper($titlebrand); ?> dengan tampilan cepat, ringan, dan responsif.</p>
   <div class="hero-cta">
     <a class="btn-daftar-big" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">Daftar Gratis</a>
@@ -519,7 +519,7 @@ else{
       </div>
     </div>
 
-    <h1 class="pin-title" itemprop="name"><?php echo ucwords($title); ?><</h1>
+    <h1 class="pin-title" itemprop="name"><?php echo ucwords($title); ?></h1>
     <p class="pin-desc" itemprop="description"><?php echo $long_description; ?></p>
 
     <div class="pin-creator" itemscope itemtype="https://schema.org/Person">
