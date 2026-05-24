@@ -1,0 +1,996 @@
+<?php
+if($jos['article_id'] != NULL)
+{
+  $brand  = array('brand123', 'Brand123');
+  $title = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><?php echo ucwords($title); ?></title>
+<link rel="icon" type="image/x-icon" href="<?php echo $favicon; ?>">
+<meta name="description" content="<?php echo $meta_description; ?>">
+<meta name="keywords" content="<?php echo $keyword; ?>">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="page-locale" content="id,en">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta name="supported-amp-formats" content="websites">
+<meta name="theme-color" content="#e60023">
+<meta name="categories" content="<?php echo strtoupper($titlebrand); ?>">
+<meta name="language" content="ID">
+<meta name="rating" content="general">
+<meta name="copyright" content="<?php echo strtoupper($titlebrand); ?>">
+<meta name="author" content="<?php echo strtoupper($titlebrand); ?>">
+<meta name="distribution" content="global">
+<meta name="publisher" content="<?php echo strtoupper($titlebrand); ?>">
+<meta name="geo.placename" content="Jakarta">
+<meta name="geo.country" content="ID">
+<meta name="geo.region" content="ID">
+<meta name="tgn.nation" content="Indonesia">
+<link rel="canonical" href="<?php echo $canonical_url; ?>">
+<link rel="amphtml" href="<?php echo $amp_url; ?>">
+<link rel="alternate" hreflang="id-ID" href="<?php echo $amp_url; ?>">
+<link rel="alternate" hreflang="id" href="<?php echo $amp_url; ?>">
+<link rel="alternate" hreflang="en" href="<?php echo $amp_url; ?>">
+<link rel="alternate" hreflang="x-default" href="<?php echo $amp_url; ?>">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<?php echo $canonical_url; ?>">
+<meta property="og:site_name" content="<?php echo strtoupper($titlebrand); ?>">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="<?php echo ucwords($title); ?><">
+<meta property="og:description" content="<?php echo $meta_description; ?>">
+<meta property="og:image" content="<?php echo $banner; ?>">
+<meta property="og:image:secure_url" content="<?php echo $banner; ?>">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta property="og:image:alt" content="<?php echo ucwords($title); ?><">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?php echo ucwords($title); ?><">
+<meta name="twitter:description" content="<?php echo $meta_description; ?>">
+<meta name="twitter:image" content="<?php echo $banner; ?>">
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "<?php echo strtoupper($titlebrand); ?>",
+    "url": "<?php echo $canonical_url; ?>",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<?php echo $banner; ?>",
+      "width": 400,
+      "height": 400
+    },
+    "sameAs": ["<?php echo $canonical_url; ?>", "<?php echo $amp_url; ?>"]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "<?php echo strtoupper($titlebrand); ?>",
+    "url": "<?php echo $canonical_url; ?>",
+    "description": "<?php echo ucwords($title); ?><",
+    "inLanguage": ["id-ID", "en"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "<?php echo strtoupper($titlebrand); ?>",
+      "url": "<?php echo $canonical_url; ?>"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "<?php echo $canonical_url; ?>?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Apa itu <?php echo strtoupper($titlebrand); ?>?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<?php echo strtoupper($titlebrand); ?> adalah situs Pinterest pintar yang menawarkan akses login dan daftar dengan mudah, serta didukung simulasi AI untuk memberikan pengalaman yang lebih interaktif bagi gamers real."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Bagaimana cara login dan daftar di <?php echo strtoupper($titlebrand); ?>?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pengguna dapat mengakses fitur login dan daftar di <?php echo strtoupper($titlebrand); ?> melalui proses yang praktis, cepat, dan mudah dipahami. Klik tombol Login atau Daftar pada halaman ini untuk diarahkan ke halaman resmi."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Apa keunggulan <?php echo strtoupper($titlebrand); ?> dibanding situs Pinterest lainnya?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<?php echo strtoupper($titlebrand); ?> mengutamakan kemudahan akses, dukungan simulasi AI, serta pengalaman gamers real yang lebih modern, sehingga memberikan nuansa penggunaan yang lebih pintar dan responsif."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Apakah <?php echo strtoupper($titlebrand); ?> aman dan terpercaya?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ya, <?php echo strtoupper($titlebrand); ?> merupakan platform resmi yang terpercaya se Asia dengan sistem keamanan terjamin dan navigasi yang mudah dipahami."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Mengapa halaman ini menggunakan tampilan galeri visual seperti Pinterest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tampilan galeri visual memudahkan pengguna melihat informasi utama, gambar referensi, CTA login dan daftar, serta konten pendukung dalam satu halaman yang rapi dan responsif."
+      }
+    }]
+  }
+</script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --red:#E60023;--red-hover:#AD081B;--red-light:#FFE0E0;
+  --black:#111;--g1:#333;--g2:#555;--g3:#767676;--g4:#B3B3B3;--g5:#D8D8D8;--g6:#EFEFEF;--g7:#F7F7F7;
+  --white:#FFF;--bg:#F0F0F0;
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:24px;--r-full:999px;
+  --sh1:0 1px 2px rgba(0,0,0,.1);--sh2:0 2px 8px rgba(0,0,0,.12);--sh3:0 4px 16px rgba(0,0,0,.16);
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --nav-h:64px;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--bg);color:var(--black);line-height:1.4;overflow-x:hidden;min-height:100vh}
+a{text-decoration:none;color:inherit}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+input,textarea{font-family:inherit;outline:none;border:none}
+img{display:block;max-width:100%}
+
+/* NAVBAR */
+.navbar{position:sticky;top:0;z-index:1000;background:var(--white);height:var(--nav-h);display:flex;align-items:center;padding:0 16px;box-shadow:var(--sh1)}
+.nav-logo{display:flex;align-items:center;gap:4px;margin-right:8px;cursor:pointer}
+.nav-logo svg{width:24px;height:24px}
+.nav-logo span{color:var(--red);font-size:20px;font-weight:700;letter-spacing:-0.5px}
+.nav-links{display:flex;gap:4px;margin-right:8px}
+.nav-links a{padding:8px 16px;font-size:15px;font-weight:600;color:var(--black);border-radius:var(--r-full);transition:background .2s}
+.nav-links a:hover{background:var(--g6)}
+.nav-links a.active{background:var(--black);color:var(--white)}
+.nav-search{flex:1;position:relative;max-width:900px}
+.nav-search input{width:100%;height:44px;background:var(--g6);border-radius:var(--r-full);padding:0 16px 0 44px;font-size:16px;color:var(--black);transition:background .2s,box-shadow .2s}
+.nav-search input:focus{background:var(--white);box-shadow:0 0 0 3px rgba(0,132,255,.5)}
+.nav-search input::placeholder{color:var(--g3)}
+.nav-search .si{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--g3)}
+.nav-actions{display:flex;align-items:center;gap:8px;margin-left:8px}
+.nav-ib{width:44px;height:44px;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;transition:background .2s;position:relative;color:var(--g2)}
+.nav-ib:hover{background:var(--g6)}
+.nav-ib svg{width:22px;height:22px}
+.nav-avatar{width:28px;height:28px;border-radius:var(--r-full);overflow:hidden;cursor:pointer;background:var(--g5)}
+.nav-avatar img{width:100%;height:100%;object-fit:cover}
+.auth-btns{display:flex;gap:8px;margin-left:8px}
+.btn-login,.btn-daftar{display:inline-flex;align-items:center;justify-content:center;padding:8px 16px;font-size:15px;font-weight:600;border-radius:var(--r-full);transition:background .15s}
+.btn-login{color:var(--white);background:var(--red)}
+.btn-login:hover{background:var(--red-hover)}
+.btn-daftar{color:var(--black);background:var(--g6)}
+.btn-daftar:hover{background:var(--g5)}
+.ndot{position:absolute;top:8px;right:8px;width:8px;height:8px;background:var(--red);border-radius:50%;border:2px solid var(--white)}
+
+/* HERO BANNER */
+.hero-banner{background:linear-gradient(135deg,#C3110C 0%,#740A03 50%,#280905 100%);padding:48px 24px;text-align:center;color:var(--white)}
+.hero-banner h1{font-size:clamp(28px,5vw,48px);font-weight:700;margin-bottom:12px;line-height:1.2}
+.hero-banner p{font-size:clamp(16px,2.5vw,20px);opacity:.9;max-width:600px;margin:0 auto 24px;line-height:1.5}
+.hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.hero-cta .btn-daftar-big,.hero-cta .btn-login-big{display:inline-flex;align-items:center;justify-content:center;padding:14px 32px;border-radius:var(--r-full);font-size:18px;font-weight:700;transition:transform .15s,box-shadow .15s}
+.hero-cta .btn-daftar-big{background:var(--white);color:var(--red)}
+.hero-cta .btn-daftar-big:hover{transform:scale(1.03);box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.hero-cta .btn-login-big{background:rgba(255,255,255,.15);color:var(--white);border:2px solid rgba(255,255,255,.5)}
+.hero-cta .btn-login-big:hover{background:rgba(255,255,255,.25)}
+
+/* PIN PAGE */
+.pin-page{max-width:1260px;margin:24px auto;padding:0 24px;display:flex;gap:32px;align-items:flex-start}
+.pin-img-col{flex:0 0 auto;width:50%;max-width:600px}
+.pin-img-wrap{background:var(--black);border-radius:var(--r-xl);overflow:hidden;position:relative}
+.pin-img-wrap img{width:100%;display:block;cursor:zoom-in;transition:transform .3s}
+.pin-img-acts{position:absolute;bottom:16px;left:16px;display:flex;gap:8px;opacity:0;transition:opacity .2s}
+.pin-img-wrap:hover .pin-img-acts{opacity:1}
+.pin-img-acts button{padding:8px 16px;background:var(--white);border-radius:var(--r-full);font-size:14px;font-weight:600;color:var(--black);display:flex;align-items:center;gap:6px;transition:background .15s}
+.pin-img-acts button:hover{background:var(--g6)}
+.pin-img-acts button svg{width:16px;height:16px}
+.visit-btn{position:absolute;right:14px;bottom:14px;z-index:2;padding:10px 16px;background:rgba(255,255,255,.92);border-radius:var(--r-full);font-size:13px;font-weight:700;box-shadow:var(--sh2);display:flex;align-items:center;gap:6px;transition:transform .15s;color:var(--black)}
+.visit-btn:hover{transform:scale(1.04)}
+.visit-btn svg{width:15px;height:15px}
+.pin-info{flex:1;min-width:0;padding-top:8px}
+.pin-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px}
+.pin-top-l{display:flex;align-items:center;gap:8px}
+.pin-top-r{display:flex;align-items:center;gap:8px}
+.btn-save{padding:8px 20px;background:var(--red);color:var(--white);border-radius:var(--r-full);font-size:15px;font-weight:600;transition:background .15s}
+.btn-save:hover{background:var(--red-hover)}
+.btn-save.saved{background:var(--black)}
+.ib{width:40px;height:40px;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;transition:background .15s;color:var(--g2)}
+.ib:hover{background:var(--g6)}
+.ib svg{width:20px;height:20px}
+.pin-title{font-size:28px;font-weight:600;line-height:1.3;margin-bottom:8px;color:var(--black)}
+.pin-desc{font-size:15px;color:var(--g1);line-height:1.6;margin-bottom:16px}
+.pin-creator{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--g5)}
+.pin-creator-av{width:48px;height:48px;border-radius:var(--r-full);overflow:hidden;background:var(--g5);flex-shrink:0}
+.pin-creator-av img{width:100%;height:100%;object-fit:cover}
+.pin-creator-info{flex:1}
+.pin-creator-name{font-size:15px;font-weight:600}
+.pin-creator-fol{font-size:13px;color:var(--g3)}
+.btn-follow{padding:8px 20px;background:var(--g6);color:var(--black);border-radius:var(--r-full);font-size:15px;font-weight:600;transition:background .15s}
+.btn-follow:hover{background:var(--g5)}
+.btn-follow.following{background:var(--white);border:1px solid var(--g5);color:var(--g2)}
+.pin-stats{display:flex;gap:24px;margin-bottom:16px;font-size:13px;color:var(--g3)}
+.pin-stats span strong{color:var(--black);font-weight:600}
+.pin-board{margin-bottom:16px;position:relative}
+.pin-board-btn{display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--g7);border-radius:var(--r-md);cursor:pointer;transition:background .15s;font-size:15px;width:100%}
+.pin-board-btn:hover{background:var(--g6)}
+.pin-board-btn svg{width:16px;height:16px;color:var(--g3)}
+.pin-board-btn .bn{font-weight:600;flex:1}
+.pin-comments{margin-top:16px;border-top:1px solid var(--g5);padding-top:16px}
+.pin-comments h3{font-size:15px;font-weight:600;margin-bottom:12px}
+.ci-wrap{display:flex;gap:10px;align-items:flex-start;margin-bottom:20px}
+.ci-av{width:32px;height:32px;border-radius:var(--r-full);overflow:hidden;background:var(--g5);flex-shrink:0}
+.ci-av img{width:100%;height:100%;object-fit:cover}
+.ci-field{flex:1;position:relative}
+.ci-field textarea{width:100%;min-height:44px;max-height:120px;padding:10px 16px;background:var(--g7);border-radius:var(--r-xl);font-size:14px;resize:none;line-height:1.4;color:var(--black)}
+.ci-field textarea:focus{background:var(--white);box-shadow:0 0 0 2px rgba(0,132,255,.4)}
+.ci-field textarea::placeholder{color:var(--g3)}
+.c-item{display:flex;gap:10px;margin-bottom:16px}
+.c-av{width:32px;height:32px;border-radius:var(--r-full);overflow:hidden;background:var(--g5);flex-shrink:0}
+.c-av img{width:100%;height:100%;object-fit:cover}
+.c-body{flex:1}
+.c-name{font-size:13px;font-weight:600}
+.c-text{font-size:14px;color:var(--g1);margin-top:2px}
+.c-meta{font-size:12px;color:var(--g3);margin-top:4px;display:flex;gap:12px}
+.c-meta button{color:var(--g3);font-size:12px;font-weight:600;transition:color .15s}
+.c-meta button:hover{color:var(--black)}
+.btn-lc{color:var(--g2);font-size:14px;font-weight:600;margin-bottom:12px;transition:color .15s;cursor:pointer;background:none;border:none}
+.btn-lc:hover{color:var(--black);text-decoration:underline}
+
+/* CTA BOX */
+.cta-box{margin-top:16px;padding:16px;border:1px solid var(--g5);border-radius:var(--r-lg);background:var(--g7);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.cta-box p{width:100%;font-weight:600;font-size:14px;margin-bottom:4px;color:var(--black)}
+.cta-box .btn{display:inline-flex;align-items:center;justify-content:center;flex:1;min-width:120px;text-align:center;padding:10px 16px;font-size:14px;font-weight:700;border-radius:var(--r-full);transition:background .15s}
+.cta-box .btn-red{background:var(--red);color:var(--white)}
+.cta-box .btn-red:hover{background:var(--red-hover)}
+.cta-box .btn-grey{background:var(--g6);color:var(--black)}
+.cta-box .btn-grey:hover{background:var(--g5)}
+
+/* RELATED */
+.related{max-width:1260px;margin:40px auto 0;padding:0 24px 60px}
+.related-h{font-size:20px;font-weight:600;margin-bottom:20px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.rc{border-radius:var(--r-lg);overflow:hidden;cursor:pointer;position:relative}
+.rc-img{width:100%;border-radius:var(--r-lg);transition:opacity .15s}
+.rc:hover .rc-img{opacity:.85}
+.rc-ov{position:absolute;inset:0;background:linear-gradient(transparent 60%,rgba(0,0,0,.4));border-radius:var(--r-lg);opacity:0;transition:opacity .2s}
+.rc:hover .rc-ov{opacity:1}
+.rc-save{position:absolute;top:8px;right:8px;padding:6px 14px;background:var(--red);color:var(--white);border-radius:var(--r-full);font-size:13px;font-weight:600;opacity:0;transition:opacity .2s}
+.rc:hover .rc-save{opacity:1}
+.rc-title{position:absolute;bottom:10px;left:10px;right:10px;color:var(--white);font-size:13px;font-weight:500;opacity:0;transition:opacity .2s;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rc:hover .rc-title{opacity:1}
+
+/* MODAL */
+.mo{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.65);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s}
+.mo.active{opacity:1;pointer-events:all}
+.mb{background:var(--white);border-radius:var(--r-xl);padding:40px 36px;width:100%;max-width:480px;position:relative;transform:translateY(20px) scale(.96);transition:transform .3s cubic-bezier(.22,1,.36,1);max-height:90vh;overflow-y:auto}
+.mo.active .mb{transform:translateY(0) scale(1)}
+.mc{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;transition:background .15s;color:var(--g2)}
+.mc:hover{background:var(--g6)}
+.mc svg{width:20px;height:20px}
+.ml{display:flex;justify-content:center;margin-bottom:16px}
+.ml svg{width:40px;height:40px}
+.mt{font-size:28px;font-weight:600;text-align:center;margin-bottom:8px}
+.ms{font-size:15px;color:var(--g3);text-align:center;margin-bottom:24px}
+.fg{margin-bottom:14px}
+.fg label{display:block;font-size:13px;font-weight:600;color:var(--g2);margin-bottom:6px}
+.fi{width:100%;height:48px;padding:0 16px;background:var(--g7);border:2px solid transparent;border-radius:var(--r-lg);font-size:15px;color:var(--black);transition:border-color .2s,background .2s}
+.fi:focus{background:var(--white);border-color:rgba(0,132,255,.6)}
+.fi.err{border-color:var(--red);background:var(--red-light)}
+.fe{font-size:12px;color:var(--red);margin-top:4px;display:none}
+.fe.vis{display:block}
+.bs{width:100%;height:52px;background:var(--red);color:var(--white);border-radius:var(--r-full);font-size:16px;font-weight:600;transition:background .15s;margin-top:8px}
+.bs:hover{background:var(--red-hover)}
+.bs:disabled{background:var(--g4);cursor:not-allowed}
+.fd{display:flex;align-items:center;gap:12px;margin:20px 0;color:var(--g3);font-size:13px}
+.fd::before,.fd::after{content:'';flex:1;height:1px;background:var(--g5)}
+.sb{width:100%;height:48px;border-radius:var(--r-full);font-size:15px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:10px;transition:opacity .15s}
+.sb:hover{opacity:.85}
+.sb.fb{background:#4267B2;color:var(--white)}
+.sb.gg{background:var(--white);color:var(--black);border:1px solid var(--g5)}
+.msw{text-align:center;margin-top:20px;font-size:14px;color:var(--g3)}
+.msw a{color:var(--black);font-weight:600;cursor:pointer}
+.msw a:hover{text-decoration:underline}
+.ff{text-align:center;margin-top:12px}
+.ff a{color:var(--black);font-size:13px;font-weight:600}
+.ff a:hover{text-decoration:underline}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--black);color:var(--white);padding:12px 24px;border-radius:var(--r-full);font-size:14px;font-weight:500;z-index:3000;transition:transform .35s cubic-bezier(.22,1,.36,1);white-space:nowrap}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* DROPDOWN */
+.dd{position:absolute;top:100%;right:0;background:var(--white);border-radius:var(--r-lg);box-shadow:var(--sh3);padding:8px 0;min-width:200px;z-index:1100;display:none;animation:ddIn .15s ease}
+.dd.open{display:block}
+@keyframes ddIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+.ddi{padding:10px 16px;font-size:14px;color:var(--black);display:flex;align-items:center;gap:10px;transition:background .1s;cursor:pointer}
+.ddi:hover{background:var(--g6)}
+.ddi svg{width:18px;height:18px;color:var(--g3)}
+.pdd{top:calc(100% + 8px);right:0;width:280px;padding:0}
+.pdd-h{padding:16px;border-bottom:1px solid var(--g5)}
+.pdd-n{font-size:16px;font-weight:600}
+.pdd-e{font-size:13px;color:var(--g3)}
+.pdd-i{padding:12px 16px;font-size:15px;color:var(--black);display:flex;align-items:center;gap:12px;cursor:pointer;transition:background .1s}
+.pdd-i:hover{background:var(--g6)}
+.sdd{top:calc(100% + 8px);right:0;width:320px;padding:16px}
+.sdd h4{font-size:15px;font-weight:600;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.si2{display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer}
+.si2:hover .sic{transform:scale(1.1)}
+.sic{width:48px;height:48px;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;transition:transform .15s}
+.sic svg{width:24px;height:24px;color:#fff}
+.sic.wa{background:#25D366}.sic.fb{background:#4267B2}.sic.tw{background:#1DA1F2}.sic.msg{background:#0084FF}
+.sic.em{background:var(--g3)}.sic.lk{background:var(--g2)}.sic.mr{background:var(--g4)}
+.sil{font-size:11px;color:var(--g3);text-align:center}
+.slc{margin-top:12px;display:flex;gap:8px}
+.sli{flex:1;height:40px;padding:0 12px;background:var(--g7);border-radius:var(--r-sm);font-size:13px;color:var(--black)}
+.slb{padding:0 16px;background:var(--g6);border-radius:var(--r-sm);font-size:13px;font-weight:600;transition:background .15s;cursor:pointer;border:none}
+.slb:hover{background:var(--g5)}
+.bdd{top:calc(100% + 4px);left:0;width:300px;max-height:320px;overflow-y:auto;padding:8px 0;box-shadow:var(--sh3)}
+.bdd-i{padding:10px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:background .1s}
+.bdd-i:hover{background:var(--g6)}
+.bdd-t{width:36px;height:36px;border-radius:var(--r-sm);overflow:hidden;background:var(--g5);flex-shrink:0}
+.bdd-t img{width:100%;height:100%;object-fit:cover}
+.bdd-n{font-size:14px;font-weight:500}
+.bdd-n small{display:block;font-size:12px;color:var(--g3);font-weight:400}
+
+/* SEO SECTION */
+.seo-section{max-width:1260px;margin:28px auto 0;padding:0 24px 40px}
+.seo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:22px;border:1px solid var(--g5);border-radius:var(--r-xl);background:#fafafa}
+.seo-card h3{font-size:16px;margin-bottom:8px}
+.seo-card p{color:var(--g2);font-size:13px;line-height:1.6}
+
+/* FOOTER */
+.footer{background:var(--white);padding:24px 24px;border-top:1px solid var(--g5)}
+.f-top{display:flex;justify-content:center;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap}
+.f-logo{display:flex;align-items:center;gap:6px}
+.f-logo svg{width:24px;height:24px}
+.f-links{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.f-links a{font-size:12px;color:var(--g3);transition:color .15s}
+.f-links a:hover{color:var(--black);text-decoration:underline}
+.f-copy{text-align:center;font-size:11px;color:var(--g4)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .pin-page{flex-direction:column;gap:20px}
+  .pin-img-col{width:100%;max-width:100%}
+  .pin-info{width:100%}
+  .nav-links{display:none}
+  .seo-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .navbar{padding:0 8px}
+  .nav-search input{height:40px;font-size:14px}
+  .pin-page{padding:0 12px;margin-top:12px}
+  .pin-title{font-size:22px}
+  .mb{padding:28px 20px;margin:0 12px}
+  .related{padding:0 12px 40px}
+  .auth-btns .btn-daftar{display:none}
+  .hero-banner{padding:32px 16px}
+}
+@media(min-width:901px){
+  .pin-img-col{position:sticky;top:calc(var(--nav-h) + 24px)}
+}
+</style>
+<?php
+if($jos['site']['google_code'] != NULL)
+{
+?>
+<meta name="google-site-verification" content="<?php echo $jos['site']['google_code']; ?>" />
+<?php
+}
+else{
+?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK4ZZ80WSV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SK4ZZ80WSV');
+</script>
+<?php } ?>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Navigasi utama">
+  <a href="#" class="nav-logo" onclick="event.preventDefault()" aria-label="<?php echo strtoupper($titlebrand); ?> Beranda">
+    <svg viewBox="0 0 24 24" fill="#E60023"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+    <span>PINTEREST</span>
+  </a>
+  <div class="nav-links">
+    <a href="#" onclick="event.preventDefault()" class="active">Beranda</a>
+    <a href="#" onclick="event.preventDefault()">Jelajahi</a>
+    <a href="#" onclick="event.preventDefault()">Buat</a>
+  </div>
+  <div class="nav-search">
+    <svg class="si" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="search" placeholder="Cari <?php echo strtoupper($titlebrand); ?> login daftar resmi" id="searchInput" aria-label="Cari di <?php echo strtoupper($titlebrand); ?>">
+  </div>
+  <div class="nav-actions" id="navOut">
+    <div class="auth-btns">
+      <a class="btn-login" href="<?php echo $final; ?>" target="_blank" rel="noopener">Login</a>
+      <a class="btn-daftar" href="<?php echo $final; ?>" target="_blank" rel="noopener">Daftar</a>
+    </div>
+  </div>
+  <div class="nav-actions" id="navIn" style="display:none">
+    <button class="nav-ib" title="Notifikasi" aria-label="Notifikasi">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 002 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+      <span class="ndot"></span>
+    </button>
+    <button class="nav-ib" title="Pesan" onclick="showToast('Pesan belum tersedia')" aria-label="Pesan">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>
+    </button>
+    <div style="position:relative" id="profileWrap">
+      <div class="nav-avatar" onclick="togglePDD()" aria-label="Profil" role="button" tabindex="0">
+        <img src="<?php echo $banner; ?>" alt="Profil Member">
+      </div>
+      <div class="dd pdd" id="pdd">
+        <div class="pdd-h">
+          <div class="pdd-n">Member <?php echo strtoupper($titlebrand); ?></div>
+          <div class="pdd-e">member@<?php echo strtoupper($titlebrand); ?>.net</div>
+        </div>
+        <div class="pdd-i" onclick="showToast('Pengaturan')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.49.49 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.48.48 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.49.49 0 00-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1115.6 12 3.6 3.6 0 0112 15.6z"/></svg>
+          Pengaturan
+        </div>
+        <div class="pdd-i" onclick="doLogout()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z"/></svg>
+          Keluar
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO BANNER -->
+<header class="hero-banner" role="banner">
+  <h1><?php echo ucwords($title); ?><</h1>
+  <p>Platform terbesar dan terpercaya se Asia. Login dan daftar mudah melalui halaman resmi <?php echo strtoupper($titlebrand); ?> dengan tampilan cepat, ringan, dan responsif.</p>
+  <div class="hero-cta">
+    <a class="btn-daftar-big" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">Daftar Gratis</a>
+    <a class="btn-login-big" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">Login Sekarang</a>
+  </div>
+</header>
+
+<!-- PIN PAGE -->
+<main class="pin-page" role="main">
+  <article class="pin-img-col" itemscope itemtype="https://schema.org/ImageObject">
+    <div class="pin-img-wrap" id="pinImgWrap">
+      <img src="<?php echo $banner; ?>" alt="<?php echo ucwords($title); ?><" id="pinMainImg" itemprop="contentUrl">
+      <div class="pin-img-acts">
+        <button onclick="showToast('Gambar disimpan')">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+          Simpan
+        </button>
+      </div>
+      <a class="visit-btn" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+        Visit
+      </a>
+    </div>
+  </article>
+
+  <section class="pin-info">
+    <div class="pin-top">
+      <div class="pin-top-l">
+        <div class="pin-board" id="boardWrap">
+          <button class="pin-board-btn" onclick="toggleBDD()" id="boardBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+            <span class="bn" id="selBoard"><?php echo strtoupper($titlebrand); ?></span>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="dd bdd" id="bdd"></div>
+        </div>
+      </div>
+      <div class="pin-top-r">
+        <button class="btn-save" id="btnSave" onclick="toggleSave()">Simpan</button>
+        <div style="position:relative" id="shareWrap">
+          <button class="ib" onclick="toggleSDD()" title="Bagikan" aria-label="Bagikan pin">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+          </button>
+          <div class="dd sdd" id="sdd"></div>
+        </div>
+        <div style="position:relative" id="moreWrap">
+          <button class="ib" onclick="toggleMDD()" title="Lainnya" aria-label="Opsi lainnya">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+          </button>
+          <div class="dd" id="mdd" style="top:calc(100% + 4px);right:0;min-width:240px"></div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="pin-title" itemprop="name"><?php echo ucwords($title); ?><</h1>
+    <p class="pin-desc" itemprop="description"><?php echo $long_description; ?></p>
+
+    <div class="pin-creator" itemscope itemtype="https://schema.org/Person">
+      <div class="pin-creator-av">
+        <img src="<?php echo $banner; ?>" alt="<?php echo strtoupper($titlebrand); ?> Official" itemprop="image">
+      </div>
+      <div class="pin-creator-info">
+        <div class="pin-creator-name" itemprop="name"><?php echo strtoupper($titlebrand); ?> Official</div>
+        <div class="pin-creator-fol">12.4k pengikut</div>
+      </div>
+      <button class="btn-follow" id="btnFollow" onclick="toggleFollow()">Ikuti</button>
+    </div>
+
+    <div class="pin-stats">
+      <span><strong id="likeCount">3.2k</strong> Suka</span>
+      <span><strong id="saveCount">1.8k</strong> Disimpan</span>
+      <span><strong id="commentCount">24</strong> Komentar</span>
+    </div>
+
+    <div class="pin-comments" id="commentsSection">
+      <h3>Komentar</h3>
+      <div class="ci-wrap">
+        <div class="ci-av"><img src="<?php echo $banner; ?>" alt="Anda"></div>
+        <div class="ci-field">
+          <textarea placeholder="Tambahkan komentar..." id="commentInput" rows="1" aria-label="Tulis komentar"></textarea>
+        </div>
+      </div>
+      <div id="commentsList" role="list"></div>
+      <button class="btn-lc" id="loadMore" onclick="loadComments()">Lihat komentar lainnya</button>
+    </div>
+
+    <!-- DIRECT CTA BOX -->
+    <div class="cta-box">
+      <p>Akses langsung ke situs resmi <?php echo strtoupper($titlebrand); ?></p>
+      <a class="btn btn-red" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">Daftar Sekarang</a>
+      <a class="btn btn-grey" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener">Login Member</a>
+    </div>
+  </section>
+</main>
+
+<!-- RELATED -->
+<section class="related" aria-label="Pin serupa">
+  <h2 class="related-h">Galeri Visual <?php echo strtoupper($titlebrand); ?></h2>
+  <div class="related-grid" id="relGrid"></div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="f-top">
+    <div class="f-logo">
+      <svg viewBox="0 0 24 24" fill="#E60023" width="24" height="24"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+    </div>
+    <div class="f-links">
+      <a href="#">Ketentuan Layanan</a>
+      <a href="#">Kebijakan Privasi</a>
+      <a href="#">Bantuan</a>
+      <a href="#">Aplikasi iPhone</a>
+      <a href="#">Aplikasi Android</a>
+    </div>
+  </div>
+  <div class="f-copy">© <a href="<?php echo $amp_url; ?>" target="_blank" rel="noopener"><?php echo strtoupper($titlebrand); ?></a> | PASUKANAPE</div>
+</footer>
+
+<!-- LOGIN MODAL -->
+<div class="mo" id="loginModal" role="dialog" aria-modal="true" aria-label="Login ke <?php echo strtoupper($titlebrand); ?>">
+  <div class="mb">
+    <button class="mc" onclick="closeModal('login')" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="ml">
+      <svg viewBox="0 0 24 24" fill="#E60023"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+    </div>
+    <h2 class="mt">Login ke <?php echo strtoupper($titlebrand); ?></h2>
+    <p class="ms">Selamat datang kembali!</p>
+    <form onsubmit="handleLogin(event)" novalidate>
+      <div class="fg">
+        <label for="lEmail">Email</label>
+        <input type="email" class="fi" id="lEmail" placeholder="Alamat email" autocomplete="email">
+        <div class="fe" id="lEmailErr">Masukkan alamat email yang valid</div>
+      </div>
+      <div class="fg">
+        <label for="lPass">Kata Sandi</label>
+        <input type="password" class="fi" id="lPass" placeholder="Kata sandi" autocomplete="current-password">
+        <div class="fe" id="lPassErr">Kata sandi wajib diisi</div>
+      </div>
+      <div class="ff"><a href="#" onclick="event.preventDefault();showToast('Email pemulihan telah dikirim')">Lupa kata sandi?</a></div>
+      <button type="submit" class="bs">Login</button>
+      <div class="fd">ATAU</div>
+      <a class="sb fb" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="text-decoration:none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+        Lanjutkan dengan Facebook
+      </a>
+      <a class="sb gg" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="text-decoration:none">
+        <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59a14.5 14.5 0 01-.74-4.59c0-1.61.27-3.16.74-4.59l-7.98-6.19C.89 16.56 0 20.16 0 24c0 3.84.89 7.44 2.55 10.78l7.98-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+        Lanjutkan dengan Google
+      </a>
+    </form>
+    <p class="msw">Belum punya akun? <a onclick="switchModal('signup')">Daftar sekarang</a></p>
+    <p style="text-align:center;margin-top:12px;font-size:13px;color:var(--g3)">Atau langsung <a href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="font-weight:600;color:var(--red)">masuk melalui situs resmi</a></p>
+  </div>
+</div>
+
+<!-- DAFTAR MODAL -->
+<div class="mo" id="signupModal" role="dialog" aria-modal="true" aria-label="Daftar <?php echo strtoupper($titlebrand); ?>">
+  <div class="mb">
+    <button class="mc" onclick="closeModal('signup')" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="ml">
+      <svg viewBox="0 0 24 24" fill="#E60023"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+    </div>
+    <h2 class="mt">Daftar <?php echo strtoupper($titlebrand); ?></h2>
+    <p class="ms">Buat akun untuk menemukan ide baru</p>
+    <form onsubmit="handleSignup(event)" novalidate>
+      <div class="fg">
+        <label for="sEmail">Email</label>
+        <input type="email" class="fi" id="sEmail" placeholder="Alamat email" autocomplete="email">
+        <div class="fe" id="sEmailErr">Masukkan alamat email yang valid</div>
+      </div>
+      <div class="fg">
+        <label for="sPass">Kata Sandi</label>
+        <input type="password" class="fi" id="sPass" placeholder="Buat kata sandi" autocomplete="new-password">
+        <div class="fe" id="sPassErr">Kata sandi minimal 6 karakter</div>
+      </div>
+      <div class="fg">
+        <label for="sName">Nama Lengkap</label>
+        <input type="text" class="fi" id="sName" placeholder="Nama lengkap" autocomplete="name">
+        <div class="fe" id="sNameErr">Nama wajib diisi</div>
+      </div>
+      <div class="fg">
+        <label for="sDob">Tanggal Lahir</label>
+        <input type="date" class="fi" id="sDob">
+        <div class="fe" id="sDobErr">Masukkan tanggal lahir Anda</div>
+      </div>
+      <button type="submit" class="bs">Daftar</button>
+      <div class="fd">ATAU</div>
+      <a class="sb fb" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="text-decoration:none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+        Lanjutkan dengan Facebook
+      </a>
+      <a class="sb gg" href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="text-decoration:none">
+        <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59a14.5 14.5 0 01-.74-4.59c0-1.61.27-3.16.74-4.59l-7.98-6.19C.89 16.56 0 20.16 0 24c0 3.84.89 7.44 2.55 10.78l7.98-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+        Lanjutkan dengan Google
+      </a>
+    </form>
+    <p class="msw">Sudah punya akun? <a onclick="switchModal('login')">Login di sini</a></p>
+    <p style="text-align:center;margin-top:12px;font-size:13px;color:var(--g3)">Atau langsung <a href="<?php echo $amp_url; ?>" target="_blank" rel="noopener" style="font-weight:600;color:var(--red)">daftar melalui situs resmi</a></p>
+    <p style="text-align:center;margin-top:16px;font-size:11px;color:var(--g3);line-height:1.5;">Dengan melanjutkan, Anda menyetujui <a href="#" style="font-weight:600" onclick="event.preventDefault()">Ketentuan Layanan</a> dan <a href="#" style="font-weight:600" onclick="event.preventDefault()">Kebijakan Privasi</a> <?php echo strtoupper($titlebrand); ?>.</p>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const R="<?php echo $amp_url; ?>";
+let loggedIn=false,isSaved=false,isFollowing=false,cPage=0,allLoaded=false;
+const CPP=5;
+
+const boards=[
+  {name:'<?php echo strtoupper($titlebrand); ?>',thumb:'<?php echo $banner; ?>',count:42},
+  {name:'Login Resmi',thumb:'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=72&h=72&q=80',count:28},
+  {name:'Daftar Resmi',thumb:'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=72&h=72&q=80',count:67},
+  {name:'Simulasi AI',thumb:'https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=72&h=72&q=80',count:15},
+  {name:'Platform Asia',thumb:'https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=72&h=72&q=80',count:33},
+];
+
+const comments=[
+  {name:'Rina Wati',avatar:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64&q=80',text:'Suka banget idenya! <?php echo strtoupper($titlebrand); ?> emang platform terbaik se Asia.',time:'2 jam lalu',likes:12},
+  {name:'Budi Santoso',avatar:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=64&h=64&q=80',text:'Login cepat dan mudah. Recommended banget!',time:'3 jam lalu',likes:8},
+  {name:'Dewi Lestari',avatar:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=64&h=64&q=80',text:'Tampilan modern dan responsif. Suka banget sama desainnya.',time:'5 jam lalu',likes:24},
+  {name:'Ahmad Fadli',avatar:'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=64&h=64&q=80',text:'Proses daftar gampang banget, nggak ribet. Top!',time:'8 jam lalu',likes:6},
+  {name:'Putri Ayu',avatar:'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=64&h=64&q=80',text:'Platform Main <?php echo strtoupper($titlebrand); ?> akses nya cepet banget. Transaksi juga di proses secepat kilat!!.',time:'10 jam lalu',likes:15},
+  {name:'Eko Prasetyo',avatar:'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=64&h=64&q=80',text:'Platform terpercaya, aman dan nyaman dipakai.',time:'12 jam lalu',likes:4},
+  {name:'Sari Indah',avatar:'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64&q=80',text:'Nggak nyangka tampilannya secanggih ini. Keren parah!',time:'1 hari lalu',likes:20},
+  {name:'Doni Firmansyah',avatar:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=64&h=64&q=80',text:'Pengalaman pengguna juara. Loading cepat, UI rapi.',time:'1 hari lalu',likes:9},
+  {name:'Maya Sari',avatar:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64&q=80',text:'Udah aku simpan di papan. Nggak nyesel daftar di sini!',time:'2 hari lalu',likes:31},
+  {name:'Rizky Aditya',avatar:'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=64&h=64&q=80',text:'Fitur lengkap, navigasi mudah, desain premium. Mantap!',time:'2 hari lalu',likes:17},
+];
+
+const relatedPins=[
+  {title:'<?php echo strtoupper($titlebrand); ?> platform terpercaya',img:'<?php echo $banner; ?>'},
+  {title:'Navigasi mudah informasi online',img:'https://i.pinimg.com/736x/9c/01/91/9c0191b0ef41dd11732d171a923da897.jpg'},
+  {title:'Tampilan responsif mobile',img:'https://i.pinimg.com/736x/39/40/c7/3940c7af67a4512fc46a117fef405a0c.jpg'},
+  {title:'Galeri visual cepat',img:'https://i.pinimg.com/736x/cc/25/90/cc259050a07a1ed778633e105eb20e17.jpg'},
+  {title:'Desain elegan terpercaya',img:'https://i.pinimg.com/736x/1e/bf/55/1ebf551bd3063cf577af8dc9c5d40527.jpg'},
+  {title:'Halaman ringan SEO',img:'https://i.pinimg.com/736x/ca/4a/32/ca4a320cf132b9d5d25f1887eeddbd24.jpg'},
+  {title:'Login daftar praktis',img:'https://i.pinimg.com/736x/bb/d7/a6/bbd7a6fd1334471c8a774dcd5c4cf27b.jpg'},
+  {title:'Situs KIA resmi',img:'https://i.pinimg.com/736x/c5/9e/ce/c59ece331fc77c70b1b7f2746ee36a37.jpg'},
+  {title:'Platform terbesar se Asia',img:'https://i.pinimg.com/736x/28/cf/eb/28cfeb089b125dbaa67f746870f4d73d.jpg'},
+  {title:'Akses cepat <?php echo strtoupper($titlebrand); ?>',img:'https://i.pinimg.com/736x/e2/98/0b/e2980baa2f54b0d99266d1c0fc421c97.jpg'},
+  {title:'Informasi online terpercaya',img:'https://i.pinimg.com/736x/7d/6b/2f/7d6b2f7e1e93538b48ccfdc48fbc9a14.jpg'},
+  {title:'Pengalaman pengguna nyaman',img:'https://i.pinimg.com/736x/90/59/2f/90592f60e0e23c2e140145ca15c325bc.jpg'},
+  {title:'Responsive web gallery',img:'https://i.pinimg.com/736x/ed/2c/96/ed2c9601b34e6f77d3e66739e3e5e08f.jpg'},
+  {title:'Website cepat ringan',img:'https://i.pinimg.com/736x/9c/78/4e/9c784eac7d17d113d4aa7bb9d4bc9064.jpg'},
+  {title:'Landing page <?php echo strtoupper($titlebrand); ?>',img:'https://i.pinimg.com/736x/ce/67/2d/ce672d01a63433a2d0087880c57cedd4.jpg'},
+  {title:'Mobile friendly',img:'https://i.pinimg.com/736x/dd/a9/9d/dda99d61a7f38a1a0e0d74455cb56445.jpg'},
+];
+
+document.addEventListener('DOMContentLoaded',()=>{
+  buildBDD();buildSDD();buildMDD();buildRel();loadComments();setupTA();setupClose();
+});
+
+function openModal(t){
+  const id=t==='login'?'loginModal':'signupModal';
+  document.getElementById(id).classList.add('active');
+  document.body.style.overflow='hidden';
+}
+function closeModal(t){
+  const id=t==='login'?'loginModal':'signupModal';
+  document.getElementById(id).classList.remove('active');
+  document.body.style.overflow='';
+  clearErr(t);
+}
+function switchModal(to){
+  const from=to==='login'?'signup':'login';
+  closeModal(from);
+  setTimeout(()=>openModal(to),200);
+}
+
+function validEmail(e){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)}
+
+function handleLogin(e){
+  e.preventDefault();let v=true;
+  const em=document.getElementById('lEmail'),ps=document.getElementById('lPass');
+  clearErr('login');
+  if(!validEmail(em.value.trim())){showFE('lEmail','lEmailErr');v=false}
+  if(!ps.value){showFE('lPass','lPassErr');v=false}
+  if(v){closeModal('login');logIn();showToast('Login berhasil! Mengarahkan...');setTimeout(()=>window.open(R,'_blank'),1200)}
+}
+
+function handleSignup(e){
+  e.preventDefault();let v=true;
+  const em=document.getElementById('sEmail'),ps=document.getElementById('sPass'),
+        nm=document.getElementById('sName'),db=document.getElementById('sDob');
+  clearErr('signup');
+  if(!validEmail(em.value.trim())){showFE('sEmail','sEmailErr');v=false}
+  if(ps.value.length<6){showFE('sPass','sPassErr');v=false}
+  if(!nm.value.trim()){showFE('sName','sNameErr');v=false}
+  if(!db.value){showFE('sDob','sDobErr');v=false}
+  if(v){closeModal('signup');logIn();showToast('Akun berhasil dibuat! Mengarahkan...');setTimeout(()=>window.open(R,'_blank'),1200)}
+}
+
+function showFE(iid,eid){
+  document.getElementById(iid).classList.add('err');
+  document.getElementById(eid).classList.add('vis');
+}
+function clearErr(t){
+  const id=t==='login'?'loginModal':'signupModal';
+  const m=document.getElementById(id);
+  m.querySelectorAll('.fi').forEach(i=>i.classList.remove('err'));
+  m.querySelectorAll('.fe').forEach(e=>e.classList.remove('vis'));
+}
+
+function logIn(){
+  loggedIn=true;
+  document.getElementById('navOut').style.display='none';
+  document.getElementById('navIn').style.display='flex';
+  document.querySelector('.hero-banner').style.display='none';
+}
+function doLogout(){
+  loggedIn=false;
+  document.getElementById('navOut').style.display='flex';
+  document.getElementById('navIn').style.display='none';
+  closePDD();
+  document.querySelector('.hero-banner').style.display='';
+  showToast('Anda telah keluar');
+}
+
+function toggleSave(){
+  isSaved=!isSaved;
+  const b=document.getElementById('btnSave');
+  b.textContent=isSaved?'Tersimpan':'Simpan';
+  b.classList.toggle('saved',isSaved);
+  showToast(isSaved?'Disimpan ke papan Anda':'Dihapus dari papan');
+}
+
+function toggleFollow(){
+  isFollowing=!isFollowing;
+  const b=document.getElementById('btnFollow');
+  b.textContent=isFollowing?'Mengikuti':'Ikuti';
+  b.classList.toggle('following',isFollowing);
+  showToast(isFollowing?'Anda sekarang mengikuti <?php echo strtoupper($titlebrand); ?> Official':'Anda berhenti mengikuti <?php echo strtoupper($titlebrand); ?> Official');
+}
+
+function buildBDD(){
+  const d=document.getElementById('bdd');
+  d.innerHTML=boards.map((b,i)=>`
+    <div class="bdd-i" onclick="selBoard(${i})">
+      <div class="bdd-t"><img src="${b.thumb}" alt="${b.name}"></div>
+      <div class="bdd-n">${b.name}<small>${b.count} pin</small></div>
+    </div>
+  `).join('')+'<div style="padding:10px 16px;border-top:1px solid var(--g5);margin-top:4px"><button style="color:var(--black);font-weight:600;font-size:14px" onclick="showToast(\'Buat papan baru\')">+ Buat papan</button></div>';
+}
+function selBoard(i){
+  document.getElementById('selBoard').textContent=boards[i].name;
+  closeBDD();
+  showToast('Disimpan ke "'+boards[i].name+'"');
+}
+function toggleBDD(){document.getElementById('bdd').classList.toggle('open')}
+function closeBDD(){document.getElementById('bdd').classList.remove('open')}
+
+function buildSDD(){
+  const d=document.getElementById('sdd');
+  d.innerHTML=`
+    <h4>Bagikan</h4>
+    <div class="sg">
+      <div class="si2" onclick="showToast('Dibagikan via WhatsApp')">
+        <div class="sic wa"><svg viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
+        <span class="sil">WhatsApp</span>
+      </div>
+      <div class="si2" onclick="showToast('Dibagikan via Facebook')">
+        <div class="sic fb"><svg viewBox="0 0 24 24" fill="#fff"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg></div>
+        <span class="sil">Facebook</span>
+      </div>
+      <div class="si2" onclick="showToast('Dibagikan via Twitter')">
+        <div class="sic tw"><svg viewBox="0 0 24 24" fill="#fff"><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"/></svg></div>
+        <span class="sil">Twitter</span>
+      </div>
+      <div class="si2" onclick="copyLink()">
+        <div class="sic lk"><svg viewBox="0 0 24 24" fill="#fff"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg></div>
+        <span class="sil">Salin Link</span>
+      </div>
+    </div>
+    <div class="slc">
+      <input class="sli" id="shareLinkIn" value="<?php echo $canonical_url; ?>" readonly>
+      <button class="slb" onclick="copyLink()">Salin</button>
+    </div>`;
+}
+function toggleSDD(){document.getElementById('sdd').classList.toggle('open');closeMDD()}
+function closeSDD(){document.getElementById('sdd').classList.remove('open')}
+function copyLink(){
+  const i=document.getElementById('shareLinkIn');i.select();
+  document.execCommand('copy');
+  showToast('Link berhasil disalin!');
+  closeSDD();
+}
+
+function buildMDD(){
+  const d=document.getElementById('mdd');
+  d.innerHTML=`
+    <div class="ddi" onclick="showToast('Gambar diunduh');closeMDD()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+      Unduh gambar
+    </div>
+    <div class="ddi" onclick="showToast('Pin dilaporkan');closeMDD()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"/></svg>
+      Laporkan pin ini
+    </div>
+    <div class="ddi" onclick="showToast('Pin disembunyikan');closeMDD()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46A11.8 11.8 0 001.62 12c1.73 4.39 6 7.5 11 7.5 1.57 0 3.06-.3 4.44-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27z"/></svg>
+      Sembunyikan pin ini
+    </div>`;
+}
+function toggleMDD(){document.getElementById('mdd').classList.toggle('open');closeSDD()}
+function closeMDD(){document.getElementById('mdd').classList.remove('open')}
+
+function togglePDD(){document.getElementById('pdd').classList.toggle('open')}
+function closePDD(){document.getElementById('pdd').classList.remove('open')}
+
+function setupClose(){
+  document.addEventListener('click',e=>{
+    if(!document.getElementById('boardWrap')?.contains(e.target))closeBDD();
+    if(!document.getElementById('shareWrap')?.contains(e.target))closeSDD();
+    if(!document.getElementById('moreWrap')?.contains(e.target))closeMDD();
+    if(!document.getElementById('profileWrap')?.contains(e.target))closePDD();
+  });
+  document.getElementById('loginModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal('login')});
+  document.getElementById('signupModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal('signup')});
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){closeModal('login');closeModal('signup');closeBDD();closeSDD();closeMDD();closePDD()}
+  });
+}
+
+function loadComments(){
+  if(allLoaded)return;
+  const list=document.getElementById('commentsList');
+  const s=cPage*CPP,en=Math.min(s+CPP,comments.length);
+  if(s>=comments.length){allLoaded=true;document.getElementById('loadMore').style.display='none';return}
+  for(let i=s;i<en;i++){
+    const c=comments[i],div=document.createElement('div');
+    div.className='c-item';div.setAttribute('role','listitem');
+    div.innerHTML=`
+      <div class="c-av"><img src="${c.avatar}" alt="${c.name}"></div>
+      <div class="c-body">
+        <div class="c-name">${c.name}</div>
+        <div class="c-text">${c.text}</div>
+        <div class="c-meta">
+          <span>${c.time}</span>
+          <button onclick="likeC(this,${c.likes})">Suka</button>
+          <button onclick="replyC('${c.name}')">Balas</button>
+        </div>
+      </div>`;
+    list.appendChild(div);
+  }
+  cPage++;
+  if(en>=comments.length){allLoaded=true;document.getElementById('loadMore').style.display='none'}
+}
+
+function likeC(btn,n){
+  if(btn.classList.contains('liked'))return;
+  btn.classList.add('liked');btn.style.color='var(--red)';btn.style.fontWeight='600';
+  btn.textContent='Suka ('+String(n+1)+')';
+}
+function replyC(name){
+  if(!loggedIn){openModal('login');return}
+  const i=document.getElementById('commentInput');
+  i.value='@'+name+' ';i.focus();
+}
+
+function submitComment(){
+  const i=document.getElementById('commentInput'),t=i.value.trim();
+  if(!t)return;
+  if(!loggedIn){openModal('login');return}
+  const list=document.getElementById('commentsList'),div=document.createElement('div');
+  div.className='c-item';div.style.animation='ddIn .3s ease';
+  div.innerHTML=`
+    <div class="c-av"><img src="<?php echo $banner; ?>" alt="Anda"></div>
+    <div class="c-body">
+      <div class="c-name">Member <?php echo strtoupper($titlebrand); ?></div>
+      <div class="c-text">${escHtml(t)}</div>
+      <div class="c-meta">
+        <span>Baru saja</span>
+        <button onclick="likeC(this,0)">Suka</button>
+        <button onclick="replyC('Member <?php echo strtoupper($titlebrand); ?>')">Balas</button>
+      </div>
+    </div>`;
+  list.insertBefore(div,list.firstChild);i.value='';
+  const ce=document.getElementById('commentCount'),cur=parseInt(ce.textContent)||0;
+  ce.textContent=String(cur+1);showToast('Komentar terkirim');
+}
+
+function escHtml(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+function setupTA(){
+  const ta=document.getElementById('commentInput');
+  ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(ta.scrollHeight,120)+'px'});
+  ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();submitComment()}});
+}
+
+function buildRel(){
+  const g=document.getElementById('relGrid');
+  g.innerHTML=relatedPins.map((p,i)=>{
+    const h=220+Math.floor(Math.random()*140);
+    return`
+      <div class="rc" onclick="showToast('Membuka pin...')">
+        <img class="rc-img" src="${p.img}" alt="${p.title}" style="height:${h}px;object-fit:cover" loading="lazy">
+        <div class="rc-ov"></div>
+        <button class="rc-save" onclick="event.stopPropagation();showToast('Disimpan!')">Simpan</button>
+        <div class="rc-title">${p.title}</div>
+      </div>`;
+  }).join('');
+}
+
+let tTO;
+function showToast(m){
+  const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');
+  clearTimeout(tTO);tTO=setTimeout(()=>t.classList.remove('show'),2500);
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const img=document.getElementById('pinMainImg');
+  img.addEventListener('click',()=>{
+    if(img.style.transform==='scale(1.5)'){img.style.transform='scale(1)';img.style.cursor='zoom-in'}
+    else{img.style.transform='scale(1.5)';img.style.cursor='zoom-out'}
+  });
+  document.getElementById('searchInput').addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.value.trim())showToast('Mencari: "'+e.target.value.trim()+'"');
+  });
+});
+</script>
+</body>
+</html>
