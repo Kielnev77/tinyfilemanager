@@ -1,0 +1,223 @@
+<?php
+if($jos['article_id'] != NULL)
+{
+  $brand  = array('brand123', 'Brand123');
+  $title = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['title']);
+  $meta_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['meta_description']);
+  $long_description = str_replace($brand,ucfirst($titlebrand),$jos['landingarticle']['long_description']);
+}
+?>
+
+<!DOCTYPE html>
+<html amp lang="id">
+<head>
+<meta charset="UTF-8">
+<link rel="canonical" href="<?php echo $canonical_url; ?>">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+<title><?php echo ucwords($title); ?></title>
+<meta name="description" content="<?php echo $meta_description; ?>">
+<meta name="robots" content="index, follow">
+<meta name="page-locale" content="id,en">
+<meta property="og:title" content="<?php echo ucwords($title); ?>">
+<meta property="og:description" content="<?php echo $meta_description; ?>">
+<meta name="keywords" content="<?php echo $titlebrand; ?>"">
+<meta property="og:url" content="<?php echo $canonical_url; ?>">
+<meta property="og:site_name" content="<?php echo $titlebrand; ?>"">
+<meta property="og:author" content="<?php echo $titlebrand; ?>"">
+<meta property="og:image" content="<?php echo $banner; ?>">
+<meta name="og:locale" content="ID_id">
+<meta name="og:type" content="website">
+<meta name="rating" content="general">
+<meta name="author" content="<?php echo $titlebrand; ?>"">
+<meta name="distribution" content="global">
+<meta name="publisher" content="<?php echo $titlebrand; ?>"">
+<link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<style amp-boilerplate>
+  body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+       -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+       -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+       animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+  @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+</style>
+<noscript>
+  <style amp-boilerplate>
+    body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+  </style>
+</noscript>
+<style amp-custom>
+body,html{margin:0;padding:0;font-family:'Noto Sans',sans-serif;background:#000; color:#ffffff; max-width:500px; margin:auto; overflow-x:hidden}
+.header-fixed{position:sticky; top:0; background:linear-gradient(180deg, #242424 15%, #202020 50%, #0f0f0f 85%); box-shadow: inset 0 0 5px 3px #2e2e2e, inset 0 2px 0 0 #fff, inset 0 0 0 2px #292929, 3px 3px 3px 1px rgba(0, 0, 0, .2); padding:12px; z-index:50; border-bottom:1px solid #333;}
+.header-flex{display:flex;justify-content:space-between;align-items:center}
+.header-logo amp-img{height:50px;width:150px}
+.btn{background:linear-gradient(180deg, #01b991 15%, #00b991 50%, #008b74 85%); background-size:300% 100%;color:#ffffff;padding:10px 20px;border-radius:12px;font-weight:700;text-decoration:none;border: 2px solid gold; margin-right:10px; box-shadow: inset 0 0 5px 3px #01b991, inset 0 2px 0 0 #fff, inset 0 0 0 2px #01b991, 3px 3px 3px 1px rgba(0, 0, 0, .2);transition:transform .25s ease}
+.btn:hover{transform:scale(1.1)}
+.carousel-box {position: relative; margin: 15px; margin-top: 5px; border-radius: 14px; overflow: hidden; background: gold; border: 2px solid transparent;box-shadow: 0 0 10px rgba(0,0,0,0.05);transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+.carousel-box::after {content: ""; position: absolute;top: -50%;left: -150%; width: 200%; height: 200%; background: linear-gradient(120deg,rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 70%);animation: shine-auto 3s infinite;}
+@keyframes shine-auto {0% {left: -150%;}50% {left: 150%;}100% {left: 150%;}}
+.carousel-box:hover {transform: scale(1.03);}
+.link-box{margin:13px 12px;padding:14px;background:#111;border-radius:14px;border:1px solid #333;box-shadow:0 0 18px #ffd70022}
+.link-title{text-align:center;color:#ffffff;margin-bottom:10px;font-size:13px;font-weight:700;text-shadow:0 0 10px #ffd70077}
+.link-item{position:relative;display:block;background:linear-gradient(180deg, #01b991 15%, #00b991 50%, #008b74 85%);box-shadow: inset 0 0 5px 3px #01b991, inset 0 2px 0 0 #fff, inset 0 0 0 2px #01b991, 3px 3px 3px 1px rgba(0, 0, 0, .2);border:2px solid gold;padding:14px;border-radius:14px;margin-bottom:16px;color:#ffffff;font-weight:bold;text-decoration:none;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease;box-shadow:0 0 12px #01b991;text-align: center;}
+.link-item:hover{transform:scale(1.08);box-shadow:0 0 28px #01b991}
+.link-item::before{content:"";position:absolute;top:0;left:-120%;width:120%;height:100%;background:linear-gradient(115deg,transparent,rgba(0, 0, 0, 0.356),transparent);animation:swipeLight 2.2s infinite}
+.content{padding:15px;text-align:center;line-height:1.7;background:#111;border-radius:16px;margin:20px 12px;border-top: 2px solid gold;box-shadow:0 0 18px #01b991}
+.content h2{text-align:center;color:#ffd700;margin-bottom:12px;font-size: 16px;text-shadow:0 0 10px #ffd70077}
+@keyframes iconGlow{0%{text-shadow:0 0 6px #ffd700}50%{text-shadow:0 0 18px #ffd700}100%{text-shadow:0 0 6px #ffd700}}
+@keyframes btnGlow{0%{box-shadow:0 0 6px #01b991}50%{box-shadow:0 0 18px #01b991}100%{box-shadow:0 0 6px #01b991}}
+@keyframes lampMove{0%{background-position:0% 0%}100%{background-position:300% 0%}}
+@keyframes swipeLight{0%{left:-120%}100%{left:150%}}
+@keyframes neonBlink{0%{opacity:.2}50%{opacity:.7}100%{opacity:.2}}
+@keyframes rotateLight{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.header-mini1 {background: linear-gradient(90deg,#01b991 0%,#01b991 25%,#01b991 50%,#01b991 75%,#01b991 100%);height:35px;position:relative;overflow:hidden;line-height:35px;font-size:18px;color:#ffffff;background-size:200% 100%;animation:shine 3s linear infinite;}
+.scrolling-wrapper {display:flex;width:max-content;position:absolute;animation:scrollInfinite 12s cubic-bezier(0.25,1,0.5,1) infinite;}
+.scrolling-text {white-space:nowrap;padding-right:50px;font-size:15px;color:#ffffff;opacity:0;animation:fadeInMove 2s ease-out forwards,bounce 1.5s ease-in-out infinite alternate;text-transform:uppercase;}
+@keyframes shine {0%{background-position:200% 0}100%{background-position:-200% 0}}
+@keyframes fadeInMove {0%{opacity:0;transform:translateX(50px)}100%{opacity:1;transform:translateX(0)}}
+@keyframes scrollInfinite {0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.marquee-bar-<?php echo $titlebrand; ?>"{
+        background: linear-gradient(to bottom, rgb(0, 145, 102) 0%, rgb(0, 207, 162) 50%, rgb(0, 145, 109) 100%);
+        box-shadow: inset 0 0 5px 3px #01b991, inset 0 2px 0 0 #fff, inset 0 0 0 2px #01b991, 3px 3px 3px 1px rgba(0, 0, 0, .2);
+        overflow:hidden;
+        }
+                          
+        .marquee-track-<?php echo $titlebrand; ?>"{
+        display:flex;
+        width:max-content;
+        gap:50px;
+        padding: 10px 0;
+        animation: marqueeLeft 15s linear infinite;
+        will-change: transform;
+        }
+                          
+        .marquee-item-<?php echo $titlebrand; ?>"{
+        white-space: nowrap;
+        color:#ffffff;
+        font-size: 12px;
+        letter-spacing:.02em;
+        font-weight: bold;
+        }
+                          
+        @keyframes marqueeLeft{
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+        }
+                          
+        @media (prefers-reduced-motion: reduce){
+        .marquee-track-<?php echo $titlebrand; ?>"{ animation:none; }
+        }
+@keyframes bounce {0%{transform:translateY(0)}50%{transform:translateY(-2px)}100%{transform:translateY(0)}}
+.site-info {max-width: 700px;margin: 25px auto;font-family: Arial, sans-serif;}                                 
+.site-info table {width: 100%;border-collapse: collapse;font-size: 14px;}                                 
+.site-info td {padding: 12px 14px;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6; padding-bottom: 8px;}                                      
+.site-info td:first-child {width: 50%;font-weight: 600;color: #ffffff;}                                 
+.site-info td:last-child {color: #ffffff;}
+.footer-bottom{text-align:center;border-top:1px solid #222;}
+.footer-bottom p{font-size:12px;color:#ffffff;}
+.footer-bottom .footer-logo {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom .footer-logo {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+}
+
+@media(max-width:768px){.footer-grid{flex-direction:column;gap:25px}}
+@media only screen and (min-width: 640px) {
+}
+.wt-text-caption.wt-position-relative.wt-z-index-5.wt-pt-xs-2 {
+    background: black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header-fixed">
+<div class="header-flex">
+<div class="header-logo">
+<amp-img src="<?php echo $logo; ?>"" width="170" height="60" layout="fixed" alt="<?php echo $titlebrand; ?>" Logo" style="margin-left: 10px;"></amp-img>
+</div>
+<a class="btn" href="<?php echo $final; ?>"" target="_blank" rel="noopener nofollow">
+  HUBUNGI KAMI
+</a>
+</div>
+</div>
+
+<div class="marquee-bar-<?php echo $titlebrand; ?>"" aria-label="Informasi">
+   <div class="marquee-track-<?php echo $titlebrand; ?>"">
+     <span class="marquee-item-<?php echo $titlebrand; ?>"">
+       <?php echo $titlebrand; ?>" Creative Entertainment Hub Inspired by Modern David McMillin Music Experience
+     </span>
+     <span class="marquee-item-<?php echo $titlebrand; ?>"" aria-hidden="true">
+       <?php echo $titlebrand; ?>" Creative Entertainment Hub Inspired by Modern David McMillin Music Experience
+     </span>
+   </div>
+
+<div class="carousel-box">
+<amp-carousel width="800" height="800" layout="responsive" type="slides" autoplay delay="3000">
+  <amp-img src="<?php echo $banner; ?>" width="800" height="800" layout="responsive"></amp-img>
+  <amp-img src="<?php echo $banner; ?>" width="800" height="800" layout="responsive"></amp-img>
+  <amp-img src="<?php echo $banner; ?>" width="800" height="800" layout="responsive"></amp-img>
+</amp-carousel>
+</div>
+<div class="link-box">
+  <div class="link-title">DAFTAR ATAU LOGIN UNTUK MULAI</div>
+  <a class="link-item" href="<?php echo $final; ?>"" target="_blank" rel="noopener nofollow">
+  MASUK AKUN
+</a>
+<a class="link-item" href="<?php echo $final; ?>"" target="_blank" rel="noopener nofollow">
+  BUAT AKUN
+</a>
+<a class="link-item" href="<?php echo $final; ?>"" target="_blank" rel="noopener nofollow">
+  LINK ALTERNATIF
+</a>
+</div>
+
+<div class="content">
+<h2><?php echo ucwords($title); ?></h2>
+<hr>
+<p><?php echo $meta_description; ?></p>
+<div class="site-info">
+   <table>
+     <tr>
+       <td>Nama Situs</td>
+       <td><?php echo $titlebrand; ?>"</td>
+     </tr>
+     <tr>
+       <td>Jenis Permainan</td>
+       <td>GAME ONLINE</td>
+     </tr>
+     <tr>
+       <td>Jam Operasional</td>
+       <td>Online 24 Jam</td>
+     </tr>
+     <tr>
+       <td>Minimal Depo & WD</td>
+       <td>Rp 5.000 / Rp 25.000</td>
+     </tr>
+     <tr>
+       <td>Jenis Transaksi</td>
+       <td>Bank Lokal, Scan QRIS, dan E-Wallet</td>
+     </tr>
+   </table>
+  </div>
+
+<div class="footer-bottom">
+  <p>© 2027 <?php echo $titlebrand; ?>" </p>
+</div>
+
+</div>
+</body>
+</html>
