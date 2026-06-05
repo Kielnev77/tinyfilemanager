@@ -178,7 +178,7 @@ if($jos['article_id'] != NULL)
                         </div>
                     </div>
                                                                 <a class="navbar-brand me-5" href="<?php echo $canonical_url; ?>" title="<?php echo $titlebrand; ?>">
-                                                               <img height="60" width="100" src="<?php echo $logo; ?>"" alt="<?php echo $titlebrand; ?>">
+                                                               <img height="60" width="100" src="<?php echo $logo; ?>" alt="<?php echo $titlebrand; ?>">
                                                     </a>
                                     </div>
                                <!-- Header Search Section -->
@@ -1208,7 +1208,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             TRUST ENSURED WITH</p>
                         <div class="ftrisoimg_con d-flex gap-4 align-items-center mt-2">
                             <a href="<?php echo $canonical_url; ?>" title="PCI DSS" target="_blank">
-                                <img width="94" height="36" src="<?php echo $logo; ?>"" data-src="<?php echo $logo; ?>"" alt="PCI Security Standards Council" style="max-width:100%;" class="">
+                                <img width="94" height="36" src="<?php echo $logo; ?>" data-src="<?php echo $logo; ?>" alt="PCI Security Standards Council" style="max-width:100%;" class="">
                             </a>
                                                             <div>
                                     <a title="ISO Certified" target="_blank">
@@ -2113,7 +2113,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "@id": "<?php echo $canonical_url; ?>",
       "name": "<?php echo ucwords($title); ?>",
       "image": [
-        "<?php echo $logo; ?>"",
+        "<?php echo $logo; ?>",
         "<?php echo $banner; ?>"
       ],
       "description": "<?php echo $meta_description; ?>",
