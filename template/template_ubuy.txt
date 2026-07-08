@@ -1979,14 +1979,6 @@ document.addEventListener("DOMContentLoaded", function() {
                         <link rel="stylesheet" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/track.min.css?v=1.54">
                                         <link rel="preload" as="style" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/vertical.css?v=1.54">
                     <link rel="stylesheet" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/vertical.css?v=1.54">
-                                
-                                                                         
-               
-                <script src="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/js/velocity.min.js?v=1.54" defer=""></script>                       
-        
-                  
-                                            <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js" defer=""></script>
-                        <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js" defer=""></script>
         
   <style>
 .footer-floating-toto {
