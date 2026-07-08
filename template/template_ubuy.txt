@@ -1975,10 +1975,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     var uba_is_arabic_store = "";
                     var uba_currentPage = 'detail';
                 </script>
-                                        <link rel="preload" as="style" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/track.min.css?v=1.54">
-                        <link rel="stylesheet" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/track.min.css?v=1.54">
-                                        <link rel="preload" as="style" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/vertical.css?v=1.54">
-                    <link rel="stylesheet" href="https://ubuyanalytics.ubuy.com/ubuywebanalytics/webtrack/css/vertical.css?v=1.54">
+
         
   <style>
 .footer-floating-toto {
